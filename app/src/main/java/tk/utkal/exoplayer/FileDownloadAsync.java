@@ -1,7 +1,6 @@
 package tk.utkal.exoplayer;
 
 import android.os.AsyncTask;
-import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
