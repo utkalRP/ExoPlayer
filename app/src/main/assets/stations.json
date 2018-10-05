@@ -42,6 +42,16 @@
       "lang": ["Odia"]
     },
     {
+      "name": "Ama Radio",
+      "tag": "Ama Radio",
+      "low": "http://192.240.102.3:8922/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/akashvani/master/radio_chocolate.png",
+      "web": "http://radiochoklateonline.com",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
       "name": "Radio Utkal",
       "tag": "Tike Alaga",
       "low": "http://188.165.232.7:8312/96",
@@ -122,9 +132,79 @@
       "lang": ["Hindi"]
     },
     {
-      "name": "Old Hindi",
-      "tag": "Old Hindi",
+      "name": "Kishor Kumar Radio",
+      "tag": "Kishor Kumar Radio",
       "low": "http://prclive1.listenon.in:8834",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Asha Bhosle Radio",
+      "tag": "Asha Bhosle Radio",
+      "low": "http://prclive1.listenon.in:8812/;",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Fun Ka Anteena",
+      "tag": "Fun Ka Anteena",
+      "low": "http://prclive1.listenon.in:9998/;",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "RD Burman Radio",
+      "tag": "RD Burman Radio",
+      "low": "http://prclive1.listenon.in:8828/;",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Lata Mangeshkar Radio",
+      "tag": "Lata Mangeshkar Radio",
+      "low": "http://prclive1.listenon.in:8832/;",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Mohammad Rafi Radio",
+      "tag": "Mohammad Rafi Radio",
+      "low": "http://prclive1.listenon.in:8814/;",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio City Ghazals",
+      "tag": "Radio City Ghazals",
+      "low": "http://prclive1.listenon.in:8860/;",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio Namkeen",
+      "tag": "Radio Namkeen",
+      "low": "http://ample-zeno-03.radiojar.com/sgkeutfbaw5tv?t=153876442&rj-token=AAABZkWL4-SZ9eQblmVD7oFO1TByKHkPrV4Xye8z2tL4DH9582hfkA&rj-ttl=5",
       "high": "",
       "thumb": "",
       "web": "",
@@ -154,7 +234,7 @@
     {
       "name": "Radio City",
       "tag": "91.1 Radio City, FM Bole toh",
-      "low": "http://prclive1.listenon.in:9960/;?t=1538678223",
+      "low": "http://prclive1.listenon.in:9960/;",
       "high": "",
       "thumb": "",
       "web": "",
@@ -240,6 +320,16 @@
       "web": "",
       "genre": ["Talk"],
       "lang": ["Odia"]
+    },
+    {
+      "name": "Colours FM",
+      "tag": "Colours FM - 101.6 FM",
+      "low": "http://45.64.135.88:8000/stream1",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
     }
   ]
 }
