@@ -3,6 +3,7 @@ package tk.utkal.exoplayer;
 import java.util.ArrayList;
 
 public class RadioStation {
+
     private String name, tag, lowUrl, highUrl, logoUrl, webUrl;
     private ArrayList<String> langs, genres;
 

@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -14,6 +15,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.DefaultLoadControl;
@@ -37,11 +39,15 @@ import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSourceFactory;
 import com.google.android.exoplayer2.util.Util;
 
-public class MainActivity extends AppCompatActivity {
+import java.util.ArrayList;
+
+public class MainActivity extends AppCompatActivity implements FileDownloadCallback {
+
+    public static int version = 1;
+    public static ArrayList<RadioStation> radioStations = new ArrayList<RadioStation>();
 
     private SimpleExoPlayer player;
     private static final DefaultBandwidthMeter BANDWIDTH_METER = new DefaultBandwidthMeter();
-    String url = "https://api.myjson.com/bins/lbcsk";
 
 
     int[] arrayImages = {R.drawable.sarthak_fm,
@@ -147,6 +153,10 @@ public class MainActivity extends AppCompatActivity {
                 mBufferingTask.execute(arrayStationLinks[i]);
             }
         });
+
+        //Download the stations json from web
+        FileDownloadAsync fileDownloadAsync = new FileDownloadAsync(getString(R.string.json_url),this);
+        fileDownloadAsync.execute();
     }
 
     private void createAndInitializePlayer() {
@@ -228,6 +238,12 @@ public class MainActivity extends AppCompatActivity {
                 .setNegativeButton("No", null)
                 .show();
     }
+
+    @Override
+    public void processData() {
+        
+    }
+
 
     class ListViewAdaptor extends BaseAdapter {
 
