@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
     private SimpleExoPlayer player;
     private static final DefaultBandwidthMeter BANDWIDTH_METER = new DefaultBandwidthMeter();
-    String url = "http://180.151.226.202:8000/;?icy=http";
+    String url = "https://api.myjson.com/bins/lbcsk";
 
 
     int[] arrayImages = {R.drawable.sarthak_fm,
