@@ -190,6 +190,56 @@
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio Bhakti",
+      "tag": "Choklate - Radio Bhakti",
+      "low": "http://192.64.80.219:7598/IYW$mKmn#$q1",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Story Station",
+      "tag": "Choklate - Story Station",
+      "low": "http://216.158.233.133:2379/*UL*Ns3AYN6n",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Talk"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Radio Nataka",
+      "tag": "Choklate - Radio Nataka",
+      "low": "http://192.64.80.221:5839/Po8^w7*VMWYx",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Talk"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Choklate maja katha",
+      "tag": "Choklate maja katha",
+      "low": "http://192.64.80.220:8673/2N$^hTW7Krkg",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Talk"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Love Station",
+      "tag": "Choklate - Love Station",
+      "low": "http://216.158.233.134:8592/329ojEcwo$t@",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Talk"],
+      "lang": ["Odia"]
     }
   ]
 }

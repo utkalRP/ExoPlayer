@@ -48,27 +48,6 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
     private SimpleExoPlayer player;
     private static final DefaultBandwidthMeter BANDWIDTH_METER = new DefaultBandwidthMeter();
 
-
-    int[] arrayImages = {R.drawable.sarthak_fm,
-            R.drawable.radio_odisha,
-            R.drawable.odia_radio,
-            R.drawable.radio_chocolate,
-            R.drawable.radio_mirchi,
-            R.drawable.big_fm,
-            R.drawable.red_fm,
-            R.drawable.radio_city,
-            R.drawable.radio,
-            R.drawable.radio,
-            R.drawable.radio,
-            R.drawable.radio,
-            R.drawable.radio,
-            R.drawable.radio,
-            R.drawable.nuke_radio,
-            R.drawable.bbc_hindi,
-            R.drawable.air_vividh_bharti,
-            R.drawable.air_logo,
-            R.drawable.air_fm_gold};
-
     ListView listView;
     ListViewAdaptor     listViewAdaptor;
     ProgressDialog      mProgressDialog;
@@ -200,7 +179,7 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
 
         @Override
         public int getCount() {
-            return arrayImages.length;
+            return radioStations.size();
         }
 
         @Override
@@ -220,7 +199,7 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
             TextView textViewTop = (TextView) view.findViewById(R.id.textViewTop);
             TextView textViewBottom = (TextView) view.findViewById(R.id.textViewBottom);
 
-            imageView.setImageResource(arrayImages[i]);
+            imageView.setImageResource(R.drawable.radio);
             textViewTop.setText(radioStations.get(i).getName());
             textViewBottom.setText(radioStations.get(i).getTag());
 
