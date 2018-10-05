@@ -79,11 +79,13 @@ public class FileDownloadAsync extends AsyncTask {
                 for(int j = 0; j < jsonLang.length(); j++) {
                     langs.add(jsonLang.getString(j));
                 }
+
+                RadioStation station = new RadioStation(name, tag, low, high, thumb, web, genres, langs);
+                MainActivity.radioStations.add(station);
             }
 
-            RadioStation station = new RadioStation(name, tag, low, high, thumb, web, genres, langs);
-            MainActivity.radioStations.add(station);
             callback.processData();
+
         } catch (JSONException e) {
             e.printStackTrace();
         }

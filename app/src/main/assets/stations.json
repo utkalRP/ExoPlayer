@@ -14,8 +14,8 @@
     {
       "name": "98.3 Radio Odisha",
       "tag": "Music..Oo..la..la !",
-      "low": "http://radiodisha.out.airtime.pro:8000/radiodisha_b",
-      "high": "",
+      "low": "http://radiodisha.out.airtime.pro:8000/radiodisha_a",
+      "high": "http://radiodisha.out.airtime.pro:8000/radiodisha_b",
       "thumb": "https://raw.githubusercontent.com/utkalRP/akashvani/master/radio_odisha.png",
       "web": "http://radiodisha.com",
       "genre": ["Music"],
@@ -60,6 +60,136 @@
       "web": "http://allindiaradio.gov.in/Station/CUTTACK/Pages/default.aspx",
       "genre": ["Talk", "News", "Music"],
       "lang": ["Odia"]
+    },
+    {
+      "name": "AIR Vividh Bharti",
+      "tag": "AIR Vividh Bharti",
+      "low": "http://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/master.m3u8",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "AIR FM Gold",
+      "tag": "AIR FM Gold",
+      "low": "http://airfmgold-lh.akamaihd.net/i/fmgold_1@507591/master.m3u8",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "BBC Hindi",
+      "tag": "BBC World Service - Hindi",
+      "low": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-hinda_backup?type=.mp3",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["News"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Nuke Radio Hindi",
+      "tag": "Let's Nuke It",
+      "low": "http://live.nukeradio.com:8004/stream3;",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "107.4 Radio Noida",
+      "tag": "Radio Noida 107.4 FM",
+      "low": "http://180.151.226.202:8000/;?icy=http",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Non Stop Hindi",
+      "tag": "Non Stop Hindi",
+      "low": "http://s5.voscast.com:8216/;?icy=http",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Old Hindi",
+      "tag": "Old Hindi",
+      "low": "http://prclive1.listenon.in:8834",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio City Retro",
+      "tag": "Radio City Retro",
+      "low": "http://64.71.79.181:5124/stream",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio City Classics",
+      "tag": "Radio City Classics",
+      "low": "http://63.143.36.2:8888/HindiClassics?icy=http",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio City",
+      "tag": "91.1 Radio City, FM Bole toh",
+      "low": "http://prclive1.listenon.in:9960/;?t=1538678223",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Red FM",
+      "tag": "93.5 Red FM",
+      "low": "http://playerservices.streamtheworld.com/api/livestream-redirect/CKYRFM_SC",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "BIG FM",
+      "tag": "BIG FM",
+      "low": "http://sc-bb.1.fm:8017",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio Mirchi",
+      "tag": "98.3 Radio Mirchi, It' Hot!",
+      "low": "http://peridot.streamguys.com:7150/Mirchi",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
     }
   ]
 }

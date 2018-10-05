@@ -67,61 +67,6 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
             R.drawable.air_vividh_bharti,
             R.drawable.air_logo,
             R.drawable.air_fm_gold};
-    String[] arrayRadioStations = {"Sarthak FM",
-            "Radio Odisha",
-            "Odia Radio",
-            "Radio Chocolate",
-            "Radio Mirchi",
-            "BIG FM",
-            "Red FM",
-            "Radio City",
-            "Radio City Classics",
-            "Radio City Retro",
-            "Old Hindi",
-            "Non Stop Hindi",
-            "Radio Noida",
-            "Nuke Radio Hindi",
-            "BBC Hindi",
-            "AIR Vividh Bharti",
-            "AIR Odia",
-            "AIR FM Gold"};
-    String[] arrayStationDesc = {"91.9 Sarthak FM, Ethara Jamila",
-            "98.3 Radio Odisha, Music..Oh..la..la..",
-            "Odia Radio, Odisha's first internet radio",
-            "104 Radio Chocolate, Dhum Mitha",
-            "98.3 Radio Mirchi, It' Hot!",
-            "BIG FM",
-            "93.5 Red FM",
-            "91.1 Radio City, FM Bole toh",
-            "Radio City Classics",
-            "Radio City Retro",
-            "Old Hindi Songs",
-            "Non Stop Hindi",
-            "Radio Noida 107.4 FM",
-            "Let's Nuke It",
-            "BBC Hindi",
-            "AIR Vividh Bharti",
-            "AIR Odia",
-            "AIR FM Gold"};
-
-    String[] arrayStationLinks = {"http://sarthakfm.out.airtime.pro:8000/sarthakfm_b",
-            "http://radiodisha.out.airtime.pro:8000/radiodisha_b",
-            "http://onair.odiaradio.com:8080/listen",
-            "http://216.158.233.134:8592/329ojEcwo$t@",
-            "http://peridot.streamguys.com:7150/Mirchi",
-            "http://sc-bb.1.fm:8017",
-            "http://playerservices.streamtheworld.com/api/livestream-redirect/CKYRFM_SC",
-            "http://prclive1.listenon.in:9960/;?t=1538678223",
-            "http://63.143.36.2:8888/HindiClassics?icy=http",
-            "http://64.71.79.181:5124/stream",
-            "http://prclive1.listenon.in:8834",
-            "http://s5.voscast.com:8216/;?icy=http",
-            "http://180.151.226.202:8000/;?icy=http",
-            "http://live.nukeradio.com:8004/stream3;",
-            "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-hinda_backup?type=.mp3",
-            "http://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/master.m3u8",
-            "http://airodiya-lh.akamaihd.net/i/airodiya_1@528056/master.m3u8",
-            "http://airfmgold-lh.akamaihd.net/i/fmgold_1@507591/master.m3u8"};
 
     ListView listView;
     ListViewAdaptor     listViewAdaptor;
@@ -139,19 +84,7 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
         createAndInitializePlayer();
 
         listView = (ListView) findViewById(R.id.listView);
-        listViewAdaptor = new ListViewAdaptor();
-        listView.setAdapter(listViewAdaptor);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                view.setSelected(true);
 
-                nCurrentStationId = i;
-
-                mBufferingTask = new PlayerBufferingTask();
-                mBufferingTask.execute(arrayStationLinks[i]);
-            }
-        });
 
         //Download the stations json from web
         FileDownloadAsync fileDownloadAsync = new FileDownloadAsync(getString(R.string.json_url),this);
@@ -240,7 +173,19 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
 
     @Override
     public void processData() {
+        listViewAdaptor = new ListViewAdaptor();
+        listView.setAdapter(listViewAdaptor);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                view.setSelected(true);
 
+                nCurrentStationId = i;
+
+                mBufferingTask = new PlayerBufferingTask();
+                mBufferingTask.execute(radioStations.get(i).getLowUrl());
+            }
+        });
     }
 
 
@@ -269,8 +214,8 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
             TextView textViewBottom = (TextView) view.findViewById(R.id.textViewBottom);
 
             imageView.setImageResource(arrayImages[i]);
-            textViewTop.setText(arrayRadioStations[i]);
-            textViewBottom.setText(arrayStationDesc[i]);
+            textViewTop.setText(radioStations.get(i).getName());
+            textViewBottom.setText(radioStations.get(i).getTag());
 
             return view;
         }
@@ -285,7 +230,7 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
 
             mProgressDialog = new ProgressDialog(MainActivity.this);
             mProgressDialog.setTitle("");
-            mProgressDialog.setMessage(getString(R.string.app_tuning) + "\t" + arrayRadioStations[nCurrentStationId] + "\nPlease wait ...");
+            mProgressDialog.setMessage(getString(R.string.app_tuning) + "\t" + radioStations.get(nCurrentStationId).getName() + "\nPlease wait ...");
             mProgressDialog.show();
         }
 
