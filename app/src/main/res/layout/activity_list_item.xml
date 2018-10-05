@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/sarthak_fm"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTop"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageViewLogo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewBottom"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="TextView"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toEndOf="@+id/imageViewLogo"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTop" />
+</android.support.constraint.ConstraintLayout>
