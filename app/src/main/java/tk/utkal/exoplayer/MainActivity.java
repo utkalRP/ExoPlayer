@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
             R.drawable.radio,
             R.drawable.radio,
             R.drawable.radio,
+            R.drawable.radio,
             R.drawable.nuke_radio,
             R.drawable.bbc_hindi,
             R.drawable.air_vividh_bharti,
@@ -70,7 +71,6 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
 
     ListView listView;
     ListViewAdaptor     listViewAdaptor;
-    PlayerBufferingTask mBufferingTask;
     ProgressDialog      mProgressDialog;
 
     int                 nCurrentStationId;
@@ -85,6 +85,11 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
 
         listView = (ListView) findViewById(R.id.listView);
 
+
+        mProgressDialog = new ProgressDialog(MainActivity.this);
+        mProgressDialog.setTitle("");
+        mProgressDialog.setMessage("Please wait ...");
+        mProgressDialog.show();
 
         //Download the stations json from web
         FileDownloadAsync fileDownloadAsync = new FileDownloadAsync(getString(R.string.json_url),this);
@@ -182,10 +187,12 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
 
                 nCurrentStationId = i;
 
-                mBufferingTask = new PlayerBufferingTask();
-                mBufferingTask.execute(radioStations.get(i).getLowUrl());
+                preparePlayer(radioStations.get(i).getLowUrl());
             }
         });
+
+        if (mProgressDialog != null && mProgressDialog.isShowing())
+            mProgressDialog.dismiss();
     }
 
 
@@ -218,35 +225,6 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
             textViewBottom.setText(radioStations.get(i).getTag());
 
             return view;
-        }
-    }
-
-
-    class PlayerBufferingTask extends AsyncTask<String, Void, Boolean> {
-
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-
-            mProgressDialog = new ProgressDialog(MainActivity.this);
-            mProgressDialog.setTitle("");
-            mProgressDialog.setMessage(getString(R.string.app_tuning) + "\t" + radioStations.get(nCurrentStationId).getName() + "\nPlease wait ...");
-            mProgressDialog.show();
-        }
-
-        @Override
-        protected Boolean doInBackground(String... strings) {
-            player.stop(true);
-            preparePlayer(strings[0]);
-            return true;
-        }
-
-        @Override
-        protected void onPostExecute(Boolean aBoolean) {
-            super.onPostExecute(aBoolean);
-
-            if (mProgressDialog != null && mProgressDialog.isShowing())
-                mProgressDialog.dismiss();
         }
     }
 }
