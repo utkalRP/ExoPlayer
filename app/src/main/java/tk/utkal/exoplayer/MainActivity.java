@@ -2,7 +2,9 @@ package tk.utkal.exoplayer;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.DialogInterface;
+import android.media.AudioManager;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
@@ -40,6 +42,9 @@ import com.google.android.exoplayer2.util.Util;
 
 import java.util.ArrayList;
 
+import static android.media.AudioManager.AUDIOFOCUS_LOSS_TRANSIENT;
+import static android.media.AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK;
+
 public class MainActivity extends AppCompatActivity implements FileDownloadCallback {
 
     public static int version = 1;
@@ -47,6 +52,9 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
 
     private SimpleExoPlayer player;
     private static final DefaultBandwidthMeter BANDWIDTH_METER = new DefaultBandwidthMeter();
+
+    AudioManager audioManager;
+    AudioManager.OnAudioFocusChangeListener afChangeListener;
 
     ListView listView;
     ListViewAdaptor     listViewAdaptor;
@@ -70,6 +78,27 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
         mProgressDialog.setMessage("Please wait ...");
         mProgressDialog.show();
 
+        audioManager = (AudioManager) this.getSystemService(Context.AUDIO_SERVICE);
+        afChangeListener = new AudioManager.OnAudioFocusChangeListener() {
+                    public void onAudioFocusChange(int focusChange) {
+                        if (focusChange == AudioManager.AUDIOFOCUS_LOSS) {
+                            // Permanent loss of audio focus
+                            player.stop();
+                        }
+                        else if (focusChange == AUDIOFOCUS_LOSS_TRANSIENT) {
+                            // Pause playback
+                            player.setPlayWhenReady(false);
+                        } else // Lower the volume, keep playing
+                            if (focusChange == AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK) {
+                                player.setVolume((float) 0.2);
+                            } else if (focusChange == audioManager.AUDIOFOCUS_GAIN) {
+                            // Your app has been granted audio focus again
+                            // Raise volume to normal, restart playback if necessary
+                                player.setPlayWhenReady(true);
+                        }
+                    }
+                };
+
         //Download the stations json from web
         FileDownloadAsync fileDownloadAsync = new FileDownloadAsync(getString(R.string.json_url),this);
         fileDownloadAsync.execute();
@@ -82,8 +111,6 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
         player = ExoPlayerFactory.newSimpleInstance(new DefaultRenderersFactory(this),
                 new DefaultTrackSelector(adaptiveTrackSelectionFactory),
                 new DefaultLoadControl());
-
-        player.setPlayWhenReady(true);
     }
 
     private MediaSource buildMediaSource(Uri uri) {
@@ -167,6 +194,13 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
                 nCurrentStationId = i;
 
                 preparePlayer(radioStations.get(i).getLowUrl());
+
+                int res = audioManager.requestAudioFocus(afChangeListener, AudioManager.STREAM_MUSIC, // Music streaming
+                        AudioManager.AUDIOFOCUS_GAIN); // Permanent focus
+                if(res == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
+                    // Play the audio
+                    player.setPlayWhenReady(true);
+                }
             }
         });
 
