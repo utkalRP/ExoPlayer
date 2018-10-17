@@ -4,6 +4,9 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.Drawable;
 import android.media.AudioManager;
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -40,6 +43,10 @@ import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSourceFactory;
 import com.google.android.exoplayer2.util.Util;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 
 import static android.media.AudioManager.AUDIOFOCUS_LOSS_TRANSIENT;
@@ -47,7 +54,6 @@ import static android.media.AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK;
 
 public class MainActivity extends AppCompatActivity implements FileDownloadCallback {
 
-    public static int version = 1;
     public static ArrayList<RadioStation> radioStations = new ArrayList<RadioStation>();
 
     private SimpleExoPlayer player;
@@ -233,11 +239,32 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
             TextView textViewTop = (TextView) view.findViewById(R.id.textViewTop);
             TextView textViewBottom = (TextView) view.findViewById(R.id.textViewBottom);
 
-            imageView.setImageResource(R.drawable.radio);
+            String thumbUrl = radioStations.get(i).getLogoUrl();
+            String fileName = thumbUrl.substring( thumbUrl.lastIndexOf('/')+1, thumbUrl.length() );
+            String fileNameWithoutExtn = fileName.substring(0, fileName.lastIndexOf('.'));
+            String uri = "@drawable/" + fileNameWithoutExtn;  // where myresource (without the extension) is the file
+            int imageResource = getResources().getIdentifier(uri, null, getPackageName());
+            Drawable res = getResources().getDrawable(imageResource);
+            if (res != null)
+                imageView.setImageDrawable(res);
+            else
+                imageView.setImageResource(R.drawable.radio);
+
+            //imageView.setImageResource(R.drawable.radio);
             textViewTop.setText(radioStations.get(i).getName());
-            textViewBottom.setText(radioStations.get(i).getTag());
+
+            String line2 = radioStations.get(i).getTag();
+            for(int j = 0; j < radioStations.get(i).getLangs().size(); j++)
+                line2 += " | " + radioStations.get(i).getLangs().get(j);
+            //for(int j = 0; j < radioStations.get(i).getGenres().size(); j++)
+            //    line2 += " | " + radioStations.get(i).getGenres().get(j);
+
+            textViewBottom.setText(line2);
+
 
             return view;
         }
     }
+
+
 }

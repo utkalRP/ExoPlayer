@@ -1,6 +1,7 @@
 package tk.utkal.exoplayer;
 
 import android.os.AsyncTask;
+import android.util.Log;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -15,6 +16,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
 
+import static android.support.constraint.Constraints.TAG;
 
 
 public class FileDownloadAsync extends AsyncTask {
@@ -55,12 +57,17 @@ public class FileDownloadAsync extends AsyncTask {
         try {
             JSONObject jsonObject = new JSONObject(strData);
 
-            MainActivity.version = (int) jsonObject.get("ver");
-
-            String name = "", tag = "", low = "", high = "", thumb = "", web = "";
-            ArrayList<String> langs = new ArrayList<String>(), genres = new ArrayList<String>();
+            String name = "";
+            String tag = "";
+            String low = "";
+            String high = "";
+            String thumb = "";
+            String web = "";
+            ArrayList<String> langs = new ArrayList<String>();
+            ArrayList<String> genres = new ArrayList<String>();
 
             JSONArray jsonArray = jsonObject.getJSONArray("channels");
+
             for (int i = 0; i < jsonArray.length(); i++) {
                 JSONObject channel = (JSONObject) jsonArray.get(i);
                 name = (String) channel.get("name");
@@ -69,6 +76,9 @@ public class FileDownloadAsync extends AsyncTask {
                 high = (String) channel.get("high");
                 thumb = (String) channel.get("thumb");
                 web = (String) channel.get("web");
+
+                genres.clear();
+                langs.clear();
 
                 JSONArray jsonGenre = channel.getJSONArray("genre");
                 for(int j = 0; j < jsonGenre.length(); j++) {
@@ -80,7 +90,7 @@ public class FileDownloadAsync extends AsyncTask {
                     langs.add(jsonLang.getString(j));
                 }
 
-                RadioStation station = new RadioStation(name, tag, low, high, thumb, web, genres, langs);
+                RadioStation station = new RadioStation(name, tag, low, high, thumb, web, langs, genres);
                 MainActivity.radioStations.add(station);
             }
 
