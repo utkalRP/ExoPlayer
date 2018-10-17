@@ -320,16 +320,6 @@
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
-    },
-    {
-      "name": "Colours FM",
-      "tag": "Colours FM - 101.6 FM",
-      "low": "http://45.64.135.88:8000/stream1",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "web": "",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
     }
   ]
 }
