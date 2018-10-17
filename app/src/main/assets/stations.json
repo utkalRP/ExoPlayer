@@ -319,6 +319,26 @@
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
+    },
+    {
+      "name": "Hits Of Bollywood",
+      "tag": "Hits Of Bollywood",
+      "low": "http://stream.zenolive.com/a2gyqzwpwfeuv",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "New Hits Of Bollywood",
+      "tag": "New Hits Of Bollywood",
+      "low": "http://stream.zenolive.com/kr08sxc2tfeuv",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
     }
   ]
 }
