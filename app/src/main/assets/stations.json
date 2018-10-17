@@ -1,5 +1,4 @@
 {
-  "ver": 1,
   "channels": [
     {
       "name": "91.9 Sarthak FM",
@@ -18,6 +17,306 @@
       "high": "http://radiodisha.out.airtime.pro:8000/radiodisha_b",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_odisha.png",
       "web": "http://radiodisha.com",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Odia Radio",
+      "tag": "Odisha's first internet radio",
+      "low": "http://onair.odiaradio.com:8080/listen",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/odia_radio.png",
+      "web": "http://odiaradio.com",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Radio Chocolate",
+      "tag": "Dhum Mitha",
+      "low": "http://192.64.80.222:5555/;stream",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_chocolate.png",
+      "web": "http://radiochoklateonline.com",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Radio Bhakti",
+      "tag": "Choklate - Radio Bhakti",
+      "low": "http://192.64.80.219:7598/IYW$mKmn#$q1",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_chocolate.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Story Station",
+      "tag": "Choklate - Story Station",
+      "low": "http://216.158.233.133:2379/*UL*Ns3AYN6n",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_chocolate.png",
+      "web": "",
+      "genre": ["Talk"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Radio Nataka",
+      "tag": "Choklate - Radio Nataka",
+      "low": "http://192.64.80.221:5839/Po8^w7*VMWYx",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_chocolate.png",
+      "web": "",
+      "genre": ["Talk"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Choklate maja katha",
+      "tag": "Choklate maja katha",
+      "low": "http://192.64.80.220:8673/2N$^hTW7Krkg",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_chocolate.png",
+      "web": "",
+      "genre": ["Talk"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Love Station",
+      "tag": "Choklate - Love Station",
+      "low": "http://216.158.233.134:8592/329ojEcwo$t@",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_chocolate.png",
+      "web": "",
+      "genre": ["Talk"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Ama Radio",
+      "tag": "Ama Radio",
+      "low": "http://192.240.102.3:8922/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "http://radiochoklateonline.com",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Radio Utkal",
+      "tag": "Tike Alaga",
+      "low": "http://188.165.232.7:8312/96",
+      "high": "http://188.165.232.7:8312/128",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "http://radioutkal.in",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "AIR Odia",
+      "tag": "Akashvani Cuttack",
+      "low": "http://airodiya-lh.akamaihd.net/i/airodiya_1@528056/master.m3u8",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_logo.png",
+      "web": "http://allindiaradio.gov.in/Station/CUTTACK/Pages/default.aspx",
+      "genre": ["Talk", "News", "Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "AIR Vividh Bharti",
+      "tag": "AIR Vividh Bharti",
+      "low": "http://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/master.m3u8",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_vividh_bharti.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "AIR FM Gold",
+      "tag": "AIR FM Gold",
+      "low": "http://airfmgold-lh.akamaihd.net/i/fmgold_1@507591/master.m3u8",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_fm_gold.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "BBC Hindi",
+      "tag": "BBC World Service - Hindi",
+      "low": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-hinda_backup?type=.mp3",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/bbc_hindi.png",
+      "web": "",
+      "genre": ["News"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Nuke Radio Hindi",
+      "tag": "Let's Nuke It",
+      "low": "http://live.nukeradio.com:8004/stream3;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/nuke_radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "107.4 Radio Noida",
+      "tag": "Radio Noida 107.4 FM",
+      "low": "http://180.151.226.202:8000/;?icy=http",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Non Stop Hindi",
+      "tag": "Non Stop Hindi",
+      "low": "http://s5.voscast.com:8216/;?icy=http",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Kishor Kumar Radio",
+      "tag": "Kishor Kumar Radio",
+      "low": "http://prclive1.listenon.in:8834",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Asha Bhosle Radio",
+      "tag": "Asha Bhosle Radio",
+      "low": "http://prclive1.listenon.in:8812/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Fun Ka Anteena",
+      "tag": "Fun Ka Anteena",
+      "low": "http://prclive1.listenon.in:9998/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "RD Burman Radio",
+      "tag": "RD Burman Radio",
+      "low": "http://prclive1.listenon.in:8828/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Lata Mangeshkar Radio",
+      "tag": "Lata Mangeshkar Radio",
+      "low": "http://prclive1.listenon.in:8832/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Mohammad Rafi Radio",
+      "tag": "Mohammad Rafi Radio",
+      "low": "http://prclive1.listenon.in:8814/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio City Ghazals",
+      "tag": "Radio City Ghazals",
+      "low": "http://prclive1.listenon.in:8860/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio Namkeen",
+      "tag": "Radio Namkeen",
+      "low": "http://ample-zeno-03.radiojar.com/sgkeutfbaw5tv?t=153876442&rj-token=AAABZkWL4-SZ9eQblmVD7oFO1TByKHkPrV4Xye8z2tL4DH9582hfkA&rj-ttl=5",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio City Retro",
+      "tag": "Radio City Retro",
+      "low": "http://64.71.79.181:5124/stream",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio City Classics",
+      "tag": "Radio City Classics",
+      "low": "http://63.143.36.2:8888/HindiClassics?icy=http",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio City",
+      "tag": "91.1 Radio City, FM Bole toh",
+      "low": "http://prclive1.listenon.in:9960/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_city.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Red FM",
+      "tag": "93.5 Red FM",
+      "low": "http://playerservices.streamtheworld.com/api/livestream-redirect/CKYRFM_SC",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/red_fm.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "BIG FM",
+      "tag": "BIG FM",
+      "low": "http://sc-bb.1.fm:8017",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/big_fm.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio Mirchi",
+      "tag": "98.3 Radio Mirchi, It' Hot!",
+      "low": "http://peridot.streamguys.com:7150/Mirchi",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_mirchi.png",
+      "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
     }
