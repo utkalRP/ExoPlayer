@@ -63,7 +63,7 @@ public class FileDownloadAsync extends AsyncTask {
             String high = "";
             String thumb = "";
             String web = "";
-            ArrayList<String> langs = new ArrayList<String>();
+            ArrayList<String> languages = new ArrayList<String>();
             ArrayList<String> genres = new ArrayList<String>();
 
             JSONArray jsonArray = jsonObject.getJSONArray("channels");
@@ -78,7 +78,7 @@ public class FileDownloadAsync extends AsyncTask {
                 web = (String) channel.get("web");
 
                 genres.clear();
-                langs.clear();
+                languages.clear();
 
                 JSONArray jsonGenre = channel.getJSONArray("genre");
                 for(int j = 0; j < jsonGenre.length(); j++) {
@@ -87,10 +87,10 @@ public class FileDownloadAsync extends AsyncTask {
 
                 JSONArray jsonLang = channel.getJSONArray("lang");
                 for(int j = 0; j < jsonLang.length(); j++) {
-                    langs.add(jsonLang.getString(j));
+                    languages.add(jsonLang.getString(j));
                 }
 
-                RadioStation station = new RadioStation(name, tag, low, high, thumb, web, langs, genres);
+                RadioStation station = new RadioStation(name, tag, low, high, thumb, web, languages, genres);
                 MainActivity.radioStations.add(station);
             }
 

@@ -254,10 +254,10 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
             textViewTop.setText(radioStations.get(i).getName());
 
             String line2 = radioStations.get(i).getTag();
-            for(int j = 0; j < radioStations.get(i).getLangs().size(); j++)
-                line2 += " | " + radioStations.get(i).getLangs().get(j);
-            //for(int j = 0; j < radioStations.get(i).getGenres().size(); j++)
-            //    line2 += " | " + radioStations.get(i).getGenres().get(j);
+            for(int j = 0; j < radioStations.get(i).getLanguages().size(); j++)
+                line2 += " | " + radioStations.get(i).getLanguages().get(j);
+            for(int j = 0; j < radioStations.get(i).getGenres().size(); j++)
+                line2 += " | " + radioStations.get(i).getGenres().get(j);
 
             textViewBottom.setText(line2);
 
