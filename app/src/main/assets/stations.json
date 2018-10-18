@@ -101,16 +101,6 @@
       "lang": ["Odia"]
     },
     {
-      "name": "Radio Utkal",
-      "tag": "Tike Alaga",
-      "low": "http://188.165.232.7:8312/96",
-      "high": "http://188.165.232.7:8312/128",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "web": "http://radioutkal.in",
-      "genre": ["Music"],
-      "lang": ["Odia"]
-    },
-    {
       "name": "AIR Odia",
       "tag": "Akashvani Cuttack",
       "low": "http://airodiya-lh.akamaihd.net/i/airodiya_1@528056/master.m3u8",
@@ -185,7 +175,7 @@
       "tag": "Kishor Kumar Radio",
       "low": "http://prclive1.listenon.in:8834",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_city.png",
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
@@ -195,7 +185,7 @@
       "tag": "Asha Bhosle Radio",
       "low": "http://prclive1.listenon.in:8812/;",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_city.png",
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
@@ -205,7 +195,7 @@
       "tag": "Fun Ka Anteena",
       "low": "http://prclive1.listenon.in:9998/;",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_city.png",
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
@@ -215,7 +205,7 @@
       "tag": "RD Burman Radio",
       "low": "http://prclive1.listenon.in:8828/;",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_city.png",
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
@@ -225,7 +215,7 @@
       "tag": "Lata Mangeshkar Radio",
       "low": "http://prclive1.listenon.in:8832/;",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_city.png",
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
@@ -235,7 +225,7 @@
       "tag": "Mohammad Rafi Radio",
       "low": "http://prclive1.listenon.in:8814/;",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_city.png",
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
@@ -245,7 +235,7 @@
       "tag": "Radio City Ghazals",
       "low": "http://prclive1.listenon.in:8860/;",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_city.png",
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
@@ -265,7 +255,7 @@
       "tag": "Radio City Retro",
       "low": "http://64.71.79.181:5124/stream",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_city.png",
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
@@ -275,7 +265,7 @@
       "tag": "Radio City Classics",
       "low": "http://63.143.36.2:8888/HindiClassics?icy=http",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_city.png",
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
