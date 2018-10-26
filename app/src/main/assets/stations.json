@@ -131,16 +131,6 @@
       "lang": ["Hindi"]
     },
     {
-      "name": "BBC Hindi",
-      "tag": "BBC World Service - Hindi",
-      "low": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-hinda_backup?type=.mp3",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/bbc_hindi.png",
-      "web": "",
-      "genre": ["News"],
-      "lang": ["Hindi"]
-    },
-    {
       "name": "Nuke Radio Hindi",
       "tag": "Let's Nuke It",
       "low": "http://live.nukeradio.com:8004/stream3;",
@@ -378,6 +368,26 @@
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
       "web": "",
       "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "BBC World Service",
+      "tag": "BBC World Service",
+      "low": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-einws",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["News"],
+      "lang": ["English"]
+    },
+    {
+      "name": "BBC Hindi",
+      "tag": "BBC World Service - Hindi",
+      "low": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-hinda_backup?type=.mp3",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/bbc_hindi.png",
+      "web": "",
+      "genre": ["News"],
       "lang": ["Hindi"]
     },
     {
