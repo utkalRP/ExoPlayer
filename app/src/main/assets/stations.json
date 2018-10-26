@@ -329,6 +329,16 @@
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
+    },
+    {
+      "name": "temp youtube",
+      "tag": "temp youtube",
+      "low": "https://www.youtube.com/watch?v=9YPLUPE3wL8",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
     }
   ]
 }
