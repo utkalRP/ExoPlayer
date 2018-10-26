@@ -379,6 +379,96 @@
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
+    },
+    {
+      "name": "NDTV 24x7 Radio",
+      "tag": "NDTV 24x7 Radio",
+      "low": "http://stream1.ndtv.com:8080/on-ndtv24x7",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["News"],
+      "lang": ["English"]
+    },
+    {
+      "name": "NDTV India Radio",
+      "tag": "NDTV India Radio",
+      "low": "http://stream1.ndtv.com:8080/on-ndtvindia",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["News"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Bhakti Radio",
+      "tag": "Bhakti Radio",
+      "low": "http://67.212.165.106:8191/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Spiritual"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "2B! Radio Sangam - Ganesha",
+      "tag": "2B! Radio Sangam - Ganesha",
+      "low": "http://radio2bindia.out.airtime.pro:8000/radio2bindia_a",
+      "high": "http://radio2bindia.out.airtime.pro:8000/radio2bindia_b",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Spiritual"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "2B! Radio Sangam - Devi Maa",
+      "tag": "2B! Radio Sangam - Devi Maa",
+      "low": "http://ibadat.out.airtime.pro:8000/ibadat_a",
+      "high": "http://ibadat.out.airtime.pro:8000/ibadat_b",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Spiritual"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "2B! Radio Sangam - Shiva",
+      "tag": "2B! Radio Sangam - Shiva",
+      "low": "http://hot.out.airtime.pro:8000/hot_a",
+      "high": "http://hot.out.airtime.pro:8000/hot_b",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Spiritual"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "2B! Radio Sangam - Krishna",
+      "tag": "2B! Radio Sangam - Krishna",
+      "low": "http://millenniumhits.out.airtime.pro:8000/millenniumhits_a",
+      "high": "http://millenniumhits.out.airtime.pro:8000/millenniumhits_b",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Spiritual"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "2B! Radio Sangam - Sri Ram",
+      "tag": "2B! Radio Sangam - Sri Ram",
+      "low": "http://dard.out.airtime.pro:8000/dard_a",
+      "high": "http://dard.out.airtime.pro:8000/dard_b",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Spiritual"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "2B! Radio Sangam - Meditation",
+      "tag": "2B! Radio Sangam - Meditation",
+      "low": "http://djbeat.out.airtime.pro:8000/djbeat_a",
+      "high": "http://djbeat.out.airtime.pro:8000/djbeat_b",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Spiritual"],
+      "lang": ["Hindi"]
     }
   ]
 }
