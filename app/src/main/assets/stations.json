@@ -242,7 +242,7 @@
     },
     {
       "name": "Radio Namkeen",
-      "tag": "Radio Namkeen",
+      "tag": "Ek Dumm Zabardast!",
       "low": "http://ample-zeno-03.radiojar.com/sgkeutfbaw5tv?t=153876442&rj-token=AAABZkWL4-SZ9eQblmVD7oFO1TByKHkPrV4Xye8z2tL4DH9582hfkA&rj-ttl=5",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
@@ -324,6 +324,56 @@
       "name": "New Hits Of Bollywood",
       "tag": "New Hits Of Bollywood",
       "low": "http://stream.zenolive.com/kr08sxc2tfeuv",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Bollywood Evergreen Hits",
+      "tag": "Bollywood Evergreen Hits",
+      "low": "http://192.240.102.133:11454/stream",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio HSL",
+      "tag": "Radio HSL",
+      "low": "http://50.7.68.251:7064/stream",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Sunrise FM",
+      "tag": "Sunrise FM",
+      "low": "http://185.66.249.48:9600/stream",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio Bolly FM",
+      "tag": "Radio Bolly FM",
+      "low": "http://64.71.79.181:8201/stream",
+      "high": "http://64.71.79.181:8201/hd",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "SMSK Radio",
+      "tag": "SMSK Radio",
+      "low": "http://streamingv2.shoutcast.com/SMSKHindiRadio",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
       "web": "",
