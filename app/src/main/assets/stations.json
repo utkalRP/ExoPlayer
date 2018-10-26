@@ -261,9 +261,19 @@
       "lang": ["Hindi"]
     },
     {
-      "name": "Radio City",
+      "name": "Radio City - Mumbai",
       "tag": "91.1 Radio City, FM Bole toh",
       "low": "http://prclive1.listenon.in:9960/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_city.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio City - Delhi",
+      "tag": "91.1 Radio City, FM Bole toh",
+      "low": "http://prclive1.listenon.in:8808/",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_city.png",
       "web": "",
