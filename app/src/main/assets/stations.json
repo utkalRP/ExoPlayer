@@ -45,7 +45,7 @@
       "tag": "Choklate - Radio Bhakti",
       "low": "http://192.64.80.219:7598/IYW$mKmn#$q1",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_chocolate.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_bhakti.jpg",
       "web": "",
       "genre": ["Music"],
       "lang": ["Odia"]
@@ -55,7 +55,7 @@
       "tag": "Choklate - Story Station",
       "low": "http://216.158.233.133:2379/*UL*Ns3AYN6n",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_chocolate.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_story_station.jpg",
       "web": "",
       "genre": ["Talk"],
       "lang": ["Odia"]
@@ -65,7 +65,7 @@
       "tag": "Choklate - Radio Nataka",
       "low": "http://192.64.80.221:5839/Po8^w7*VMWYx",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_chocolate.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_natak.png",
       "web": "",
       "genre": ["Talk"],
       "lang": ["Odia"]
@@ -75,7 +75,7 @@
       "tag": "Choklate maja katha",
       "low": "http://192.64.80.220:8673/2N$^hTW7Krkg",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_chocolate.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_maja_katha.jpg",
       "web": "",
       "genre": ["Talk"],
       "lang": ["Odia"]
@@ -85,7 +85,7 @@
       "tag": "Choklate - Love Station",
       "low": "http://216.158.233.134:8592/329ojEcwo$t@",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_chocolate.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_love_station.jpg",
       "web": "",
       "genre": ["Talk"],
       "lang": ["Odia"]
