@@ -482,10 +482,10 @@
     },
     {
       "name": "SMSK Radio",
-      "tag": "SMSK Radio",
+      "tag": "",
       "low": "http://streamingv2.shoutcast.com/SMSKHindiRadio",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_smsk.jpg",
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
