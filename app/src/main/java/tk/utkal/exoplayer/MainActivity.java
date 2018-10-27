@@ -21,6 +21,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.DefaultLoadControl;
 import com.google.android.exoplayer2.DefaultRenderersFactory;
@@ -223,23 +224,21 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
 
         @Override
         public View getView(int i, View view, ViewGroup viewGroup) {
+            Context c = viewGroup.getContext();
+
             view = getLayoutInflater().inflate(R.layout.activity_list_item, null);
             ImageView imageView = (ImageView) view.findViewById(R.id.imageViewLogo);
             TextView textViewTop = (TextView) view.findViewById(R.id.textViewTop);
             TextView textViewBottom = (TextView) view.findViewById(R.id.textViewBottom);
 
             String thumbUrl = radioStations.get(i).getLogoUrl();
-            String fileName = thumbUrl.substring( thumbUrl.lastIndexOf('/')+1, thumbUrl.length() );
-            String fileNameWithoutExtn = fileName.substring(0, fileName.lastIndexOf('.'));
-            String uri = "@drawable/" + fileNameWithoutExtn;  // where myresource (without the extension) is the file
-            int imageResource = getResources().getIdentifier(uri, null, getPackageName());
-            Drawable res = getResources().getDrawable(imageResource);
-            if (res != null)
-                imageView.setImageDrawable(res);
-            else
-                imageView.setImageResource(R.drawable.radio);
+            Glide.with(c)
+                    .load(thumbUrl)
+                    .fitCenter()
+                    .placeholder(R.drawable.radio)
+                    .crossFade()
+                    .into(imageView);
 
-            //imageView.setImageResource(R.drawable.radio);
             textViewTop.setText(radioStations.get(i).getName());
 
             String line2 = radioStations.get(i).getTag();
