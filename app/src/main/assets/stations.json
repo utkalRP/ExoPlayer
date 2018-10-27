@@ -235,7 +235,7 @@
       "tag": "",
       "low": "http://prclive1.listenon.in:8860/;",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_ghazals.jpg",
       "web": "https://www.radiocity.in",
       "genre": ["Music"],
       "lang": ["Hindi"]
@@ -245,7 +245,7 @@
       "tag": "",
       "low": "http://64.71.79.181:5124/stream",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_retro.jpg",
       "web": "https://www.radiocity.in",
       "genre": ["Music"],
       "lang": ["Hindi"]
