@@ -101,6 +101,16 @@
       "lang": ["Hindi"]
     },
     {
+      "name": "Radio Bhubaneswar",
+      "tag": "Radio Bhubaneswar",
+      "low": "http://192.240.102.3:8922/;",
+      "high": "http://216.158.228.76:8000/airtime_128",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
       "name": "AIR Odia",
       "tag": "Akashvani Cuttack",
       "low": "http://airodiya-lh.akamaihd.net/i/airodiya_1@528056/master.m3u8",
