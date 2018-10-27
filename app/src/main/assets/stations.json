@@ -101,6 +101,16 @@
       "lang": ["Hindi"]
     },
     {
+      "name": "Radio Bhubaneswar",
+      "tag": "Radio Bhubaneswar",
+      "low": "http://216.158.228.76:8000/airtime_128",
+      "high": "http://216.158.228.76:8000/airtime_128",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
       "name": "AIR Odia",
       "tag": "Akashvani Cuttack",
       "low": "http://airodiya-lh.akamaihd.net/i/airodiya_1@528056/master.m3u8",
@@ -278,6 +288,106 @@
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_city.png",
       "web": "",
       "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - Hot Now Bollywood",
+      "tag": "Hungama - Hot Now Bollywood",
+      "low": "http://103.16.47.70:7222/;stream.nsv",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - Bollywood Dil Se",
+      "tag": "Hungama - Bollywood Dil Se",
+      "low": "http://103.16.47.70:7333/;stream.nsv",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - B&W Classics",
+      "tag": "Hungama - B&W Classics",
+      "low": "http://103.16.47.70:7888/;stream.nsv",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - Evergreen Bollywood",
+      "tag": "Hungama - Evergreen Bollywood",
+      "low": "http://103.16.47.70:7555/;stream.nsv",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - 60's Forever",
+      "tag": "Hungama - 60's Forever",
+      "low": "http://103.16.47.70:6222/;stream.nsv",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - 90's Once Again",
+      "tag": "Hungama - 90's Once Again",
+      "low": "http://103.16.47.70:7444/;stream.nsv",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - Dance Masti Bollywood",
+      "tag": "Hungama - Dance Masti Bollywood",
+      "low": "http://103.16.47.70:9222/;stream.nsv",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - Bollywood Instrumentals",
+      "tag": "Hungama - Bollywood Instrumentals",
+      "low": "http://103.16.47.70:8333/;stream.nsv",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - Bhakti Sagar",
+      "tag": "Hungama - Bhakti Sagar",
+      "low": "http://103.16.47.70:7777/;stream.nsv",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Spiritual"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - Best Of Spiritual",
+      "tag": "Hungama - Best Of Spiritual",
+      "low": "http://103.16.47.70:7000/;stream.nsv",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Spiritual"],
       "lang": ["Hindi"]
     },
     {
