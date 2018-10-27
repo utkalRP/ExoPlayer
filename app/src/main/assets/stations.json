@@ -46,7 +46,7 @@
       "low": "http://192.64.80.219:7598/IYW$mKmn#$q1",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_bhakti.jpg",
-      "web": "",
+      "web": "http://radiochoklateonline.com",
       "genre": ["Music"],
       "lang": ["Odia"]
     },
@@ -56,7 +56,7 @@
       "low": "http://216.158.233.133:2379/*UL*Ns3AYN6n",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_story_station.jpg",
-      "web": "",
+      "web": "http://radiochoklateonline.com",
       "genre": ["Talk"],
       "lang": ["Odia"]
     },
@@ -66,7 +66,7 @@
       "low": "http://192.64.80.221:5839/Po8^w7*VMWYx",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_natak.jpg",
-      "web": "",
+      "web": "http://radiochoklateonline.com",
       "genre": ["Talk"],
       "lang": ["Odia"]
     },
@@ -76,7 +76,7 @@
       "low": "http://192.64.80.220:8673/2N$^hTW7Krkg",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_maja_katha.jpg",
-      "web": "",
+      "web": "http://radiochoklateonline.com",
       "genre": ["Talk"],
       "lang": ["Odia"]
     },
@@ -86,7 +86,7 @@
       "low": "http://216.158.233.134:8592/329ojEcwo$t@",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_love_station.jpg",
-      "web": "",
+      "web": "http://radiochoklateonline.com",
       "genre": ["Talk"],
       "lang": ["Odia"]
     },
@@ -96,7 +96,7 @@
       "low": "http://192.240.102.3:8922/;",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/ama_radio.png",
-      "web": "http://radiochoklateonline.com",
+      "web": "http://gizmobrain.wixsite.com/amaradio",
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
@@ -106,7 +106,7 @@
       "low": "http://216.158.228.76:8000/airtime_128",
       "high": "http://216.158.228.76:8000/airtime_128",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_bhubaneswar.jpg",
-      "web": "",
+      "web": "http://radiobhubaneswar.com",
       "genre": ["Music"],
       "lang": ["Odia"]
     },
