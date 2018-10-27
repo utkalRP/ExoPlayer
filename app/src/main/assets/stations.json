@@ -35,7 +35,7 @@
       "tag": "Dhum Mitha",
       "low": "http://192.64.80.222:5555/;stream",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_chocolate.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_live.jpg",
       "web": "http://radiochoklateonline.com",
       "genre": ["Music"],
       "lang": ["Odia"]
@@ -65,7 +65,7 @@
       "tag": "Choklate - Radio Nataka",
       "low": "http://192.64.80.221:5839/Po8^w7*VMWYx",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_natak.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_natak.jpg",
       "web": "",
       "genre": ["Talk"],
       "lang": ["Odia"]
