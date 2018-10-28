@@ -545,7 +545,7 @@
       "tag": "",
       "low": "http://radio2bindia.out.airtime.pro:8000/radio2bindia_a",
       "high": "http://radio2bindia.out.airtime.pro:8000/radio2bindia_b",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/2b_sangam_ganesha.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_ganesha.png",
       "web": "http://www.2bradioindia.com",
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
@@ -555,7 +555,7 @@
       "tag": "",
       "low": "http://ibadat.out.airtime.pro:8000/ibadat_a",
       "high": "http://ibadat.out.airtime.pro:8000/ibadat_b",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/2b_sangam_devi_maa.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_devi_maa.png",
       "web": "http://www.2bradioindia.com",
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
@@ -565,7 +565,7 @@
       "tag": "",
       "low": "http://hot.out.airtime.pro:8000/hot_a",
       "high": "http://hot.out.airtime.pro:8000/hot_b",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/2b_sangam_shiva.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_shiva.png",
       "web": "http://www.2bradioindia.com",
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
@@ -575,7 +575,7 @@
       "tag": "",
       "low": "http://millenniumhits.out.airtime.pro:8000/millenniumhits_a",
       "high": "http://millenniumhits.out.airtime.pro:8000/millenniumhits_b",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/2b_sangam_krishna.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_krishna.png",
       "web": "http://www.2bradioindia.com",
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
@@ -585,7 +585,7 @@
       "tag": "",
       "low": "http://dard.out.airtime.pro:8000/dard_a",
       "high": "http://dard.out.airtime.pro:8000/dard_b",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/2b_sangam_ram.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_ram.png",
       "web": "http://www.2bradioindia.com",
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
@@ -595,7 +595,7 @@
       "tag": "",
       "low": "http://djbeat.out.airtime.pro:8000/djbeat_a",
       "high": "http://djbeat.out.airtime.pro:8000/djbeat_b",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/2b_sangam_meditation.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_meditation.png",
       "web": "http://www.2bradioindia.com",
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
