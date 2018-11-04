@@ -8,11 +8,14 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
 import android.media.AudioManager;
+import android.media.browse.MediaBrowser;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -20,13 +23,16 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.DefaultLoadControl;
 import com.google.android.exoplayer2.DefaultRenderersFactory;
 import com.google.android.exoplayer2.ExoPlayerFactory;
+import com.google.android.exoplayer2.Player;
 import com.google.android.exoplayer2.SimpleExoPlayer;
+import com.google.android.exoplayer2.ext.cast.CastPlayer;
 import com.google.android.exoplayer2.source.ExtractorMediaSource;
 import com.google.android.exoplayer2.source.MediaSource;
 import com.google.android.exoplayer2.source.hls.HlsMediaSource;
@@ -39,12 +45,22 @@ import com.google.android.exoplayer2.trackselection.TrackSelection;
 import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSourceFactory;
+import com.google.android.exoplayer2.util.MimeTypes;
 import com.google.android.exoplayer2.util.Util;
+import com.google.android.gms.cast.MediaInfo;
+import com.google.android.gms.cast.MediaMetadata;
+import com.google.android.gms.cast.MediaQueueItem;
+import com.google.android.gms.cast.framework.CastButtonFactory;
+import com.google.android.gms.cast.framework.CastContext;
+import com.google.android.gms.cast.framework.CastState;
+import com.google.android.gms.cast.framework.CastStateListener;
+import com.google.android.gms.common.images.WebImage;
 
 import java.util.ArrayList;
 
 import static android.media.AudioManager.AUDIOFOCUS_LOSS_TRANSIENT;
 import static android.media.AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK;
+import static com.google.android.gms.cast.framework.CastState.CONNECTED;
 
 public class MainActivity extends AppCompatActivity implements FileDownloadCallback {
 
@@ -52,6 +68,9 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
 
     private SimpleExoPlayer player;
     private static final DefaultBandwidthMeter BANDWIDTH_METER = new DefaultBandwidthMeter();
+
+    private CastContext castContext;
+    private CastPlayer castPlayer;
 
     AudioManager audioManager;
     AudioManager.OnAudioFocusChangeListener afChangeListener;
@@ -90,7 +109,7 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
                             player.setPlayWhenReady(false);
                         } else // Lower the volume, keep playing
                             if (focusChange == AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK) {
-                                player.setVolume((float) 0.2);
+                                player.setVolume((float) 0.5);
                             } else if (focusChange == audioManager.AUDIOFOCUS_GAIN) {
                             // Your app has been granted audio focus again
                             // Raise volume to normal, restart playback if necessary
@@ -102,6 +121,28 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
         //Download the stations json from web
         FileDownloadAsync fileDownloadAsync = new FileDownloadAsync(getString(R.string.json_url),this);
         fileDownloadAsync.execute();
+
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        super.onCreateOptionsMenu(menu);
+
+        getMenuInflater().inflate(R.menu.appbar_menu, menu);
+        CastButtonFactory.setUpMediaRouteButton(getApplicationContext(), menu, R.id.menu_cast);
+
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.menu_cast:
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
     private void createAndInitializePlayer() {
@@ -111,7 +152,59 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
         player = ExoPlayerFactory.newSimpleInstance(new DefaultRenderersFactory(this),
                 new DefaultTrackSelector(adaptiveTrackSelectionFactory),
                 new DefaultLoadControl());
+
+        castContext = CastContext.getSharedInstance(this);
+        castContext.addCastStateListener(new CastStateListener() {
+            @Override
+            public void onCastStateChanged(int i) {
+
+                switch(i) {
+                    case CastState.CONNECTED:
+                        Toast.makeText(MainActivity.this, "Connected to Chromecast", Toast.LENGTH_SHORT).show();
+                        break;
+                    case CastState.NOT_CONNECTED:
+                        Toast.makeText(MainActivity.this, "Disconnected from Chromecast", Toast.LENGTH_SHORT).show();
+                        castPlayer.stop();
+                        player.setPlayWhenReady(true);
+                        preparePlayer(radioStations.get(nCurrentStationId).getLowUrl());
+                        break;
+                    case CastState.CONNECTING:
+                        Toast.makeText(MainActivity.this, "Please wait, connecting to Chromecast", Toast.LENGTH_SHORT).show();
+                        break;
+                }
+            }
+        });
+        //castContext.setReceiverApplicationId("@string/app_name");
+        castPlayer = new CastPlayer(castContext);
+        castPlayer.setSessionAvailabilityListener(new CastPlayer.SessionAvailabilityListener() {
+            @Override
+            public void onCastSessionAvailable() {
+                player.stop(true);
+                setCurrentCastStation();
+            }
+
+            @Override
+            public void onCastSessionUnavailable() {
+
+            }
+        });
     }
+
+    private void setCurrentCastStation() {
+            MediaMetadata stationMetadata = new MediaMetadata(MediaMetadata.MEDIA_TYPE_MUSIC_TRACK);
+            stationMetadata.putString(MediaMetadata.KEY_TITLE, radioStations.get(nCurrentStationId).getName());
+            stationMetadata.putString(MediaMetadata.KEY_SUBTITLE, radioStations.get(nCurrentStationId).getTag());
+            stationMetadata.addImage(new WebImage(Uri.parse(radioStations.get(nCurrentStationId).getLogoUrl())));
+            MediaInfo mediaInfo = new MediaInfo.Builder(radioStations.get(nCurrentStationId).getLowUrl())
+                    .setStreamType(MediaInfo.STREAM_TYPE_LIVE)
+                    .setContentType(MimeTypes.AUDIO_UNKNOWN)
+                    .setMetadata(stationMetadata).build();
+
+            final MediaQueueItem[] mediaItems = {new MediaQueueItem.Builder(mediaInfo).build()};
+            castPlayer.loadItems(mediaItems, 0, C.TIME_UNSET, Player.REPEAT_MODE_OFF);
+            castPlayer.setPlayWhenReady(true);
+        }
+
 
     private MediaSource buildMediaSource(Uri uri) {
 
@@ -136,16 +229,26 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
     }
 
     private void preparePlayer(String url) {
+        if( castContext.getCastState() == CONNECTED) {
+            setCurrentCastStation();
+            return;
+        }
+
         Uri uri = Uri.parse(url);
 
         MediaSource mediaSource = buildMediaSource(uri);
         player.prepare(mediaSource, true, false);
+
+
     }
 
     private void releasePlayer() {
         if (player != null) {
             player.release();
             player = null;
+        }
+        if(castPlayer != null) {
+            castPlayer.release();
         }
     }
 
@@ -253,6 +356,4 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
             return view;
         }
     }
-
-
 }
