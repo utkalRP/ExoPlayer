@@ -92,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         mProgressDialog = new ProgressDialog(MainActivity.this);
+        mProgressDialog.setCancelable(false);
         mProgressDialog.setTitle("");
         mProgressDialog.setMessage("Please wait ...");
         mProgressDialog.show();
