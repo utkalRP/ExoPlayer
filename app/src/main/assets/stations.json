@@ -1,5 +1,4 @@
-{
-  "channels": [
+[
     {
       "name": "91.9 Sarthak FM",
       "tag": "Ethara Jamila",
@@ -600,5 +599,4 @@
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
     }
-  ]
-}
+ ]
