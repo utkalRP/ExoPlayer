@@ -4,16 +4,10 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.Drawable;
 import android.media.AudioManager;
-import android.media.browse.MediaBrowser;
 import android.net.Uri;
-import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -25,6 +19,12 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonArrayRequest;
+import com.android.volley.toolbox.Volley;
 import com.bumptech.glide.Glide;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.DefaultLoadControl;
@@ -56,30 +56,29 @@ import com.google.android.gms.cast.framework.CastState;
 import com.google.android.gms.cast.framework.CastStateListener;
 import com.google.android.gms.common.images.WebImage;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 
 import static android.media.AudioManager.AUDIOFOCUS_LOSS_TRANSIENT;
 import static android.media.AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK;
 import static com.google.android.gms.cast.framework.CastState.CONNECTED;
 
-public class MainActivity extends AppCompatActivity implements FileDownloadCallback {
+public class MainActivity extends AppCompatActivity {
 
-    public static ArrayList<RadioStation> radioStations = new ArrayList<RadioStation>();
-
-    private SimpleExoPlayer player;
     private static final DefaultBandwidthMeter BANDWIDTH_METER = new DefaultBandwidthMeter();
-
-    private CastContext castContext;
-    private CastPlayer castPlayer;
-
     AudioManager audioManager;
     AudioManager.OnAudioFocusChangeListener afChangeListener;
-
     ListView listView;
-    ListViewAdaptor     listViewAdaptor;
-    ProgressDialog      mProgressDialog;
-
-    int                 nCurrentStationId;
+    ListViewAdaptor listViewAdaptor;
+    ProgressDialog mProgressDialog;
+    int nCurrentStationId;
+    private ArrayList<RadioStation> radioStations = new ArrayList<RadioStation>();
+    private SimpleExoPlayer player;
+    private CastContext castContext;
+    private CastPlayer castPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -99,30 +98,79 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
 
         audioManager = (AudioManager) this.getSystemService(Context.AUDIO_SERVICE);
         afChangeListener = new AudioManager.OnAudioFocusChangeListener() {
-                    public void onAudioFocusChange(int focusChange) {
-                        if (focusChange == AudioManager.AUDIOFOCUS_LOSS) {
-                            // Permanent loss of audio focus
-                            player.stop();
-                        }
-                        else if (focusChange == AUDIOFOCUS_LOSS_TRANSIENT) {
-                            // Pause playback
-                            player.setPlayWhenReady(false);
-                        } else // Lower the volume, keep playing
-                            if (focusChange == AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK) {
-                                player.setVolume((float) 0.5);
-                            } else if (focusChange == audioManager.AUDIOFOCUS_GAIN) {
-                            // Your app has been granted audio focus again
-                            // Raise volume to normal, restart playback if necessary
-                                player.setPlayWhenReady(true);
-                        }
+            public void onAudioFocusChange(int focusChange) {
+                if (focusChange == AudioManager.AUDIOFOCUS_LOSS) {
+                    // Permanent loss of audio focus
+                    player.stop();
+                } else if (focusChange == AUDIOFOCUS_LOSS_TRANSIENT) {
+                    // Pause playback
+                    player.setPlayWhenReady(false);
+                } else // Lower the volume, keep playing
+                    if (focusChange == AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK) {
+                        player.setVolume((float) 0.5);
+                    } else if (focusChange == audioManager.AUDIOFOCUS_GAIN) {
+                        // Your app has been granted audio focus again
+                        // Raise volume to normal, restart playback if necessary
+                        player.setPlayWhenReady(true);
                     }
-                };
-
-        //Download the stations json from web
-        FileDownloadAsync fileDownloadAsync = new FileDownloadAsync(getString(R.string.json_url),this);
-        fileDownloadAsync.execute();
+            }
+        };
 
 
+        RequestQueue queue = Volley.newRequestQueue(this);
+
+        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, getString(R.string.json_url), null, new Response.Listener<JSONArray>() {
+            @Override
+            public void onResponse(JSONArray response) {
+                String name = "";
+                String tag = "";
+                String low = "";
+                String high = "";
+                String thumb = "";
+                String web = "";
+                ArrayList<String> languages = new ArrayList<String>();
+                ArrayList<String> genres = new ArrayList<String>();
+                try {
+                    for (int i = 0; i < response.length(); i++) {
+                        JSONObject channel = (JSONObject) response.get(i);
+                        name = (String) channel.get("name");
+                        tag = (String) channel.get("tag");
+                        low = (String) channel.get("low");
+                        high = (String) channel.get("high");
+                        thumb = (String) channel.get("thumb");
+                        web = (String) channel.get("web");
+
+                        genres.clear();
+                        languages.clear();
+
+                        JSONArray jsonGenre = channel.getJSONArray("genre");
+                        for (int j = 0; j < jsonGenre.length(); j++) {
+                            genres.add(jsonGenre.getString(j));
+                        }
+
+                        JSONArray jsonLang = channel.getJSONArray("lang");
+                        for (int j = 0; j < jsonLang.length(); j++) {
+                            languages.add(jsonLang.getString(j));
+                        }
+
+                        RadioStation station = new RadioStation(name, tag, low, high, thumb, web, languages, genres);
+                        radioStations.add(station);
+                    }
+                    processData();
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        }, new Response.ErrorListener() {
+
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                // TODO: Handle error
+
+            }
+        });
+
+        queue.add(jsonArrayRequest);
     }
 
     @Override
@@ -158,7 +206,7 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
             @Override
             public void onCastStateChanged(int i) {
 
-                switch(i) {
+                switch (i) {
                     case CastState.CONNECTED:
                         Toast.makeText(MainActivity.this, "Connected to Chromecast", Toast.LENGTH_SHORT).show();
                         break;
@@ -191,19 +239,19 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
     }
 
     private void setCurrentCastStation() {
-            MediaMetadata stationMetadata = new MediaMetadata(MediaMetadata.MEDIA_TYPE_MUSIC_TRACK);
-            stationMetadata.putString(MediaMetadata.KEY_TITLE, radioStations.get(nCurrentStationId).getName());
-            stationMetadata.putString(MediaMetadata.KEY_SUBTITLE, radioStations.get(nCurrentStationId).getTag());
-            stationMetadata.addImage(new WebImage(Uri.parse(radioStations.get(nCurrentStationId).getLogoUrl())));
-            MediaInfo mediaInfo = new MediaInfo.Builder(radioStations.get(nCurrentStationId).getLowUrl())
-                    .setStreamType(MediaInfo.STREAM_TYPE_LIVE)
-                    .setContentType(MimeTypes.AUDIO_UNKNOWN)
-                    .setMetadata(stationMetadata).build();
+        MediaMetadata stationMetadata = new MediaMetadata(MediaMetadata.MEDIA_TYPE_MUSIC_TRACK);
+        stationMetadata.putString(MediaMetadata.KEY_TITLE, radioStations.get(nCurrentStationId).getName());
+        stationMetadata.putString(MediaMetadata.KEY_SUBTITLE, radioStations.get(nCurrentStationId).getTag());
+        stationMetadata.addImage(new WebImage(Uri.parse(radioStations.get(nCurrentStationId).getLogoUrl())));
+        MediaInfo mediaInfo = new MediaInfo.Builder(radioStations.get(nCurrentStationId).getLowUrl())
+                .setStreamType(MediaInfo.STREAM_TYPE_LIVE)
+                .setContentType(MimeTypes.AUDIO_UNKNOWN)
+                .setMetadata(stationMetadata).build();
 
-            final MediaQueueItem[] mediaItems = {new MediaQueueItem.Builder(mediaInfo).build()};
-            castPlayer.loadItems(mediaItems, 0, C.TIME_UNSET, Player.REPEAT_MODE_OFF);
-            castPlayer.setPlayWhenReady(true);
-        }
+        final MediaQueueItem[] mediaItems = {new MediaQueueItem.Builder(mediaInfo).build()};
+        castPlayer.loadItems(mediaItems, 0, C.TIME_UNSET, Player.REPEAT_MODE_OFF);
+        castPlayer.setPlayWhenReady(true);
+    }
 
 
     private MediaSource buildMediaSource(Uri uri) {
@@ -212,16 +260,16 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
 
         int type = Util.inferContentType(uri);
 
-        switch (type){
+        switch (type) {
             case C.TYPE_SS:
                 SsChunkSource.Factory ssChunkSourceFactory = new DefaultSsChunkSource.Factory(dataSourceFactory);
                 return new SsMediaSource.Factory(ssChunkSourceFactory, dataSourceFactory).createMediaSource(uri);
 
             case C.TYPE_HLS:
-                return new HlsMediaSource.Factory (dataSourceFactory).createMediaSource(uri);
+                return new HlsMediaSource.Factory(dataSourceFactory).createMediaSource(uri);
 
             case C.TYPE_OTHER:
-                return new ExtractorMediaSource.Factory (dataSourceFactory).createMediaSource(uri);
+                return new ExtractorMediaSource.Factory(dataSourceFactory).createMediaSource(uri);
 
             default:
                 throw new IllegalStateException("Unsupported type: " + type);
@@ -229,7 +277,7 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
     }
 
     private void preparePlayer(String url) {
-        if( castContext.getCastState() == CONNECTED) {
+        if (castContext.getCastState() == CONNECTED) {
             setCurrentCastStation();
             return;
         }
@@ -247,7 +295,7 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
             player.release();
             player = null;
         }
-        if(castPlayer != null) {
+        if (castPlayer != null) {
             castPlayer.release();
         }
     }
@@ -262,15 +310,14 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
     public void onBackPressed() {
         //super.onBackPressed();
 
-        if(mProgressDialog != null && mProgressDialog.isShowing())
+        if (mProgressDialog != null && mProgressDialog.isShowing())
             mProgressDialog.dismiss();
 
         new AlertDialog.Builder(this)
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .setTitle("Exit")
                 .setMessage("Do you want to switch off your radio?")
-                .setPositiveButton("Yes", new DialogInterface.OnClickListener()
-                {
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         finish();
@@ -281,8 +328,7 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
                 .show();
     }
 
-    @Override
-    public void processData() {
+    private void processData() {
         listViewAdaptor = new ListViewAdaptor();
         listView.setAdapter(listViewAdaptor);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -296,7 +342,7 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
 
                 int res = audioManager.requestAudioFocus(afChangeListener, AudioManager.STREAM_MUSIC, // Music streaming
                         AudioManager.AUDIOFOCUS_GAIN); // Permanent focus
-                if(res == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
+                if (res == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
                     // Play the audio
                     player.setPlayWhenReady(true);
                 }
@@ -345,9 +391,9 @@ public class MainActivity extends AppCompatActivity implements FileDownloadCallb
             textViewTop.setText(radioStations.get(i).getName());
 
             String line2 = radioStations.get(i).getTag();
-            for(int j = 0; j < radioStations.get(i).getLanguages().size(); j++)
+            for (int j = 0; j < radioStations.get(i).getLanguages().size(); j++)
                 line2 += " | " + radioStations.get(i).getLanguages().get(j);
-            for(int j = 0; j < radioStations.get(i).getGenres().size(); j++)
+            for (int j = 0; j < radioStations.get(i).getGenres().size(); j++)
                 line2 += " | " + radioStations.get(i).getGenres().get(j);
 
             textViewBottom.setText(line2);
