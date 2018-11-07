@@ -240,16 +240,6 @@
       "lang": ["Hindi"]
     },
     {
-      "name": "Retro Bollywood",
-      "tag": "",
-      "low": "http://64.71.79.181:5124/stream",
-      "high": "",
-      "thumb": "http://retrobollywood.com/wp-content/uploads/2017/10/Final-RB-Logo.png",
-      "web": "http://retrobollywood.com",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
-    {
       "name": "Radio City - Classics",
       "tag": "",
       "low": "http://63.143.36.2:8888/HindiClassics?icy=http",
@@ -279,6 +269,16 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
+  {
+    "name": "Retro Bollywood",
+    "tag": "",
+    "low": "http://64.71.79.181:5124/stream",
+    "high": "",
+    "thumb": "http://retrobollywood.com/wp-content/uploads/2017/10/Final-RB-Logo.png",
+    "web": "http://retrobollywood.com",
+    "genre": ["Music"],
+    "lang": ["Hindi"]
+  },
      {
       "name": "Radio Namkeen",
       "tag": "Ek Dumm Zabardast!",
