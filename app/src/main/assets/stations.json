@@ -172,7 +172,7 @@
     {
       "name": "Radio City - Kishor Kumar",
       "tag": "",
-      "low": "http://prclive1.listenon.in:8834/;stream",
+      "low": "http://prclive1.listenon.in:8834",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_kishore.jpg",
       "web": "https://www.radiocity.in",
@@ -240,12 +240,12 @@
       "lang": ["Hindi"]
     },
     {
-      "name": "Radio City - Retro",
+      "name": "Retro Bollywood",
       "tag": "",
       "low": "http://64.71.79.181:5124/stream",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_retro.jpg",
-      "web": "https://www.radiocity.in",
+      "thumb": "http://retrobollywood.com/wp-content/uploads/2017/10/Final-RB-Logo.png",
+      "web": "http://retrobollywood.com",
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
