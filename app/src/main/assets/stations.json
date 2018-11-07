@@ -172,7 +172,7 @@
     {
       "name": "Radio City - Kishor Kumar",
       "tag": "",
-      "low": "http://prclive1.listenon.in:8834",
+      "low": "http://prclive1.listenon.in:8834/;stream",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_kishore.jpg",
       "web": "https://www.radiocity.in",
