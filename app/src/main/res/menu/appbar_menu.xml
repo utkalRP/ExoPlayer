@@ -6,6 +6,7 @@
     <item
         android:id="@+id/menu_cast"
         android:title="Cast"
+        app:showAsAction="always"
         app:actionProviderClass="android.support.v7.app.MediaRouteActionProvider"
         tools:icon="@drawable/mr_button_light" />
 </menu>

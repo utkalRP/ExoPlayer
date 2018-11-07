@@ -213,9 +213,9 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case CastState.NOT_CONNECTED:
                         Toast.makeText(MainActivity.this, "Disconnected from Chromecast", Toast.LENGTH_SHORT).show();
-                        castPlayer.stop();
-                        player.setPlayWhenReady(true);
-                        preparePlayer(radioStations.get(nCurrentStationId).getLowUrl());
+                        //castPlayer.stop();
+                        //player.setPlayWhenReady(true);
+                        //preparePlayer(radioStations.get(nCurrentStationId).getLowUrl());
                         break;
                     case CastState.CONNECTING:
                         Toast.makeText(MainActivity.this, "Please wait, connecting to Chromecast", Toast.LENGTH_SHORT).show();
