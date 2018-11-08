@@ -12,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.MimeTypeMap;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
@@ -203,27 +204,6 @@ public class MainActivity extends AppCompatActivity {
                 new DefaultLoadControl());
 
         castContext = CastContext.getSharedInstance(this);
-        castContext.addCastStateListener(new CastStateListener() {
-            @Override
-            public void onCastStateChanged(int i) {
-
-                switch (i) {
-                    case CastState.CONNECTED:
-                        Toast.makeText(MainActivity.this, "Connected to Chromecast", Toast.LENGTH_SHORT).show();
-                        break;
-                    case CastState.NOT_CONNECTED:
-                        Toast.makeText(MainActivity.this, "Disconnected from Chromecast", Toast.LENGTH_SHORT).show();
-                        //castPlayer.stop();
-                        //player.setPlayWhenReady(true);
-                        //preparePlayer(radioStations.get(nCurrentStationId).getLowUrl());
-                        break;
-                    case CastState.CONNECTING:
-                        Toast.makeText(MainActivity.this, "Please wait, connecting to Chromecast", Toast.LENGTH_SHORT).show();
-                        break;
-                }
-            }
-        });
-        //castContext.setReceiverApplicationId("@string/app_name");
         castPlayer = new CastPlayer(castContext);
         castPlayer.setSessionAvailabilityListener(new CastPlayer.SessionAvailabilityListener() {
             @Override
@@ -234,9 +214,19 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onCastSessionUnavailable() {
-
+                castPlayer.stop();
+                preparePlayer();
             }
         });
+    }
+
+    private static String getMimeType(String url) {
+        String type = null;
+        String extension = MimeTypeMap.getFileExtensionFromUrl(url);
+        if (extension != null) {
+            type = MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension);
+        }
+        return type;
     }
 
     private void setCurrentCastStation() {
@@ -246,21 +236,22 @@ public class MainActivity extends AppCompatActivity {
 
         String genre = "";
         for (int i = 0; i < radioStations.get(nCurrentStationId).getGenres().size(); i++) {
+            String temp = radioStations.get(nCurrentStationId).getGenres().get(i);
             if (genre.isEmpty())
-                genre += radioStations.get(nCurrentStationId).getGenres().get(i);
+                genre += temp;
             else
-                genre += " | " + radioStations.get(nCurrentStationId).getGenres().get(i);
+                genre += " | " + temp;
         }
 
         for (int i = 0; i < radioStations.get(nCurrentStationId).getLanguages().size(); i++) {
+            String temp = radioStations.get(nCurrentStationId).getLanguages().get(i);
             if (genre.isEmpty())
-                genre += radioStations.get(nCurrentStationId).getLanguages().get(i);
+                genre += temp;
             else
-                genre += " | " + radioStations.get(nCurrentStationId).getLanguages().get(i);
+                genre += " | " + temp;
         }
 
         stationMetadata.putString(MediaMetadata.KEY_ARTIST, genre);
-
         stationMetadata.addImage(new WebImage(Uri.parse(radioStations.get(nCurrentStationId).getLogoUrl())));
 
         String url = radioStations.get(nCurrentStationId).getHighUrl();
@@ -273,10 +264,8 @@ public class MainActivity extends AppCompatActivity {
                 .setMetadata(stationMetadata).build();
 
         final MediaQueueItem[] mediaItems = {new MediaQueueItem.Builder(mediaInfo).build()};
-        castPlayer.loadItems(mediaItems, 0, C.TIME_UNSET, Player.REPEAT_MODE_OFF);
-        castPlayer.setPlayWhenReady(true);
+        castPlayer.loadItems(mediaItems, 0, 0, Player.REPEAT_MODE_OFF);
     }
-
 
     private MediaSource buildMediaSource(Uri uri) {
 
@@ -300,18 +289,20 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void preparePlayer(String url) {
+    private void preparePlayer() {
         if (castContext.getCastState() == CONNECTED) {
             setCurrentCastStation();
             return;
         }
 
+        String url = radioStations.get(nCurrentStationId).getHighUrl();
+        if(url.isEmpty())
+            url = radioStations.get(nCurrentStationId).getLowUrl();
+
         Uri uri = Uri.parse(url);
 
         MediaSource mediaSource = buildMediaSource(uri);
         player.prepare(mediaSource, true, false);
-
-
     }
 
     private void releasePlayer() {
@@ -361,11 +352,7 @@ public class MainActivity extends AppCompatActivity {
                 view.setSelected(true);
 
                 nCurrentStationId = i;
-
-                String url = radioStations.get(i).getHighUrl();
-                if(url.isEmpty())
-                    url = radioStations.get(i).getLowUrl();
-                preparePlayer(url);
+                preparePlayer();
 
                 int res = audioManager.requestAudioFocus(afChangeListener, AudioManager.STREAM_MUSIC, // Music streaming
                         AudioManager.AUDIOFOCUS_GAIN); // Permanent focus
@@ -419,21 +406,22 @@ public class MainActivity extends AppCompatActivity {
 
             String line2 = radioStations.get(i).getTag();
             for (int j = 0; j < radioStations.get(i).getLanguages().size(); j++) {
+                String temp = radioStations.get(i).getLanguages().get(j);
                 if(line2.isEmpty())
-                    line2 += radioStations.get(i).getLanguages().get(j);
+                    line2 += temp;
                 else
-                    line2 += " | " + radioStations.get(i).getLanguages().get(j);
+                    line2 += " | " + temp;
             }
 
             for (int j = 0; j < radioStations.get(i).getGenres().size(); j++) {
+                String temp = radioStations.get(i).getGenres().get(j);
                 if(line2.isEmpty())
-                    line2 += radioStations.get(i).getGenres().get(j);
+                    line2 += temp;
                 else
-                    line2 += " | " + radioStations.get(i).getGenres().get(j);
+                    line2 += " | " + temp;
             }
 
             textViewBottom.setText(line2);
-
 
             return view;
         }
