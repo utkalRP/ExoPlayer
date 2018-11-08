@@ -243,8 +243,31 @@ public class MainActivity extends AppCompatActivity {
         MediaMetadata stationMetadata = new MediaMetadata(MediaMetadata.MEDIA_TYPE_MUSIC_TRACK);
         stationMetadata.putString(MediaMetadata.KEY_TITLE, radioStations.get(nCurrentStationId).getName());
         stationMetadata.putString(MediaMetadata.KEY_SUBTITLE, radioStations.get(nCurrentStationId).getTag());
+
+        String genre = "";
+        for (int i = 0; i < radioStations.get(nCurrentStationId).getGenres().size(); i++) {
+            if (genre.isEmpty())
+                genre += radioStations.get(nCurrentStationId).getGenres().get(i);
+            else
+                genre += " | " + radioStations.get(nCurrentStationId).getGenres().get(i);
+        }
+
+        for (int i = 0; i < radioStations.get(nCurrentStationId).getLanguages().size(); i++) {
+            if (genre.isEmpty())
+                genre += radioStations.get(nCurrentStationId).getLanguages().get(i);
+            else
+                genre += " | " + radioStations.get(nCurrentStationId).getLanguages().get(i);
+        }
+
+        stationMetadata.putString(MediaMetadata.KEY_ARTIST, genre);
+
         stationMetadata.addImage(new WebImage(Uri.parse(radioStations.get(nCurrentStationId).getLogoUrl())));
-        MediaInfo mediaInfo = new MediaInfo.Builder(radioStations.get(nCurrentStationId).getLowUrl())
+
+        String url = radioStations.get(nCurrentStationId).getHighUrl();
+        if(url.isEmpty())
+            url = radioStations.get(nCurrentStationId).getLowUrl();
+
+        MediaInfo mediaInfo = new MediaInfo.Builder(url)
                 .setStreamType(MediaInfo.STREAM_TYPE_LIVE)
                 .setContentType(MimeTypes.AUDIO_UNKNOWN)
                 .setMetadata(stationMetadata).build();
@@ -339,7 +362,10 @@ public class MainActivity extends AppCompatActivity {
 
                 nCurrentStationId = i;
 
-                preparePlayer(radioStations.get(i).getLowUrl());
+                String url = radioStations.get(i).getHighUrl();
+                if(url.isEmpty())
+                    url = radioStations.get(i).getLowUrl();
+                preparePlayer(url);
 
                 int res = audioManager.requestAudioFocus(afChangeListener, AudioManager.STREAM_MUSIC, // Music streaming
                         AudioManager.AUDIOFOCUS_GAIN); // Permanent focus
@@ -392,10 +418,19 @@ public class MainActivity extends AppCompatActivity {
             textViewTop.setText(radioStations.get(i).getName());
 
             String line2 = radioStations.get(i).getTag();
-            for (int j = 0; j < radioStations.get(i).getLanguages().size(); j++)
-                line2 += " | " + radioStations.get(i).getLanguages().get(j);
-            for (int j = 0; j < radioStations.get(i).getGenres().size(); j++)
-                line2 += " | " + radioStations.get(i).getGenres().get(j);
+            for (int j = 0; j < radioStations.get(i).getLanguages().size(); j++) {
+                if(line2.isEmpty())
+                    line2 += radioStations.get(i).getLanguages().get(j);
+                else
+                    line2 += " | " + radioStations.get(i).getLanguages().get(j);
+            }
+
+            for (int j = 0; j < radioStations.get(i).getGenres().size(); j++) {
+                if(line2.isEmpty())
+                    line2 += radioStations.get(i).getGenres().get(j);
+                else
+                    line2 += " | " + radioStations.get(i).getGenres().get(j);
+            }
 
             textViewBottom.setText(line2);
 
