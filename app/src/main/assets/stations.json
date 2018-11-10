@@ -474,8 +474,8 @@
       "tag": "Radio Bolly FM",
       "low": "http://64.71.79.181:8201/stream",
       "high": "http://64.71.79.181:8201/hd",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "web": "",
+      "thumb": "http://www.radiobollyfm.in/templates/web/img/logo.png",
+      "web": "http://www.radiobollyfm.in",
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
@@ -489,6 +489,26 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
+     {
+      "name": "Akash Vani Radio",
+      "tag": "",
+      "low": "http://51.255.235.165:5484/stream",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Mehefil Radio",
+      "tag": "",
+      "low": "http://mehefil.no-ip.com/mehefil",
+      "high": "",
+      "thumb": "http://www.mehfilmedia.ca/images/mehfil.png",
+      "web": "http://www.mehfilmedia.ca",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },  
     {
       "name": "BBC World Service",
       "tag": "",
