@@ -144,9 +144,29 @@
       "tag": "Let's Nuke It",
       "low": "http://live.nukeradio.com:8004/stream3;",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/nuke_radio.png",
+      "thumb": "https://nukeradio.com/wp-content/uploads/2018/03/Nuke-Hindi.png",
       "web": "",
       "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Nuke Hindi Old Hits",
+      "tag": "Let's Nuke It",
+      "low": "http://5.135.188.92:8016/stream3;",
+      "high": "",
+      "thumb": "https://nukeradio.com/wp-content/uploads/2018/03/Hindi-OldHits.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Nuke Devotional",
+      "tag": "Let's Nuke It",
+      "low": "http://5.135.188.92:8008/stream3;",
+      "high": "",
+      "thumb": "https://nukeradio.com/wp-content/uploads/edd/2018/04/Devotional.jpg",
+      "web": "",
+      "genre": ["Devotional"],
       "lang": ["Hindi"]
     },
     {
@@ -289,6 +309,96 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
+    {
+      "name": "Gaana - Mirchi Top 20",
+      "tag": "",
+      "low": "https://mt20live-lh.akamaihd.net/i/mt20live_1@346531/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/18.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Campus Radio",
+      "tag": "",
+      "low": "https://campusradio-lh.akamaihd.net/i/CampusRadio_1@425040/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/19.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Meethi Mirchi",
+      "tag": "",
+      "low": "https://meethimirchihdl-lh.akamaihd.net/i/MeethiMirchiHDLive_1_1@320572/mster.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/2.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Hindi Retro",
+      "tag": "",
+      "low": "https://puranijeanshdliv-lh.akamaihd.net/i/PuraniJeansHDLive_1_1@334555/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/3.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Filmy Mirchi",
+      "tag": "",
+      "low": "https://filmymirchihdliv-lh.akamaihd.net/i/FilmyMirchiHDLive_1_1@336266/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/9.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Mirchi 90's Radio",
+      "tag": "",
+      "low": "https://pehlanashahdlive-lh.akamaihd.net/i/PehlaNashaHDLive_1_1@335229/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/10.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Club Mirchi",
+      "tag": "",
+      "low": "https://clubmirchihdlive-lh.akamaihd.net/i/ClubMirchiHDLive_1_1@336269/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/5.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Pehla Nasha",
+      "tag": "",
+      "low": "https://wmirchi-lh.akamaihd.net/i/WMIRCHI_1@75780/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/8.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Devotional"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Devraag Radio",
+      "tag": "",
+      "low": "https://devraaghdlive-lh.akamaihd.net/i/DevraagHDLive_1_1@336268/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/15.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
     {
       "name": "Hungama - Hot Now Bollywood",
       "tag": "",
@@ -618,5 +728,15 @@
       "web": "http://www.2bradioindia.com",
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
+    },
+    {
+      "name": "Times Now",
+      "tag": "",
+      "low": "https://timeslive.live-s.cdn.bitgravity.com/cdn-live/_definst_/timeslive/alias/timesnowaudio/playlist.m3u8",
+      "high": "",
+      "thumb": "https://img.timesnownews.com/1539697709-TimesNow.jpg",
+      "web": "",
+      "genre": ["News"],
+      "lang": ["English"]
     }
  ]
