@@ -373,9 +373,9 @@
       "name": "Hungama - Bhakti Sagar",
       "tag": "",
       "low": "http://103.16.47.70:7777/;stream.nsv",
-      "high": "http://www.hungama.com",
+      "high": "",
       "thumb": "https://d368qv66y0shpj.cloudfront.net/featured_content/eaa02847fc63e217fd8202d0e122ceaa_200x200.jpg",
-      "web": "",
+      "web": "http://www.hungama.com",
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
     },
