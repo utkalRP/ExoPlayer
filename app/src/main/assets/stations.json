@@ -744,7 +744,17 @@
       "tag": "",
      "low": "https://freedailyiptv.com/links/12-11-2018/World_freedailyiptv.com.m3u",
       "high": "",
-      "thumb": "https://img.timesnownews.com/1539697709-TimesNow.jpg",
+      "thumb": "",
+      "web": "",
+      "genre": ["News"],
+      "lang": ["English"]
+    },    
+    {
+      "name": "iptv",
+      "tag": "",
+     "low": "http://playlist.autoiptv.net/normal.php",
+      "high": "",
+      "thumb": "",
       "web": "",
       "genre": ["News"],
       "lang": ["English"]
