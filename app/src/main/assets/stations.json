@@ -742,7 +742,7 @@
     {
       "name": "iptv",
       "tag": "",
-     low: "https://freedailyiptv.com/links/12-11-2018/World_freedailyiptv.com.m3u",
+     "low": "https://freedailyiptv.com/links/12-11-2018/World_freedailyiptv.com.m3u",
       "high": "",
       "thumb": "https://img.timesnownews.com/1539697709-TimesNow.jpg",
       "web": "",
