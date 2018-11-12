@@ -758,5 +758,15 @@
       "web": "",
       "genre": ["News"],
       "lang": ["English"]
+    },
+    {
+        "name": "iptv",
+      "tag": "",
+     "low": "http://tvpremiumhd.club/lista-gratuita/213631/on/live.php?id=live.netd.com.tr/S1/HLS_LIVE/dreamtv/1000/prog_index.m3u8",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["News"],
+      "lang": ["English"]
     }
     ]
