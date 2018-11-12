@@ -742,27 +742,7 @@
     {
       "name": "iptv",
       "tag": "",
-     "low": "https://freedailyiptv.com/links/12-11-2018/World_freedailyiptv.com.m3u",
-      "high": "",
-      "thumb": "",
-      "web": "",
-      "genre": ["News"],
-      "lang": ["English"]
-    },    
-    {
-      "name": "iptv",
-      "tag": "",
-     "low": "http://91.17.173.156:9981/playlist",
-      "high": "",
-      "thumb": "",
-      "web": "",
-      "genre": ["News"],
-      "lang": ["English"]
-    },
-    {
-        "name": "iptv",
-      "tag": "",
-     "low": "http://tvpremiumhd.club/lista-gratuita/213631/on/live.php?id=live.netd.com.tr/S1/HLS_LIVE/dreamtv/1000/prog_index.m3u8",
+     "low": "http://z5ams.akamaized.net/zeetvhd/tracks-v1a1/index.m3u8",
       "high": "",
       "thumb": "",
       "web": "",
