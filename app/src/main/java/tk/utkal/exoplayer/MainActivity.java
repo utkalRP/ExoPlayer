@@ -208,12 +208,14 @@ public class MainActivity extends AppCompatActivity {
         castPlayer.setSessionAvailabilityListener(new CastPlayer.SessionAvailabilityListener() {
             @Override
             public void onCastSessionAvailable() {
+                Toast.makeText(MainActivity.this, "Cast session available", Toast.LENGTH_SHORT).show();
                 player.stop(true);
                 setCurrentCastStation();
             }
 
             @Override
             public void onCastSessionUnavailable() {
+                Toast.makeText(MainActivity.this, "Cast session unavailable", Toast.LENGTH_SHORT).show();
                 castPlayer.stop();
                 preparePlayer();
             }
@@ -264,6 +266,7 @@ public class MainActivity extends AppCompatActivity {
                 .setMetadata(stationMetadata).build();
 
         final MediaQueueItem[] mediaItems = {new MediaQueueItem.Builder(mediaInfo).build()};
+        castPlayer.setPlayWhenReady(true);
         castPlayer.loadItems(mediaItems, 0, 0, Player.REPEAT_MODE_OFF);
     }
 
