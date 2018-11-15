@@ -62,6 +62,8 @@ public class MusicPlayerService extends Service {
             audioManager = (AudioManager) this.getSystemService(Context.AUDIO_SERVICE);
             afChangeListener = new AudioManager.OnAudioFocusChangeListener() {
                 public void onAudioFocusChange(int focusChange) {
+                    if(player == null)
+                        return;
                     if (focusChange == AudioManager.AUDIOFOCUS_LOSS) {
                         // Permanent loss of audio focus
                         player.stop();
