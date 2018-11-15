@@ -5,7 +5,6 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -25,15 +24,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
 import com.bumptech.glide.Glide;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.ext.cast.CastPlayer;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.gms.cast.MediaInfo;
-import com.google.android.gms.cast.MediaMetadata;
-import com.google.android.gms.cast.MediaQueueItem;
 import com.google.android.gms.cast.framework.CastButtonFactory;
-import com.google.android.gms.cast.framework.CastContext;
-import com.google.android.gms.common.images.WebImage;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -41,10 +32,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-import static com.google.android.gms.cast.framework.CastState.CONNECTED;
-
 public class MainActivity extends AppCompatActivity {
-
 
     ListView listView;
     ListViewAdaptor listViewAdaptor;
@@ -52,18 +40,10 @@ public class MainActivity extends AppCompatActivity {
     int nCurrentStationId;
     private ArrayList<RadioStation> radioStations = new ArrayList<RadioStation>();
 
-    private CastContext castContext;
-    private CastPlayer castPlayer;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        //Create and initialize the player
-        createAndInitializeCastWidget();
-
-        listView = (ListView) findViewById(R.id.listView);
 
         mProgressDialog = new ProgressDialog(MainActivity.this);
         mProgressDialog.setCancelable(false);
@@ -72,27 +52,14 @@ public class MainActivity extends AppCompatActivity {
         mProgressDialog.show();
 
         RequestQueue queue = Volley.newRequestQueue(this);
-
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, getString(R.string.json_url), null, new Response.Listener<JSONArray>() {
             @Override
             public void onResponse(JSONArray response) {
-                String name = "";
-                String tag = "";
-                String low = "";
-                String high = "";
-                String thumb = "";
-                String web = "";
                 ArrayList<String> languages = new ArrayList<String>();
                 ArrayList<String> genres = new ArrayList<String>();
                 try {
                     for (int i = 0; i < response.length(); i++) {
                         JSONObject channel = (JSONObject) response.get(i);
-                        name = (String) channel.get("name");
-                        tag = (String) channel.get("tag");
-                        low = (String) channel.get("low");
-                        high = (String) channel.get("high");
-                        thumb = (String) channel.get("thumb");
-                        web = (String) channel.get("web");
 
                         genres.clear();
                         languages.clear();
@@ -107,15 +74,24 @@ public class MainActivity extends AppCompatActivity {
                             languages.add(jsonLang.getString(j));
                         }
 
-                        RadioStation station = new RadioStation(name, tag, low, high, thumb, web, languages, genres);
+                        RadioStation station = new RadioStation(
+                                (String) channel.get("name"),
+                                (String) channel.get("tag"),
+                                (String) channel.get("low"),
+                                (String) channel.get("high"),
+                                (String) channel.get("thumb"),
+                                (String) channel.get("web"),
+                                languages, genres);
+
                         radioStations.add(station);
                     }
 
+                    //Set the listview adaptor
+                    listView.setAdapter(listViewAdaptor);
+
+                    //Dismiss the progress dialog
                     if (mProgressDialog != null && mProgressDialog.isShowing())
                         mProgressDialog.dismiss();
-
-                    processData();
-
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -129,7 +105,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Add the Volley request to queue
         queue.add(jsonArrayRequest);
+
+        //Prepare the listview
+        listView = (ListView) findViewById(R.id.listView);
+        listViewAdaptor = new ListViewAdaptor();
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                view.setSelected(true);
+                nCurrentStationId = i;
+                StartService();
+            }
+        });
     }
 
     @Override
@@ -152,33 +142,20 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void createAndInitializeCastWidget() {
-
-        castContext = CastContext.getSharedInstance(this);
-        castPlayer = new CastPlayer(castContext);
-        castPlayer.setSessionAvailabilityListener(new CastPlayer.SessionAvailabilityListener() {
-            @Override
-            public void onCastSessionAvailable() {
-                StopService();
-                setCurrentCastStation();
-            }
-
-            @Override
-            public void onCastSessionUnavailable() {
-                castPlayer.stop();
-                StartService();
-            }
-        });
-    }
-
     private void StartService() {
         Intent intent = new Intent(MainActivity.this, MusicPlayerService.class);
 
         String url = radioStations.get(nCurrentStationId).getHighUrl();
-        if(url.isEmpty())
+        if (url.isEmpty())
             url = radioStations.get(nCurrentStationId).getLowUrl();
 
-        intent.putExtra("curStationId", url);
+        intent.putStringArrayListExtra("genre", radioStations.get(nCurrentStationId).getGenres());
+        intent.putStringArrayListExtra("lang", radioStations.get(nCurrentStationId).getLanguages());
+        intent.putExtra("url", url);
+        intent.putExtra("name", radioStations.get(nCurrentStationId).getName());
+        intent.putExtra("tag", radioStations.get(nCurrentStationId).getTag());
+        intent.putExtra("logo", radioStations.get(nCurrentStationId).getLogoUrl());
+
         startService(intent);
     }
 
@@ -187,52 +164,11 @@ public class MainActivity extends AppCompatActivity {
         stopService(intent);
     }
 
-    private void setCurrentCastStation() {
-        MediaMetadata stationMetadata = new MediaMetadata(MediaMetadata.MEDIA_TYPE_MUSIC_TRACK);
-        stationMetadata.putString(MediaMetadata.KEY_TITLE, radioStations.get(nCurrentStationId).getName());
-        stationMetadata.putString(MediaMetadata.KEY_SUBTITLE, radioStations.get(nCurrentStationId).getTag());
-
-        String genre = "";
-        for (int i = 0; i < radioStations.get(nCurrentStationId).getGenres().size(); i++) {
-            String temp = radioStations.get(nCurrentStationId).getGenres().get(i);
-            if (genre.isEmpty())
-                genre += temp;
-            else
-                genre += " | " + temp;
-        }
-
-        for (int i = 0; i < radioStations.get(nCurrentStationId).getLanguages().size(); i++) {
-            String temp = radioStations.get(nCurrentStationId).getLanguages().get(i);
-            if (genre.isEmpty())
-                genre += temp;
-            else
-                genre += " | " + temp;
-        }
-
-        stationMetadata.putString(MediaMetadata.KEY_ARTIST, genre);
-        stationMetadata.addImage(new WebImage(Uri.parse(radioStations.get(nCurrentStationId).getLogoUrl())));
-
-        String url = radioStations.get(nCurrentStationId).getHighUrl();
-        if(url.isEmpty())
-            url = radioStations.get(nCurrentStationId).getLowUrl();
-
-        MediaInfo mediaInfo = new MediaInfo.Builder(url)
-                .setStreamType(MediaInfo.STREAM_TYPE_LIVE)
-                .setContentType(MimeTypes.AUDIO_UNKNOWN)
-                .setMetadata(stationMetadata).build();
-
-        final MediaQueueItem[] mediaItems = {new MediaQueueItem.Builder(mediaInfo).build()};
-        castPlayer.setPlayWhenReady(true);
-        castPlayer.loadItems(mediaItems, 0, 0, Player.REPEAT_MODE_OFF);
-    }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
         StopService();
-        if (castPlayer != null) {
-            castPlayer.release();
-        }
     }
 
     @Override
@@ -255,25 +191,6 @@ public class MainActivity extends AppCompatActivity {
                 })
                 .setNegativeButton("No", null)
                 .show();
-    }
-
-    private void processData() {
-        listViewAdaptor = new ListViewAdaptor();
-        listView.setAdapter(listViewAdaptor);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                view.setSelected(true);
-                nCurrentStationId = i;
-
-                if (castContext.getCastState() == CONNECTED) {
-                    setCurrentCastStation();
-                }
-                else {
-                    StartService();
-                }
-            }
-        });
     }
 
     class ListViewAdaptor extends BaseAdapter {
@@ -315,7 +232,7 @@ public class MainActivity extends AppCompatActivity {
             String line2 = radioStations.get(i).getTag();
             for (int j = 0; j < radioStations.get(i).getLanguages().size(); j++) {
                 String temp = radioStations.get(i).getLanguages().get(j);
-                if(line2.isEmpty())
+                if (line2.isEmpty())
                     line2 += temp;
                 else
                     line2 += " | " + temp;
@@ -323,7 +240,7 @@ public class MainActivity extends AppCompatActivity {
 
             for (int j = 0; j < radioStations.get(i).getGenres().size(); j++) {
                 String temp = radioStations.get(i).getGenres().get(j);
-                if(line2.isEmpty())
+                if (line2.isEmpty())
                     line2 += temp;
                 else
                     line2 += " | " + temp;
