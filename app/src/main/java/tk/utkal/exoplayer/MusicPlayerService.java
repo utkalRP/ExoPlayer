@@ -53,27 +53,10 @@ public class MusicPlayerService extends Service {
     private CastPlayer castPlayer;
     PowerManager.WakeLock wakeLock;
 
-    ArrayList<String> stationLanguages = new ArrayList<String>();
-    ArrayList<String> stationGenres = new ArrayList<String>();
-    String stationName, stationTag, stationUrl, stationLogo;
+    String stationName, stationTag, stationUrl, stationLogo, stationGenreLang;
 
     public MusicPlayerService() {
-        castContext = CastContext.getSharedInstance(this);
-        castPlayer = new CastPlayer(castContext);
-        castPlayer.setSessionAvailabilityListener(new CastPlayer.SessionAvailabilityListener() {
-            @Override
-            public void onCastSessionAvailable() {
-                player.stop();
-                setCurrentCastStation();
-            }
 
-            @Override
-            public void onCastSessionUnavailable() {
-                castPlayer.stop();
-                //preparePlayer();
-            }
-        });
-        Log.d("utkal","MusicPlayerService::constructor");
     }
 
     @Override
@@ -87,6 +70,22 @@ public class MusicPlayerService extends Service {
     public void onCreate() {
         super.onCreate();
 
+        castContext = CastContext.getSharedInstance(this);
+        castPlayer = new CastPlayer(castContext);
+        castPlayer.setSessionAvailabilityListener(new CastPlayer.SessionAvailabilityListener() {
+            @Override
+            public void onCastSessionAvailable() {
+                player.stop();
+                setCurrentCastStation();
+            }
+
+            @Override
+            public void onCastSessionUnavailable() {
+                castPlayer.stop();
+                preparePlayer();
+            }
+        });
+        
         //Acquire the wake-lock
         PowerManager powerManager = (PowerManager) getSystemService(Context.POWER_SERVICE);
         wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "ExoPlayer::WakelockTag");
@@ -138,8 +137,8 @@ public class MusicPlayerService extends Service {
         stationTag = intent.getStringExtra("tag");
         stationLogo = intent.getStringExtra("logo");
         stationUrl = intent.getStringExtra("url");
-        stationGenres.addAll(intent.getStringArrayListExtra("genre"));
-        stationLanguages.addAll(intent.getStringArrayListExtra("lang"));
+        stationGenreLang = intent.getStringExtra("genre_lang");
+
 
         if (castContext.getCastState() == CONNECTED) {
             setCurrentCastStation();
@@ -203,25 +202,7 @@ public class MusicPlayerService extends Service {
         MediaMetadata stationMetadata = new MediaMetadata(MediaMetadata.MEDIA_TYPE_MUSIC_TRACK);
         stationMetadata.putString(MediaMetadata.KEY_TITLE, stationName);
         stationMetadata.putString(MediaMetadata.KEY_SUBTITLE, stationTag);
-
-        String genre = "";
-        for (int i = 0; i < stationGenres.size(); i++) {
-            String temp = stationGenres.get(i);
-            if (genre.isEmpty())
-                genre += temp;
-            else
-                genre += " | " + temp;
-        }
-
-        for (int i = 0; i < stationLanguages.size(); i++) {
-            String temp = stationLanguages.get(i);
-            if (genre.isEmpty())
-                genre += temp;
-            else
-                genre += " | " + temp;
-        }
-
-        stationMetadata.putString(MediaMetadata.KEY_ARTIST, genre);
+        stationMetadata.putString(MediaMetadata.KEY_ARTIST, stationGenreLang);
         stationMetadata.addImage(new WebImage(Uri.parse(stationLogo)));
 
         MediaInfo mediaInfo = new MediaInfo.Builder(stationUrl)

@@ -149,12 +149,28 @@ public class MainActivity extends AppCompatActivity {
         if (url.isEmpty())
             url = radioStations.get(nCurrentStationId).getLowUrl();
 
-        intent.putStringArrayListExtra("genre", radioStations.get(nCurrentStationId).getGenres());
-        intent.putStringArrayListExtra("lang", radioStations.get(nCurrentStationId).getLanguages());
+        String genre_lang = "";
+        for (int i = 0; i < radioStations.get(nCurrentStationId).getGenres().size(); i++) {
+            String temp = radioStations.get(nCurrentStationId).getGenres().get(i);
+            if (genre_lang.isEmpty())
+                genre_lang += temp;
+            else
+                genre_lang += " | " + temp;
+        }
+
+        for (int i = 0; i < radioStations.get(nCurrentStationId).getLanguages().size(); i++) {
+            String temp = radioStations.get(nCurrentStationId).getLanguages().get(i);
+            if (genre_lang.isEmpty())
+                genre_lang += temp;
+            else
+                genre_lang += " | " + temp;
+        }
+
         intent.putExtra("url", url);
         intent.putExtra("name", radioStations.get(nCurrentStationId).getName());
         intent.putExtra("tag", radioStations.get(nCurrentStationId).getTag());
         intent.putExtra("logo", radioStations.get(nCurrentStationId).getLogoUrl());
+        intent.putExtra("genre_lang", genre_lang);
 
         startService(intent);
     }
