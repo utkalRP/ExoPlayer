@@ -728,25 +728,5 @@
       "web": "http://www.2bradioindia.com",
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
-    },
-    {
-      "name": "Times Now",
-      "tag": "",
-      "low": "https://timeslive.live-s.cdn.bitgravity.com/cdn-live/_definst_/timeslive/alias/timesnowaudio/playlist.m3u8",
-      "high": "",
-      "thumb": "https://img.timesnownews.com/1539697709-TimesNow.jpg",
-      "web": "",
-      "genre": ["News"],
-      "lang": ["English"]
-    },    
-    {
-      "name": "iptv",
-      "tag": "",
-     "low": "http://z5ams.akamaized.net/zeetvhd/tracks-v1a1/index.m3u8",
-      "high": "",
-      "thumb": "",
-      "web": "",
-      "genre": ["News"],
-      "lang": ["English"]
     }
     ]
