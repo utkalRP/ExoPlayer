@@ -26,7 +26,7 @@
       "slogan": "Odisha's first internet radio",
       "streamLow": "http://onair.odiaradio.com:8080/listen",
       "streamHigh": "",
-      "logoLow": "https://mytuner.global.ssl.fastly.net/media/tvos_radios/TbDetPbqW5.png",
+      "logoLow": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/odia_radio.png",
       "logoHigh": "",
       "www": "http://odiaradio.com",
       "genre": ["Music"],
