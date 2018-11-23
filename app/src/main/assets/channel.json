@@ -4,8 +4,8 @@
       "slogan": "Ethara Jamila",
       "streamLow": "http://sarthakfm.out.airtime.pro:8000/sarthakfm_a",
       "streamHigh": "http://sarthakfm.out.airtime.pro:8000/sarthakfm_b",
-      "logoLow": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sarthak_fm.png",
-      "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sarthak_fm.png",
+      "logoLow": "http://sarthakfm.com/WEFiles/Image/WEImage/91-9%20Sarthak%20FM-Odia-WE77241dcddf.png",
+      "logoHigh": "http://sarthakfm.com/Files/Image/desktop_2.jpg",
       "www": "http://sarthakfm.com",
       "genre": ["Music"],
       "lang": ["Odia"]
@@ -15,8 +15,8 @@
       "slogan": "Music..Oo..la..la!",
       "streamLow": "http://radiodisha.out.airtime.pro:8000/radiodisha_a",
       "streamHigh": "http://radiodisha.out.airtime.pro:8000/radiodisha_b",
-      "logoLow": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_odisha.png",
-      "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_odisha.png",
+      "logoLow": "https://lh3.googleusercontent.com/YGO9RuYGk1aTPQJzyZna9IszDQwKT2ydNqtt701QysrA7wRuAhNJa7HJa3PIsULvyA=s180-rw",
+      "logoHigh": "https://scontent.fhyd2-1.fna.fbcdn.net/v/t31.0-8/24955745_1452441488197657_92051844398312641_o.jpg?_nc_cat=105&_nc_ht=scontent.fhyd2-1.fna&oh=caa06e5a71edabf8500cf48ae5a04944&oe=5C76770D",
       "www": "http://radiodisha.com",
       "genre": ["Music"],
       "lang": ["Odia"]
@@ -26,8 +26,8 @@
       "slogan": "Odisha's first internet radio",
       "streamLow": "http://onair.odiaradio.com:8080/listen",
       "streamHigh": "",
-      "logoLow": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/odia_radio.png",
-      "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/odia_radio.png",
+      "logoLow": "https://mytuner.global.ssl.fastly.net/media/tvos_radios/TbDetPbqW5.png",
+      "logoHigh": "",
       "www": "http://odiaradio.com",
       "genre": ["Music"],
       "lang": ["Odia"]
@@ -37,8 +37,8 @@
       "slogan": "Dhum Mitha",
       "streamLow": "http://192.64.80.222:5555/;stream",
       "streamHigh": "",
-      "logoLow": "https://yt3.ggpht.com/a-/AN66SAys0vCa0bPPBCAcDK4UKtpnlfZOyqvhlpaypg=s900-mo-c-c0xffffffff-rj-k-no",
-      "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_live.jpg",
+      "logoLow": "http://radiochoklateonline.com/wp-content/uploads/2015/11/logo.png",
+      "logoHigh": "https://yt3.ggpht.com/a-/AN66SAys0vCa0bPPBCAcDK4UKtpnlfZOyqvhlpaypg=s900-mo-c-c0xffffffff-rj-k-no",
       "www": "http://radiochoklateonline.com",
       "genre": ["Music"],
       "lang": ["Odia"]
