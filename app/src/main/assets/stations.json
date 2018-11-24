@@ -618,7 +618,27 @@
       "web": "http://www.mehfilmedia.ca",
       "genre": ["Music"],
       "lang": ["Hindi"]
-    },  
+    },
+    {
+      "name": "Abee Radio",
+      "tag": "Abee kinda music",
+      "low": "http://50.7.99.163:16182/;",
+      "high": "",
+      "thumb": "http://nebula.wsimg.com/f89412b47eef62e1cd780b4cf75a2de5?AccessKeyId=811428081F562FFE0C7D&disposition=0&alloworigin=1",
+      "web": "http://www.abeeradio.com/",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Indifun Radio",
+      "tag": "",
+      "low": "http://198.23.135.225:7000",
+      "high": "",
+      "thumb": "http://indifun.net/wp-content/uploads/2018/03/logo_indifun_transparent_play-up_IFblack.png",
+      "web": "http://indifun.net",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
     {
       "name": "BBC World Service",
       "tag": "",
