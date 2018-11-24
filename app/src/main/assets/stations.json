@@ -632,7 +632,7 @@
     {
       "name": "Indifun Radio",
       "tag": "",
-      "low": "http://198.23.135.225:7000",
+      "low": "http://198.23.135.225:7000/;",
       "high": "",
       "thumb": "http://indifun.net/wp-content/uploads/2018/03/logo_indifun_transparent_play-up_IFblack.png",
       "web": "http://indifun.net",
