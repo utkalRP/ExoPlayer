@@ -680,6 +680,16 @@
       "lang": ["Hindi"]
     },
     {
+      "name": "Times Now Radio",
+      "tag": "",
+      "low": "https://timesnow-lh.akamaihd.net/i/TNA_1@129288/master.m3u8",
+      "high": "",
+      "thumb": "https://img.timesnownews.com/1539697709-TimesNow.jpg",
+      "web": "http://www.timesnownews.com",
+      "genre": ["News"],
+      "lang": ["English"]
+    },
+    {
       "name": "Bhakti Radio",
       "tag": "Bhakti Radio",
       "low": "http://67.212.165.106:8191/;",
