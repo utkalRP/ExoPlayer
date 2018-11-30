@@ -1,6 +1,6 @@
 {
   "music":[
-    {"id":"1",
+    { "id":"1",
       "title": "91.9 Sarthak FM",
       "slogan": "Ethara Jamila",
       "source": "http://sarthakfm.out.airtime.pro:8000/sarthakfm_a",
@@ -12,9 +12,9 @@
       "lang": "Odia",
      "trackNumber": 6,
       "totalTrackCount": 9,
-      "duration": 104,
+      "duration": 104
     },
-    {"id":"2",
+    { "id":"2",
 
       "title": "98.3 Radio Odisha",
       "slogan": "Music..Oo..la..la!",
@@ -27,7 +27,7 @@
       "lang": "Odia",
      "trackNumber": 6,
       "totalTrackCount": 9,
-      "duration": 104,
+      "duration": 104
     }
     ]
 }
