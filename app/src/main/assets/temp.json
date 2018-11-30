@@ -1,5 +1,6 @@
-[
-    {
+{"id":"",
+  "music":[
+    {"id":"1",
       "title": "91.9 Sarthak FM",
       "slogan": "Ethara Jamila",
       "source": "http://sarthakfm.out.airtime.pro:8000/sarthakfm_a",
@@ -10,7 +11,8 @@
       "genre": ["Music"],
       "lang": ["Odia"]
     },
-    {
+    {"id":"2",
+
       "title": "98.3 Radio Odisha",
       "slogan": "Music..Oo..la..la!",
       "source": "http://radiodisha.out.airtime.pro:8000/radiodisha_a",
@@ -21,7 +23,8 @@
       "genre": ["Music"],
       "lang": ["Odia"]
     },
-    {
+    {"id":"3",
+
       "title": "Odia Radio",
       "slogan": "Odisha's first internet radio",
       "source": "http://onair.odiaradio.com:8080/listen",
@@ -32,7 +35,8 @@
       "genre": ["Music"],
       "lang": ["Odia"]
     },
-    {
+    {"id":"4",
+
       "title": "Radio Chocolate - Live",
       "slogan": "Dhum Mitha",
       "source": "http://192.64.80.222:5555/;stream",
@@ -43,7 +47,7 @@
       "genre": ["Music"],
       "lang": ["Odia"]
     },
-    {
+    {"id":"5",
       "title": "Radio Chocolate - Bhakti",
       "slogan": "",
       "source": "http://192.64.80.219:7598/IYW$mKmn#$q1",
@@ -54,7 +58,7 @@
       "genre": ["Music"],
       "lang": ["Odia"]
     },
-    {
+    {"id":"6",
       "title": "Radio Chocolate - Story Station",
       "slogan": "",
       "source": "http://216.158.233.133:2379/*UL*Ns3AYN6n",
@@ -65,7 +69,7 @@
       "genre": ["Talk"],
       "lang": ["Odia"]
     },
-    {
+    {"id":"7",
       "title": "Radio Chocolate - Nataka",
       "slogan": "",
       "source": "http://192.64.80.221:5839/Po8^w7*VMWYx",
@@ -76,7 +80,7 @@
       "genre": ["Talk"],
       "lang": ["Odia"]
     },
-    {
+    {"id":"8",
       "title": "Radio Chocolate - Maja Katha",
       "slogan": "",
       "source": "http://192.64.80.220:8673/2N$^hTW7Krkg",
@@ -87,7 +91,7 @@
       "genre": ["Talk"],
       "lang": ["Odia"]
     },
-    {
+    {"id":"9",
       "title": "Radio Chocolate - Love Station",
       "slogan": "",
       "source": "http://216.158.233.134:8592/329ojEcwo$t@",
@@ -98,7 +102,7 @@
       "genre": ["Talk"],
       "lang": ["Odia"]
     },
-    {
+    {"id":"10",
       "title": "AMA Radio",
       "slogan": "Ask me anything",
       "source": "http://192.240.102.3:8922/;",
@@ -109,7 +113,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"11",
       "title": "Radio Bhubaneswar",
       "slogan": "24x7 Online Odia FM",
       "source": "http://216.158.228.76:8000/airtime_128",
@@ -120,7 +124,7 @@
       "genre": ["Music"],
       "lang": ["Odia"]
     },
-    {
+    {"id":"12",
       "title": "AIR Odia",
       "slogan": "Akashvani Cuttack",
       "source": "http://airodiya-lh.akamaihd.net/i/airodiya_1@528056/master.m3u8",
@@ -131,7 +135,7 @@
       "genre": ["Talk", "News", "Music"],
       "lang": ["Odia"]
     },
-    {
+    {"id":"13",
       "title": "AIR Vividh Bharti",
       "slogan": "",
       "source": "http://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/master.m3u8",
@@ -142,7 +146,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"14",
       "title": "AIR FM Gold",
       "slogan": "",
       "source": "http://airfmgold-lh.akamaihd.net/i/fmgold_1@507591/master.m3u8",
@@ -153,7 +157,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"15",
       "title": "Nuke Radio Hindi",
       "slogan": "Let's Nuke It",
       "source": "http://live.nukeradio.com:8004/stream3;",
@@ -164,7 +168,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"16",
       "title": "Nuke Hindi Old Hits",
       "slogan": "Let's Nuke It",
       "source": "http://5.135.188.92:8016/stream3;",
@@ -175,7 +179,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"17",
       "title": "Nuke Devotional",
       "slogan": "Let's Nuke It",
       "source": "http://5.135.188.92:8008/stream3;",
@@ -186,7 +190,7 @@
       "genre": ["Devotional"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"18",
       "title": "Radio Noida 107.4 FM – Community Radio",
       "slogan": "",
       "source": "http://180.151.226.202:8000/;?icy=http",
@@ -197,7 +201,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"19",
       "title": "Non Stop Hindi",
       "slogan": "",
       "source": "http://s5.voscast.com:8216/;?icy=http",
@@ -208,7 +212,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"20",
       "title": "Radio City - Kishor Kumar",
       "slogan": "",
       "source": "http://prclive1.listenon.in:8834",
@@ -219,7 +223,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"21",
       "title": "Radio City - Asha Bhosle",
       "slogan": "",
       "source": "http://prclive1.listenon.in:8812/;",
@@ -230,7 +234,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"22",
       "title": "Radio City - RD Burman",
       "slogan": "",
       "source": "http://prclive1.listenon.in:8828/;",
@@ -241,7 +245,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"23",
       "title": "Radio City - Lata Mangeshkar",
       "slogan": "",
       "source": "http://prclive1.listenon.in:8832/;",
@@ -252,7 +256,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"24",
       "title": "Radio City - Mohammad Rafi",
       "slogan": "",
       "source": "http://prclive1.listenon.in:8814/;",
@@ -263,7 +267,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"25",
       "title": "Radio City - Fun Ka Anteena",
       "slogan": "",
       "source": "http://prclive1.listenon.in:9998/;",
@@ -274,7 +278,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"26",
       "title": "Radio City - Ghazals",
       "slogan": "",
       "source": "http://prclive1.listenon.in:8860/;",
@@ -285,7 +289,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"27",
       "title": "Radio City - Classics",
       "slogan": "",
       "source": "http://63.143.36.2:8888/HindiClassics?icy=http",
@@ -296,7 +300,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"28",
       "title": "Radio City - Mumbai",
       "slogan": "91.1 Radio City, FM Bole toh",
       "source": "http://prclive1.listenon.in:9960/;",
@@ -307,7 +311,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"29",
       "title": "Radio City - Love Guru",
       "slogan": "",
       "source": "http://prclive1.listenon.in:8808/",
@@ -318,7 +322,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-  {
+  {"id":"30",
     "title": "Retro Bollywood",
     "slogan": "",
     "source": "http://64.71.79.181:5124/stream",
@@ -329,7 +333,7 @@
     "genre": ["Music"],
     "lang": ["Hindi"]
   },
-     {
+     {"id":"31",
       "title": "Radio Namkeen",
       "slogan": "Ek Dumm Zabardast!",
       "source": "http://ample-zeno-03.radiojar.com/sgkeutfbaw5tv?t=153876442&rj-token=AAABZkWL4-SZ9eQblmVD7oFO1TByKHkPrV4Xye8z2tL4DH9582hfkA&rj-ttl=5",
@@ -340,7 +344,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"32",
       "title": "Gaana - Mirchi Top 20",
       "slogan": "",
       "source": "https://mt20live-lh.akamaihd.net/i/mt20live_1@346531/master.m3u8",
@@ -351,7 +355,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
 },
-{
+{"id":"33",
       "title": "Gaana - Campus Radio",
       "slogan": "",
       "source": "https://campusradio-lh.akamaihd.net/i/CampusRadio_1@425040/master.m3u8",
@@ -362,7 +366,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
 },
-{
+{"id":"34",
       "title": "Gaana - Meethi Mirchi",
       "slogan": "",
       "source": "https://meethimirchihdl-lh.akamaihd.net/i/MeethiMirchiHDLive_1_1@320572/master.m3u8",
@@ -373,7 +377,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
 },
-{
+{"id":"35",
       "title": "Gaana - Hindi Retro",
       "slogan": "",
       "source": "https://puranijeanshdliv-lh.akamaihd.net/i/PuraniJeansHDLive_1_1@334555/master.m3u8",
@@ -384,7 +388,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
 },
-{
+{"id":"36",
       "title": "Gaana - Filmy Mirchi",
       "slogan": "",
       "source": "https://filmymirchihdliv-lh.akamaihd.net/i/FilmyMirchiHDLive_1_1@336266/master.m3u8",
@@ -395,7 +399,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
 },
-{
+{"id":"37",
       "title": "Gaana - Mirchi 90's Radio",
       "slogan": "",
       "source": "https://pehlanashahdlive-lh.akamaihd.net/i/PehlaNashaHDLive_1_1@335229/master.m3u8",
@@ -406,7 +410,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
 },
-{
+{"id":"38",
       "title": "Gaana - Club Mirchi",
       "slogan": "",
       "source": "https://clubmirchihdlive-lh.akamaihd.net/i/ClubMirchiHDLive_1_1@336269/master.m3u8",
@@ -417,7 +421,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
 },
-{
+{"id":"39",
       "title": "Gaana - Pehla Nasha",
       "slogan": "",
       "source": "https://wmirchi-lh.akamaihd.net/i/WMIRCHI_1@75780/master.m3u8",
@@ -428,7 +432,7 @@
       "genre": ["Devotional"],
       "lang": ["Hindi"]
 },
-{
+{"id":"40",
       "title": "Gaana - Devraag Radio",
       "slogan": "",
       "source": "https://devraaghdlive-lh.akamaihd.net/i/DevraagHDLive_1_1@336268/master.m3u8",
@@ -439,7 +443,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
 },
-    {
+    {"id":"41",
       "title": "Hungama - Hot Now Bollywood",
       "slogan": "",
       "source": "http://103.16.47.70:7222/;stream.nsv",
@@ -450,7 +454,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"42",
       "title": "Hungama - Bollywood Dil Se",
       "slogan": "",
       "source": "http://103.16.47.70:7333/;stream.nsv",
@@ -461,7 +465,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"43",
       "title": "Hungama - B&W Classics",
       "slogan": "",
       "source": "http://103.16.47.70:7888/;stream.nsv",
@@ -472,7 +476,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"44",
       "title": "Hungama - Evergreen Bollywood",
       "slogan": "",
       "source": "http://103.16.47.70:7555/;stream.nsv",
@@ -483,7 +487,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"45",
       "title": "Hungama - 60's Forever",
       "slogan": "",
       "source": "http://103.16.47.70:6222/;stream.nsv",
@@ -494,7 +498,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"46",
       "title": "Hungama - 90's Once Again",
       "slogan": "",
       "source": "http://103.16.47.70:7444/;stream.nsv",
@@ -505,7 +509,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"47",
       "title": "Hungama - Dance Masti Bollywood",
       "slogan": "",
       "source": "http://103.16.47.70:9222/;stream.nsv",
@@ -516,7 +520,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"48",
       "title": "Hungama - Bollywood Instrumentals",
       "slogan": "",
       "source": "http://103.16.47.70:8333/;stream.nsv",
@@ -527,7 +531,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"49",
       "title": "Hungama - Bhakti Sagar",
       "slogan": "",
       "source": "http://103.16.47.70:7777/;stream.nsv",
@@ -538,7 +542,7 @@
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"50",
       "title": "Hungama - Best Of Spiritual",
       "slogan": "",
       "source": "http://103.16.47.70:7000/;stream.nsv",
@@ -549,7 +553,7 @@
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"51",
       "title": "Red FM",
       "slogan": "93.5 Red FM",
       "source": "http://playerservices.streamtheworld.com/api/livestream-redirect/CKYRFM_SC",
@@ -560,7 +564,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"52",
       "title": "BIG FM",
       "slogan": "BIG FM",
       "source": "http://sc-bb.1.fm:8017",
@@ -571,7 +575,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"53",
       "title": "Radio Mirchi",
       "slogan": "98.3 Radio Mirchi, It' Hot!",
       "source": "http://peridot.streamguys.com:7150/Mirchi",
@@ -582,7 +586,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"54",
       "title": "Hits Of Bollywood",
       "slogan": "Hits Of Bollywood",
       "source": "http://stream.zenolive.com/a2gyqzwpwfeuv",
@@ -593,7 +597,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"55",
       "title": "New Hits Of Bollywood",
       "slogan": "New Hits Of Bollywood",
       "source": "http://stream.zenolive.com/kr08sxc2tfeuv",
@@ -604,7 +608,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"56",
       "title": "Bollywood Evergreen Hits",
       "slogan": "Bollywood Evergreen Hits",
       "source": "http://192.240.102.133:11454/stream",
@@ -615,7 +619,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"57",
       "title": "Radio HSL",
       "slogan": "Radio HSL",
       "source": "http://50.7.68.251:7064/stream",
@@ -626,7 +630,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"58",
       "title": "Sunrise FM",
       "slogan": "Sunrise FM",
       "source": "http://185.66.249.48:9600/stream",
@@ -637,7 +641,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"59",
       "title": "Radio Bolly FM",
       "slogan": "Radio Bolly FM",
       "source": "http://64.71.79.181:8201/stream",
@@ -648,7 +652,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"60",
       "title": "SMSK Radio",
       "slogan": "",
       "source": "http://streamingv2.shoutcast.com/SMSKHindiRadio",
@@ -659,7 +663,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-     {
+     {"id":"61",
       "title": "Akash Vani Radio",
       "slogan": "",
       "source": "http://51.255.235.165:5484/stream",
@@ -670,7 +674,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"62",
       "title": "Mehefil Radio",
       "slogan": "",
       "source": "http://mehefil.no-ip.com/mehefil",
@@ -681,7 +685,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },  
-    {
+    {"id":"63",
       "title": "BBC World Service",
       "slogan": "",
       "source": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-einws",
@@ -692,7 +696,7 @@
       "genre": ["News"],
       "lang": ["English"]
     },
-    {
+    {"id":"64",
       "title": "BBC Hindi",
       "slogan": "",
       "source": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-hinda_backup?type=.mp3",
@@ -703,7 +707,7 @@
       "genre": ["News"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"65",
       "title": "NDTV 24x7 Radio",
       "slogan": "",
       "source": "http://stream1.ndtv.com:8080/on-ndtv24x7",
@@ -714,7 +718,7 @@
       "genre": ["News"],
       "lang": ["English"]
     },
-    {
+    {"id":"66",
       "title": "NDTV India Radio",
       "slogan": "",
       "source": "http://stream1.ndtv.com:8080/on-ndtvindia",
@@ -725,7 +729,7 @@
       "genre": ["News"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"67",
       "title": "Bhakti Radio",
       "slogan": "Bhakti Radio",
       "source": "http://67.212.165.106:8191/;",
@@ -736,7 +740,7 @@
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"68",
       "title": "2B! Radio Sangam - Ganesha",
       "slogan": "",
       "source": "http://radio2bindia.out.airtime.pro:8000/radio2bindia_a",
@@ -747,7 +751,7 @@
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"69",
       "title": "2B! Radio Sangam - Devi Maa",
       "slogan": "",
       "source": "http://ibadat.out.airtime.pro:8000/ibadat_a",
@@ -758,7 +762,7 @@
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"70",
       "title": "2B! Radio Sangam - Shiva",
       "slogan": "",
       "source": "http://hot.out.airtime.pro:8000/hot_a",
@@ -769,7 +773,7 @@
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"71",
       "title": "2B! Radio Sangam - Krishna",
       "slogan": "",
       "source": "http://millenniumhits.out.airtime.pro:8000/millenniumhits_a",
@@ -780,7 +784,7 @@
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"72",
       "title": "2B! Radio Sangam - Sri Ram",
       "slogan": "",
       "source": "http://dard.out.airtime.pro:8000/dard_a",
@@ -791,7 +795,7 @@
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
     },
-    {
+    {"id":"73",
       "title": "2B! Radio Sangam - Meditation",
       "slogan": "",
       "source": "http://djbeat.out.airtime.pro:8000/djbeat_a",
@@ -803,3 +807,4 @@
       "lang": ["Hindi"]
     }
     ]
+}
