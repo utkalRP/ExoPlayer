@@ -7,7 +7,7 @@
       "streamHigh": "http://sarthakfm.out.airtime.pro:8000/sarthakfm_b",
       "image": "http://sarthakfm.com/WEFiles/Image/WEImage/91-9%20Sarthak%20FM-Odia-WE77241dcddf.png",
       "logoHigh": "http://sarthakfm.com/Files/Image/desktop_2.jpg",
-      "www": "http://sarthakfm.com",
+      "site": "http://sarthakfm.com",
       "genre": "Music",
       "lang": "Odia"
     },
@@ -19,7 +19,7 @@
       "streamHigh": "http://radiodisha.out.airtime.pro:8000/radiodisha_b",
       "image": "https://lh3.googleusercontent.com/YGO9RuYGk1aTPQJzyZna9IszDQwKT2ydNqtt701QysrA7wRuAhNJa7HJa3PIsULvyA=s180-rw",
       "logoHigh": "https://scontent.fhyd2-1.fna.fbcdn.net/v/t31.0-8/24955745_1452441488197657_92051844398312641_o.jpg?_nc_cat=105&_nc_ht=scontent.fhyd2-1.fna&oh=caa06e5a71edabf8500cf48ae5a04944&oe=5C76770D",
-      "www": "http://radiodisha.com",
+      "site": "http://radiodisha.com",
       "genre": "Music",
       "lang": "Odia"
     },
@@ -31,7 +31,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/odia_radio.png",
       "logoHigh": "",
-      "www": "http://odiaradio.com",
+      "site": "http://odiaradio.com",
       "genre": "Music",
       "lang": "Odia"
     },
@@ -43,7 +43,7 @@
       "streamHigh": "",
       "image": "http://radiochoklateonline.com/wp-content/uploads/2015/11/logo.png",
       "logoHigh": "https://yt3.ggpht.com/a-/AN66SAys0vCa0bPPBCAcDK4UKtpnlfZOyqvhlpaypg=s900-mo-c-c0xffffffff-rj-k-no",
-      "www": "http://radiochoklateonline.com",
+      "site": "http://radiochoklateonline.com",
       "genre": "Music",
       "lang": "Odia"
     },
@@ -54,7 +54,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_bhakti.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_bhakti.jpg",
-      "www": "http://radiochoklateonline.com",
+      "site": "http://radiochoklateonline.com",
       "genre": "Music",
       "lang": "Odia"
     },
@@ -65,7 +65,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_story_station.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_story_station.jpg",
-      "www": "http://radiochoklateonline.com",
+      "site": "http://radiochoklateonline.com",
       "genre": "Talk",
       "lang": "Odia"
     },
@@ -76,7 +76,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_natak.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_natak.jpg",
-      "www": "http://radiochoklateonline.com",
+      "site": "http://radiochoklateonline.com",
       "genre": "Talk",
       "lang": "Odia"
     },
@@ -87,7 +87,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_maja_katha.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_maja_katha.jpg",
-      "www": "http://radiochoklateonline.com",
+      "site": "http://radiochoklateonline.com",
       "genre": "Talk",
       "lang": "Odia"
     },
@@ -98,7 +98,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_love_station.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_love_station.jpg",
-      "www": "http://radiochoklateonline.com",
+      "site": "http://radiochoklateonline.com",
       "genre": "Talk",
       "lang": "Odia"
     },
@@ -109,7 +109,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/ama_radio.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/ama_radio.png",
-      "www": "http://gizmobrain.wixsite.com/amaradio",
+      "site": "http://gizmobrain.wixsite.com/amaradio",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -120,7 +120,7 @@
       "streamHigh": "http://216.158.228.76:8000/airtime_128",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_bhubaneswar.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_bhubaneswar.jpg",
-      "www": "http://radiobhubaneswar.com",
+      "site": "http://radiobhubaneswar.com",
       "genre": "Music",
       "lang": "Odia"
     },
@@ -131,8 +131,8 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_logo.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_logo.png",
-      "www": "http://allindiaradio.gov.in/Station/CUTTACK/Pages/default.aspx",
-      "genre": "Talk", "News", "Music",
+      "site": "http://allindiaradio.gov.in/Station/CUTTACK/Pages/default.aspx",
+      "genre": "Talk",
       "lang": "Odia"
     },
     {"id":"13",
@@ -142,7 +142,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_vividh_bharti.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_vividh_bharti.png",
-      "www": "",
+      "site": "",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -153,7 +153,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_fm_gold.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_fm_gold.png",
-      "www": "",
+      "site": "",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -164,7 +164,7 @@
       "streamHigh": "",
       "image": "https://nukeradio.com/wp-content/uploads/2018/03/Nuke-Hindi.png",
       "logoHigh": "https://nukeradio.com/wp-content/uploads/2018/03/Nuke-Hindi.png",
-      "www": "",
+      "site": "",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -175,7 +175,7 @@
       "streamHigh": "",
       "image": "https://nukeradio.com/wp-content/uploads/2018/03/Hindi-OldHits.png",
       "logoHigh": "https://nukeradio.com/wp-content/uploads/2018/03/Hindi-OldHits.png",
-      "www": "",
+      "site": "",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -186,7 +186,7 @@
       "streamHigh": "",
       "image": "https://nukeradio.com/wp-content/uploads/edd/2018/04/Devotional.jpg",
       "logoHigh": "https://nukeradio.com/wp-content/uploads/edd/2018/04/Devotional.jpg",
-      "www": "",
+      "site": "",
       "genre": "Devotional",
       "lang": "Hindi"
     },
@@ -197,7 +197,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_noida.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_noida.png",
-      "www": "",
+      "site": "",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -208,7 +208,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "www": "",
+      "site": "",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -219,7 +219,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_kishore.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_kishore.jpg",
-      "www": "https://www.radiocity.in",
+      "site": "https://www.radiocity.in",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -230,7 +230,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_asha.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_asha.jpg",
-      "www": "https://www.radiocity.in",
+      "site": "https://www.radiocity.in",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -241,7 +241,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_rdburman.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_rdburman.jpg",
-      "www": "https://www.radiocity.in",
+      "site": "https://www.radiocity.in",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -252,7 +252,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_lata.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_lata.jpg",
-      "www": "https://www.radiocity.in",
+      "site": "https://www.radiocity.in",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -263,7 +263,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_rafi.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_rafi.jpg",
-      "www": "https://www.radiocity.in",
+      "site": "https://www.radiocity.in",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -274,7 +274,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_funka_antena.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_funka_antena.jpg",
-      "www": "https://www.radiocity.in",
+      "site": "https://www.radiocity.in",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -285,7 +285,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_ghazals.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_ghazals.jpg",
-      "www": "https://www.radiocity.in",
+      "site": "https://www.radiocity.in",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -296,7 +296,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_classics.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_classics.jpg",
-      "www": "https://www.radiocity.in",
+      "site": "https://www.radiocity.in",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -307,7 +307,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity.png",
-      "www": "https://www.radiocity.in",
+      "site": "https://www.radiocity.in",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -318,7 +318,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_love_guru.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_love_guru.jpg",
-      "www": "https://www.radiocity.in",
+      "site": "https://www.radiocity.in",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -329,7 +329,7 @@
     "streamHigh": "",
     "image": "http://retrobollywood.com/wp-content/uploads/2017/10/Final-RB-Logo.png",
     "logoHigh": "http://retrobollywood.com/wp-content/uploads/2017/10/Final-RB-Logo.png",
-    "www": "http://retrobollywood.com",
+    "site": "http://retrobollywood.com",
     "genre": "Music",
     "lang": "Hindi"
   },
@@ -340,7 +340,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_namkin.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_namkin.png",
-      "www": "",
+      "site": "",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -351,7 +351,7 @@
       "streamHigh": "",
       "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/18.jpg",
       "logoHigh": "https://a10.gaanacdn.com/images/radio_rect_mirchi/18.jpg",
-      "www": "http://www.gaana.com",
+      "site": "http://www.gaana.com",
       "genre": "Music",
       "lang": "Hindi"
 },
@@ -362,7 +362,7 @@
       "streamHigh": "",
       "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/19.jpg",
       "logoHigh": "https://a10.gaanacdn.com/images/radio_rect_mirchi/19.jpg",
-      "www": "http://www.gaana.com",
+      "site": "http://www.gaana.com",
       "genre": "Music",
       "lang": "Hindi"
 },
@@ -373,7 +373,7 @@
       "streamHigh": "",
       "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/2.jpg",
       "logoHigh": "https://a10.gaanacdn.com/images/radio_rect_mirchi/2.jpg",
-      "www": "http://www.gaana.com",
+      "site": "http://www.gaana.com",
       "genre": "Music",
       "lang": "Hindi"
 },
@@ -384,7 +384,7 @@
       "streamHigh": "",
       "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/3.jpg",
       "logoHigh": "https://a10.gaanacdn.com/images/radio_rect_mirchi/3.jpg",
-      "www": "http://www.gaana.com",
+      "site": "http://www.gaana.com",
       "genre": "Music",
       "lang": "Hindi"
 },
@@ -395,7 +395,7 @@
       "streamHigh": "",
       "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/9.jpg",
       "logoHigh": "https://a10.gaanacdn.com/images/radio_rect_mirchi/9.jpg",
-      "www": "http://www.gaana.com",
+      "site": "http://www.gaana.com",
       "genre": "Music",
       "lang": "Hindi"
 },
@@ -406,7 +406,7 @@
       "streamHigh": "",
       "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/10.jpg",
       "logoHigh": "https://a10.gaanacdn.com/images/radio_rect_mirchi/10.jpg",
-      "www": "http://www.gaana.com",
+      "site": "http://www.gaana.com",
       "genre": "Music",
       "lang": "Hindi"
 },
@@ -417,7 +417,7 @@
       "streamHigh": "",
       "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/5.jpg",
       "logoHigh": "https://a10.gaanacdn.com/images/radio_rect_mirchi/5.jpg",
-      "www": "http://www.gaana.com",
+      "site": "http://www.gaana.com",
       "genre": "Music",
       "lang": "Hindi"
 },
@@ -428,7 +428,7 @@
       "streamHigh": "",
       "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/15.jpg",
       "logoHigh": "https://a10.gaanacdn.com/images/radio_rect_mirchi/15.jpg",
-      "www": "http://www.gaana.com",
+      "site": "http://www.gaana.com",
       "genre": "Devotional",
       "lang": "Hindi"
 },
@@ -439,7 +439,7 @@
       "streamHigh": "",
       "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/8.jpg",
       "logoHigh": "https://a10.gaanacdn.com/images/radio_rect_mirchi/8.jpg",
-      "www": "http://www.gaana.com",
+      "site": "http://www.gaana.com",
       "genre": "Music",
       "lang": "Hindi"
 },
@@ -450,7 +450,7 @@
       "streamHigh": "",
       "image": "https://stat1.hungama.ind.in/featured_content/0e67acb78c2726953df0c6e9e18138ef_200x200.jpg",
       "logoHigh": "https://stat1.hungama.ind.in/featured_content/0e67acb78c2726953df0c6e9e18138ef_200x200.jpg",
-      "www": "http://www.hungama.com",
+      "site": "http://www.hungama.com",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -461,7 +461,7 @@
       "streamHigh": "",
       "image": "https://stat1.hungama.ind.in/featured_content/d2ad097fed65f3a54faf518e4272e1fb_200x200.jpg",
       "logoHigh": "https://stat1.hungama.ind.in/featured_content/d2ad097fed65f3a54faf518e4272e1fb_200x200.jpg",
-      "www": "http://www.hungama.com",
+      "site": "http://www.hungama.com",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -472,7 +472,7 @@
       "streamHigh": "",
       "image": "https://d368qv66y0shpj.cloudfront.net/featured_content/7baf075351a92d07be5dd1e135d147d3_200x200.jpg",
       "logoHigh": "https://d368qv66y0shpj.cloudfront.net/featured_content/7baf075351a92d07be5dd1e135d147d3_200x200.jpg",
-      "www": "http://www.hungama.com",
+      "site": "http://www.hungama.com",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -483,7 +483,7 @@
       "streamHigh": "",
       "image": "https://stat1.hungama.ind.in/featured_content/969fb112dcbef69a46e995a8267cd507_200x200.jpg",
       "logoHigh": "https://stat1.hungama.ind.in/featured_content/969fb112dcbef69a46e995a8267cd507_200x200.jpg",
-      "www": "http://www.hungama.com",
+      "site": "http://www.hungama.com",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -494,7 +494,7 @@
       "streamHigh": "",
       "image": "https://d368qv66y0shpj.cloudfront.net/featured_content/3fd0f1d10ffffadd4e7e1c8ec761f22f_200x200.jpg",
       "logoHigh": "https://d368qv66y0shpj.cloudfront.net/featured_content/3fd0f1d10ffffadd4e7e1c8ec761f22f_200x200.jpg",
-      "www": "http://www.hungama.com",
+      "site": "http://www.hungama.com",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -505,7 +505,7 @@
       "streamHigh": "",
       "image": "https://stat1.hungama.ind.in/featured_content/5bda39f27f89f78795874b68dc32b0f2_200x200.jpg",
       "logoHigh": "https://stat1.hungama.ind.in/featured_content/5bda39f27f89f78795874b68dc32b0f2_200x200.jpg",
-      "www": "http://www.hungama.com",
+      "site": "http://www.hungama.com",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -516,7 +516,7 @@
       "streamHigh": "",
       "image": "https://stat1.hungama.ind.in/featured_content/74e6aef9fb5bba9cd01cc0dba12ac63d_200x200.jpg",
       "logoHigh": "https://stat1.hungama.ind.in/featured_content/74e6aef9fb5bba9cd01cc0dba12ac63d_200x200.jpg",
-      "www": "http://www.hungama.com",
+      "site": "http://www.hungama.com",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -527,7 +527,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/hungama_bollywood_instrumentals.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/hungama_bollywood_instrumentals.jpg",
-      "www": "http://www.hungama.com",
+      "site": "http://www.hungama.com",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -538,7 +538,7 @@
       "streamHigh": "",
       "image": "https://d368qv66y0shpj.cloudfront.net/featured_content/eaa02847fc63e217fd8202d0e122ceaa_200x200.jpg",
       "logoHigh": "https://d368qv66y0shpj.cloudfront.net/featured_content/eaa02847fc63e217fd8202d0e122ceaa_200x200.jpg",
-      "www": "http://www.hungama.com",
+      "site": "http://www.hungama.com",
       "genre": "Spiritual",
       "lang": "Hindi"
     },
@@ -549,7 +549,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/hungama_best_of_spiritual.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/hungama_best_of_spiritual.jpg",
-      "www": "http://www.hungama.com",
+      "site": "http://www.hungama.com",
       "genre": "Spiritual",
       "lang": "Hindi"
     },
@@ -560,7 +560,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/red_fm.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/red_fm.png",
-      "www": "",
+      "site": "",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -571,7 +571,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/big_fm.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/big_fm.png",
-      "www": "",
+      "site": "",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -582,7 +582,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_mirchi.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_mirchi.png",
-      "www": "",
+      "site": "",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -593,7 +593,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "www": "",
+      "site": "",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -604,7 +604,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "www": "",
+      "site": "",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -615,7 +615,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "www": "",
+      "site": "",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -626,7 +626,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "www": "",
+      "site": "",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -637,7 +637,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "www": "",
+      "site": "",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -648,7 +648,7 @@
       "streamHigh": "http://64.71.79.181:8201/hd",
       "image": "http://www.radiobollyfm.in/templates/www/img/logo.png",
       "logoHigh": "http://www.radiobollyfm.in/templates/www/img/logo.png",
-      "www": "http://www.radiobollyfm.in",
+      "site": "http://www.radiobollyfm.in",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -659,7 +659,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_smsk.jpg",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_smsk.jpg",
-      "www": "",
+      "site": "",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -670,7 +670,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "www": "",
+      "site": "",
       "genre": "Music",
       "lang": "Hindi"
     },
@@ -681,7 +681,7 @@
       "streamHigh": "",
       "image": "http://www.mehfilmedia.ca/images/mehfil.png",
       "logoHigh": "http://www.mehfilmedia.ca/images/mehfil.png",
-      "www": "http://www.mehfilmedia.ca",
+      "site": "http://www.mehfilmedia.ca",
       "genre": "Music",
       "lang": "Hindi"
     },  
@@ -692,7 +692,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/bbc_world_service.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/bbc_world_service.png",
-      "www": "www.bbc.com",
+      "site": "www.bbc.com",
       "genre": "News",
       "lang": "English"
     },
@@ -703,7 +703,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/bbc_hindi.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/bbc_hindi.png",
-      "www": "www.bbc.com",
+      "site": "www.bbc.com",
       "genre": "News",
       "lang": "Hindi"
     },
@@ -714,7 +714,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/ndtv_24x7.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/ndtv_24x7.png",
-      "www": "www.ndtv.com",
+      "site": "www.ndtv.com",
       "genre": "News",
       "lang": "English"
     },
@@ -725,7 +725,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/ndtv_india.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/ndtv_india.png",
-      "www": "www.ndtv.com",
+      "site": "www.ndtv.com",
       "genre": "News",
       "lang": "Hindi"
     },
@@ -736,7 +736,7 @@
       "streamHigh": "",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "www": "",
+      "site": "",
       "genre": "Spiritual",
       "lang": "Hindi"
     },
@@ -747,7 +747,7 @@
       "streamHigh": "http://radio2bindia.out.airtime.pro:8000/radio2bindia_b",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_ganesha.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_ganesha.png",
-      "www": "http://www.2bradioindia.com",
+      "site": "http://www.2bradioindia.com",
       "genre": "Spiritual",
       "lang": "Hindi"
     },
@@ -758,7 +758,7 @@
       "streamHigh": "http://ibadat.out.airtime.pro:8000/ibadat_b",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_devi_maa.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_devi_maa.png",
-      "www": "http://www.2bradioindia.com",
+      "site": "http://www.2bradioindia.com",
       "genre": "Spiritual",
       "lang": "Hindi"
     },
@@ -769,7 +769,7 @@
       "streamHigh": "http://hot.out.airtime.pro:8000/hot_b",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_shiva.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_shiva.png",
-      "www": "http://www.2bradioindia.com",
+      "site": "http://www.2bradioindia.com",
       "genre": "Spiritual",
       "lang": "Hindi"
     },
@@ -780,7 +780,7 @@
       "streamHigh": "http://millenniumhits.out.airtime.pro:8000/millenniumhits_b",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_krishna.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_krishna.png",
-      "www": "http://www.2bradioindia.com",
+      "site": "http://www.2bradioindia.com",
       "genre": "Spiritual",
       "lang": "Hindi"
     },
@@ -791,7 +791,7 @@
       "streamHigh": "http://dard.out.airtime.pro:8000/dard_b",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_ram.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_ram.png",
-      "www": "http://www.2bradioindia.com",
+      "site": "http://www.2bradioindia.com",
       "genre": "Spiritual",
       "lang": "Hindi"
     },
@@ -802,7 +802,7 @@
       "streamHigh": "http://djbeat.out.airtime.pro:8000/djbeat_b",
       "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_meditation.png",
       "logoHigh": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_meditation.png",
-      "www": "http://www.2bradioindia.com",
+      "site": "http://www.2bradioindia.com",
       "genre": "Spiritual",
       "lang": "Hindi"
     }
