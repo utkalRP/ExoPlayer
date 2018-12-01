@@ -63,7 +63,8 @@ public class MusicPlayerService extends Service {
     public IBinder onBind(Intent intent) {
         Log.d("utkal","MusicPlayerService::onBind");
         // TODO: Return the communication channel to the service.
-        throw new UnsupportedOperationException("Not yet implemented");
+        //throw new UnsupportedOperationException("Not yet implemented");
+        return null;
     }
 
     @Override
@@ -147,12 +148,11 @@ public class MusicPlayerService extends Service {
             preparePlayer();
         }
 
-        return super.onStartCommand(intent, flags, startId);
+        return START_STICKY; //super.onStartCommand(intent, flags, startId);
     }
 
     @Override
     public void onDestroy() {
-        super.onDestroy();
 
         if (player != null) {
             player.stop();
@@ -165,6 +165,8 @@ public class MusicPlayerService extends Service {
         }
 
         wakeLock.release();
+
+        super.onDestroy();
     }
 
     private MediaSource buildMediaSource(Uri uri) {

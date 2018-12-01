@@ -23,8 +23,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
-import com.bumptech.glide.Glide;
 import com.google.android.gms.cast.framework.CastButtonFactory;
+import com.squareup.picasso.Picasso;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -183,8 +183,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
-        super.onDestroy();
         StopService();
+        super.onDestroy();
     }
 
     @Override
@@ -236,11 +236,8 @@ public class MainActivity extends AppCompatActivity {
             TextView textViewBottom = (TextView) view.findViewById(R.id.textViewBottom);
 
             String thumbUrl = radioStations.get(i).getLogoUrl();
-            Glide.with(c)
-                    .load(thumbUrl)
-                    .fitCenter()
+            Picasso.get().load(thumbUrl)
                     .placeholder(R.drawable.radio)
-                    .crossFade()
                     .into(imageView);
 
             textViewTop.setText(radioStations.get(i).getName());
