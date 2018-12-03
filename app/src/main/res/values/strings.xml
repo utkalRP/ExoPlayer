@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ExoPlayer</string>
+    <string name="app_name">Mo Redio</string>
     <string name="app_tuning">Tuning</string>
     <string name="json_url">https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/assets/stations.json</string>
 </resources>
