@@ -19,7 +19,7 @@ public class App extends Application {
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel notificationChannel = new NotificationChannel(
                     CHANNEL_ID,
-                    "Mo Redio Service Channel",
+                    "Mo Redio",
                     NotificationManager.IMPORTANCE_DEFAULT
             );
 

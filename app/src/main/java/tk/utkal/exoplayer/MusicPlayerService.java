@@ -139,7 +139,7 @@ public class MusicPlayerService extends Service {
             Notification notification = new Notification.Builder(this, CHANNEL_ID)
                     .setContentTitle("Mo Redio")
                     .setContentText(stationName)
-                    .setSmallIcon(R.drawable.radio)
+                    .setSmallIcon(R.drawable.ic_radio)
                     .setContentIntent(pendingIntent)
                     .build();
             startForeground(1, notification);
