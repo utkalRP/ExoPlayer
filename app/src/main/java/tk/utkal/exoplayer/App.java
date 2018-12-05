@@ -20,7 +20,7 @@ public class App extends Application {
             NotificationChannel notificationChannel = new NotificationChannel(
                     CHANNEL_ID,
                     "Mo Redio",
-                    NotificationManager.IMPORTANCE_DEFAULT
+                    NotificationManager.IMPORTANCE_MIN
             );
 
             NotificationManager notificationManager = getSystemService(NotificationManager.class);

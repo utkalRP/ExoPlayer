@@ -10,6 +10,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.IBinder;
 import android.os.PowerManager;
+import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -59,6 +60,8 @@ public class MusicPlayerService extends Service {
 
     String stationName, stationTag, stationUrl, stationLogo, stationGenreLang;
 
+    NotificationCompat.Builder notificationBuilder;
+
     public MusicPlayerService() {
 
     }
@@ -87,6 +90,14 @@ public class MusicPlayerService extends Service {
         PowerManager powerManager = (PowerManager) getSystemService(Context.POWER_SERVICE);
         wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "ExoPlayer::WakelockTag");
         wakeLock.acquire();
+
+        Intent notificationIntent = new Intent(this, MainActivity.class);
+        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent, 0);
+        notificationBuilder = new NotificationCompat.Builder(this, CHANNEL_ID);
+        notificationBuilder.setContentTitle("Mo Redio - All You Can Play!");
+        notificationBuilder.setSmallIcon(R.drawable.ic_radio);
+        notificationBuilder.setOngoing(true);
+        notificationBuilder.setContentIntent(pendingIntent);
     }
 
     @Override
@@ -133,18 +144,8 @@ public class MusicPlayerService extends Service {
         stationUrl = intent.getStringExtra("url");
         stationGenreLang = intent.getStringExtra("genre_lang");
 
-        if(Build.VERSION.SDK_INT >=  Build.VERSION_CODES.O) {
-            Intent notificationIntent = new Intent(this, MainActivity.class);
-            PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent, 0);
-            Notification notification = new Notification.Builder(this, CHANNEL_ID)
-                    .setContentTitle("Mo Redio")
-                    .setContentText(stationName)
-                    .setSmallIcon(R.drawable.ic_radio)
-                    .setContentIntent(pendingIntent)
-                    .build();
-            startForeground(1, notification);
-        }
-
+        notificationBuilder.setContentText(stationName);
+        startForeground(1, notificationBuilder.build());
 
         if (castContext.getCastState() == CONNECTED) {
             setCurrentCastStation();

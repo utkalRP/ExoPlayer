@@ -7,6 +7,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -32,13 +33,14 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements SearchView.OnQueryTextListener{
 
     ListView listView;
     ListViewAdaptor listViewAdaptor;
     ProgressDialog mProgressDialog;
     int nCurrentStationId;
     private ArrayList<RadioStation> radioStations = new ArrayList<RadioStation>();
+    private ArrayList<RadioStation> filteredStations = new ArrayList<RadioStation>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,6 +88,9 @@ public class MainActivity extends AppCompatActivity {
                         radioStations.add(station);
                     }
 
+                    filteredStations.clear();
+                    filteredStations.addAll(radioStations);
+
                     //Set the listview adaptor
                     listView.setAdapter(listViewAdaptor);
 
@@ -129,6 +134,10 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.appbar_menu, menu);
         CastButtonFactory.setUpMediaRouteButton(getApplicationContext(), menu, R.id.menu_cast);
 
+        MenuItem menuItem = menu.findItem(R.id.menu_search);
+        SearchView searchView = (SearchView) menuItem.getActionView();
+        searchView.setOnQueryTextListener(this);
+
         return true;
     }
 
@@ -145,21 +154,21 @@ public class MainActivity extends AppCompatActivity {
     private void StartService() {
         Intent intent = new Intent(MainActivity.this, MusicPlayerService.class);
 
-        String url = radioStations.get(nCurrentStationId).getHighUrl();
+        String url = filteredStations.get(nCurrentStationId).getHighUrl();
         if (url.isEmpty())
-            url = radioStations.get(nCurrentStationId).getLowUrl();
+            url = filteredStations.get(nCurrentStationId).getLowUrl();
 
         String genre_lang = "";
-        for (int i = 0; i < radioStations.get(nCurrentStationId).getGenres().size(); i++) {
-            String temp = radioStations.get(nCurrentStationId).getGenres().get(i);
+        for (int i = 0; i < filteredStations.get(nCurrentStationId).getGenres().size(); i++) {
+            String temp = filteredStations.get(nCurrentStationId).getGenres().get(i);
             if (genre_lang.isEmpty())
                 genre_lang += temp;
             else
                 genre_lang += " | " + temp;
         }
 
-        for (int i = 0; i < radioStations.get(nCurrentStationId).getLanguages().size(); i++) {
-            String temp = radioStations.get(nCurrentStationId).getLanguages().get(i);
+        for (int i = 0; i < filteredStations.get(nCurrentStationId).getLanguages().size(); i++) {
+            String temp = filteredStations.get(nCurrentStationId).getLanguages().get(i);
             if (genre_lang.isEmpty())
                 genre_lang += temp;
             else
@@ -167,9 +176,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
         intent.putExtra("url", url);
-        intent.putExtra("name", radioStations.get(nCurrentStationId).getName());
-        intent.putExtra("tag", radioStations.get(nCurrentStationId).getTag());
-        intent.putExtra("logo", radioStations.get(nCurrentStationId).getLogoUrl());
+        intent.putExtra("name", filteredStations.get(nCurrentStationId).getName());
+        intent.putExtra("tag", filteredStations.get(nCurrentStationId).getTag());
+        intent.putExtra("logo", filteredStations.get(nCurrentStationId).getLogoUrl());
         intent.putExtra("genre_lang", genre_lang);
 
         startService(intent);
@@ -209,11 +218,33 @@ public class MainActivity extends AppCompatActivity {
                 .show();
     }
 
+    @Override
+    public boolean onQueryTextSubmit(String s) {
+        return false;
+    }
+
+    @Override
+    public boolean onQueryTextChange(String newText) {
+        String query = newText.toLowerCase();
+        ArrayList<RadioStation> filteredArrayList = new ArrayList<RadioStation>();
+
+        for(RadioStation station : radioStations) {
+            if(station.getName().toLowerCase().contains(query))
+                filteredArrayList.add(station);
+        }
+
+        filteredStations.clear();
+        filteredStations.addAll(filteredArrayList);
+        listViewAdaptor.notifyDataSetChanged();
+
+        return true;
+    }
+
     class ListViewAdaptor extends BaseAdapter {
 
         @Override
         public int getCount() {
-            return radioStations.size();
+            return filteredStations.size();
         }
 
         @Override
@@ -235,24 +266,24 @@ public class MainActivity extends AppCompatActivity {
             TextView textViewTop = (TextView) view.findViewById(R.id.textViewTop);
             TextView textViewBottom = (TextView) view.findViewById(R.id.textViewBottom);
 
-            String thumbUrl = radioStations.get(i).getLogoUrl();
+            String thumbUrl = filteredStations.get(i).getLogoUrl();
             Picasso.get().load(thumbUrl)
                     .placeholder(R.drawable.radio)
                     .into(imageView);
 
-            textViewTop.setText(radioStations.get(i).getName());
+            textViewTop.setText(filteredStations.get(i).getName());
 
-            String line2 = radioStations.get(i).getTag();
-            for (int j = 0; j < radioStations.get(i).getLanguages().size(); j++) {
-                String temp = radioStations.get(i).getLanguages().get(j);
+            String line2 = filteredStations.get(i).getTag();
+            for (int j = 0; j < filteredStations.get(i).getLanguages().size(); j++) {
+                String temp = filteredStations.get(i).getLanguages().get(j);
                 if (line2.isEmpty())
                     line2 += temp;
                 else
                     line2 += " | " + temp;
             }
 
-            for (int j = 0; j < radioStations.get(i).getGenres().size(); j++) {
-                String temp = radioStations.get(i).getGenres().get(j);
+            for (int j = 0; j < filteredStations.get(i).getGenres().size(); j++) {
+                String temp = filteredStations.get(i).getGenres().get(j);
                 if (line2.isEmpty())
                     line2 += temp;
                 else
