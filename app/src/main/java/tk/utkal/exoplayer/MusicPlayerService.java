@@ -1,10 +1,13 @@
 package tk.utkal.exoplayer;
 
+import android.app.Notification;
+import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.media.AudioManager;
 import android.net.Uri;
+import android.os.Build;
 import android.os.IBinder;
 import android.os.PowerManager;
 import android.util.Log;
@@ -42,6 +45,7 @@ import java.util.ArrayList;
 import static android.media.AudioManager.AUDIOFOCUS_LOSS_TRANSIENT;
 import static android.media.AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK;
 import static com.google.android.gms.cast.framework.CastState.CONNECTED;
+import static tk.utkal.exoplayer.App.CHANNEL_ID;
 
 public class MusicPlayerService extends Service {
 
@@ -57,14 +61,6 @@ public class MusicPlayerService extends Service {
 
     public MusicPlayerService() {
 
-    }
-
-    @Override
-    public IBinder onBind(Intent intent) {
-        Log.d("utkal","MusicPlayerService::onBind");
-        // TODO: Return the communication channel to the service.
-        //throw new UnsupportedOperationException("Not yet implemented");
-        return null;
     }
 
     @Override
@@ -91,14 +87,11 @@ public class MusicPlayerService extends Service {
         PowerManager powerManager = (PowerManager) getSystemService(Context.POWER_SERVICE);
         wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "ExoPlayer::WakelockTag");
         wakeLock.acquire();
-
-        Log.d("utkal","MusicPlayerService::onCreate");
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
 
-        Log.d("utkal","MusicPlayerService::onStartCommand");
         if (player == null) {
             TrackSelection.Factory adaptiveTrackSelectionFactory = new AdaptiveTrackSelection.Factory(BANDWIDTH_METER);
 
@@ -140,6 +133,18 @@ public class MusicPlayerService extends Service {
         stationUrl = intent.getStringExtra("url");
         stationGenreLang = intent.getStringExtra("genre_lang");
 
+        if(Build.VERSION.SDK_INT >=  Build.VERSION_CODES.O) {
+            Intent notificationIntent = new Intent(this, MainActivity.class);
+            PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent, 0);
+            Notification notification = new Notification.Builder(this, CHANNEL_ID)
+                    .setContentTitle("Mo Redio")
+                    .setContentText(stationName)
+                    .setSmallIcon(R.drawable.radio)
+                    .setContentIntent(pendingIntent)
+                    .build();
+            startForeground(1, notification);
+        }
+
 
         if (castContext.getCastState() == CONNECTED) {
             setCurrentCastStation();
@@ -165,8 +170,17 @@ public class MusicPlayerService extends Service {
         }
 
         wakeLock.release();
+        stopSelf();
 
         super.onDestroy();
+    }
+
+    @Override
+    public IBinder onBind(Intent intent) {
+        Log.d("utkal","MusicPlayerService::onBind");
+        // TODO: Return the communication channel to the service.
+        //throw new UnsupportedOperationException("Not yet implemented");
+        return null;
     }
 
     private MediaSource buildMediaSource(Uri uri) {
