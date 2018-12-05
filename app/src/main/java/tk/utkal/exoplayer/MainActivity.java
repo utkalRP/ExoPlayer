@@ -262,9 +262,9 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
             Context c = viewGroup.getContext();
 
             view = getLayoutInflater().inflate(R.layout.activity_list_item, null);
-            ImageView imageView = (ImageView) view.findViewById(R.id.imageViewLogo);
-            TextView textViewTop = (TextView) view.findViewById(R.id.textViewTop);
-            TextView textViewBottom = (TextView) view.findViewById(R.id.textViewBottom);
+            ImageView imageView = (ImageView) view.findViewById(R.id.ivChanneLogo);
+            TextView textViewTop = (TextView) view.findViewById(R.id.tvChannelTitle);
+            TextView textViewBottom = (TextView) view.findViewById(R.id.tvChannelSubtitle);
 
             String thumbUrl = filteredStations.get(i).getLogoUrl();
             Picasso.get().load(thumbUrl)

@@ -1,45 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <ImageView
-        android:id="@+id/imageViewLogo"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_margin="5dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/sarthak_fm"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/ivChanneLogo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="2dp"
+        android:contentDescription="@string/channel_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/radio" />
 
     <TextView
-        android:id="@+id/textViewTop"
+        android:id="@+id/tvChannelTitle"
         android:layout_width="0dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="5dp"
-
-        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/channel_name"
         android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        app:layout_constraintBottom_toTopOf="@+id/tvChannelSubtitle"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageViewLogo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivChanneLogo"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewBottom"
+        android:id="@+id/tvChannelSubtitle"
         android:layout_width="0dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="5dp"
-        android:text="TextView"
-        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="2dp"
+        android:text="@string/channel_slogan"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
-        app:layout_constraintStart_toEndOf="@+id/imageViewLogo"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTop" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivChanneLogo"
+        app:layout_constraintTop_toBottomOf="@+id/tvChannelTitle" />
+
+
 </android.support.constraint.ConstraintLayout>
