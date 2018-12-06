@@ -90,16 +90,6 @@
       "lang": ["Odia"]
     },
     {
-      "name": "AMA Radio",
-      "tag": "Ask me anything",
-      "low": "http://192.240.102.3:8922/;",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/ama_radio.png",
-      "web": "http://gizmobrain.wixsite.com/amaradio",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
-    {
       "name": "Radio Bhubaneswar",
       "tag": "24x7 Online Odia FM",
       "low": "http://216.158.228.76:8000/airtime_128",
@@ -140,6 +130,16 @@
       "lang": ["Hindi"]
     },
     {
+      "name": "AMA Radio",
+      "tag": "Ask me anything",
+      "low": "http://192.240.102.3:8922/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/ama_radio.png",
+      "web": "http://gizmobrain.wixsite.com/amaradio",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
       "name": "Nuke Radio Hindi",
       "tag": "Let's Nuke It",
       "low": "http://live.nukeradio.com:8004/stream3;",
@@ -160,21 +160,51 @@
       "lang": ["Hindi"]
     },
     {
-      "name": "Nuke Devotional",
-      "tag": "Let's Nuke It",
-      "low": "http://5.135.188.92:8008/stream3;",
-      "high": "",
-      "thumb": "https://nukeradio.com/wp-content/uploads/edd/2018/04/Devotional.jpg",
-      "web": "",
-      "genre": ["Devotional"],
-      "lang": ["Hindi"]
-    },
-    {
       "name": "Radio Noida 107.4 FM – Community Radio",
       "tag": "",
       "low": "http://180.151.226.202:8000/;?icy=http",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_noida.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+    "name": "Retro Bollywood",
+    "tag": "",
+    "low": "http://64.71.79.181:5124/stream",
+    "high": "",
+    "thumb": "http://retrobollywood.com/wp-content/uploads/2017/10/Final-RB-Logo.png",
+    "web": "http://retrobollywood.com",
+    "genre": ["Music"],
+    "lang": ["Hindi"]
+  },
+    {
+      "name": "Radio Bolly FM",
+      "tag": "Radio Bolly FM",
+      "low": "http://64.71.79.181:8201/stream",
+      "high": "http://64.71.79.181:8201/hd",
+      "thumb": "http://www.radiobollyfm.in/templates/web/img/logo.png",
+      "web": "http://www.radiobollyfm.in",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+     {
+      "name": "Radio Namkeen",
+      "tag": "Ek Dumm Zabardast!",
+      "low": "http://ample-zeno-03.radiojar.com/sgkeutfbaw5tv?t=153876442&rj-token=AAABZkWL4-SZ9eQblmVD7oFO1TByKHkPrV4Xye8z2tL4DH9582hfkA&rj-ttl=5",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_namkin.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio HSL",
+      "tag": "Radio HSL",
+      "low": "http://50.7.68.251:7064/stream",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
@@ -286,26 +316,6 @@
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_love_guru.jpg",
       "web": "https://www.radiocity.in",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
-  {
-    "name": "Retro Bollywood",
-    "tag": "",
-    "low": "http://64.71.79.181:5124/stream",
-    "high": "",
-    "thumb": "http://retrobollywood.com/wp-content/uploads/2017/10/Final-RB-Logo.png",
-    "web": "http://retrobollywood.com",
-    "genre": ["Music"],
-    "lang": ["Hindi"]
-  },
-     {
-      "name": "Radio Namkeen",
-      "tag": "Ek Dumm Zabardast!",
-      "low": "http://ample-zeno-03.radiojar.com/sgkeutfbaw5tv?t=153876442&rj-token=AAABZkWL4-SZ9eQblmVD7oFO1TByKHkPrV4Xye8z2tL4DH9582hfkA&rj-ttl=5",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_namkin.png",
-      "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
@@ -559,16 +569,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
-      "name": "Radio HSL",
-      "tag": "Radio HSL",
-      "low": "http://50.7.68.251:7064/stream",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "web": "",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
+    
     {
       "name": "Sunrise FM",
       "tag": "Sunrise FM",
@@ -576,16 +577,6 @@
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
       "web": "",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
-    {
-      "name": "Radio Bolly FM",
-      "tag": "Radio Bolly FM",
-      "low": "http://64.71.79.181:8201/stream",
-      "high": "http://64.71.79.181:8201/hd",
-      "thumb": "http://www.radiobollyfm.in/templates/web/img/logo.png",
-      "web": "http://www.radiobollyfm.in",
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
