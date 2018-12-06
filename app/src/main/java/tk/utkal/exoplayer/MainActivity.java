@@ -6,6 +6,9 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.view.Menu;
@@ -41,6 +44,8 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
     int nCurrentStationId;
     private ArrayList<RadioStation> radioStations = new ArrayList<RadioStation>();
     private ArrayList<RadioStation> filteredStations = new ArrayList<RadioStation>();
+
+    private boolean isPlaying;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -123,6 +128,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
                 view.setSelected(true);
                 nCurrentStationId = i;
                 StartService();
+                LoadControlFragment();
             }
         });
     }
@@ -151,7 +157,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         }
     }
 
-    private void StartService() {
+    public void StartService() {
         Intent intent = new Intent(MainActivity.this, MusicPlayerService.class);
 
         String url = filteredStations.get(nCurrentStationId).getHighUrl();
@@ -182,13 +188,20 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         intent.putExtra("genre_lang", genre_lang);
 
         startService(intent);
+
+        isPlaying = true;
     }
 
-    private void StopService() {
+    public void StopService() {
         Intent intent = new Intent(MainActivity.this, MusicPlayerService.class);
         stopService(intent);
+
+        isPlaying = false;
     }
 
+    public boolean isPlaying() {
+        return isPlaying;
+    }
 
     @Override
     protected void onDestroy() {
@@ -238,6 +251,18 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         listViewAdaptor.notifyDataSetChanged();
 
         return true;
+    }
+
+    public void LoadControlFragment() {
+        Fragment controlFragment = new ControlFragment();
+        ((ControlFragment) controlFragment).setCurName(filteredStations.get(nCurrentStationId).getName());
+        ((ControlFragment) controlFragment).setUrl(filteredStations.get(nCurrentStationId).getLogoUrl());
+        ((ControlFragment) controlFragment).setCurTrack("");
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.controlFrame, controlFragment);
+        fragmentTransaction.commit();
     }
 
     class ListViewAdaptor extends BaseAdapter {

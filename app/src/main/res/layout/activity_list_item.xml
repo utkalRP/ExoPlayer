@@ -6,8 +6,8 @@
 
     <ImageView
         android:id="@+id/ivChanneLogo"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginStart="2dp"
         android:contentDescription="@string/channel_logo"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,14 +20,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="4dp"
         android:text="@string/channel_name"
-        android:textSize="17sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tvChannelSubtitle"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ivChanneLogo"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,12 +36,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="4dp"
-        android:layout_marginBottom="2dp"
+        android:layout_marginBottom="8dp"
         android:text="@string/channel_slogan"
-        android:textSize="12sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ivChanneLogo"
         app:layout_constraintTop_toBottomOf="@+id/tvChannelTitle" />
 
