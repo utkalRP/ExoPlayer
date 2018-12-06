@@ -10,7 +10,14 @@
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/listview_border"
         android:divider="?android:attr/dividerVertical"
-        android:dividerHeight="3dp" />
+        android:dividerHeight="3dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </android.support.constraint.ConstraintLayout>
