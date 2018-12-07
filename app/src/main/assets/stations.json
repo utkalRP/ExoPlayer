@@ -170,6 +170,16 @@
       "lang": ["Hindi"]
     },
     {
+      "name": "Radio HSL",
+      "tag": "Radio HSL",
+      "low": "http://50.7.68.251:7064/stream",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_hsl.jpg",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
       "name": "Radio Noida 107.4 FM",
       "tag": "",
       "low": "http://180.151.226.202:8000/;?icy=http",
@@ -205,16 +215,6 @@
       "low": "http://ample-zeno-03.radiojar.com/sgkeutfbaw5tv?t=153876442&rj-token=AAABZkWL4-SZ9eQblmVD7oFO1TByKHkPrV4Xye8z2tL4DH9582hfkA&rj-ttl=5",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_namkin.png",
-      "web": "",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
-    {
-      "name": "Radio HSL",
-      "tag": "Radio HSL",
-      "low": "http://50.7.68.251:7064/stream",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]

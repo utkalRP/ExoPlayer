@@ -4,7 +4,7 @@
     <string name="channel_logo">Logo</string>
     <string name="channel_name">Name</string>
     <string name="channel_slogan">Slogan</string>
-    <string name="app_tag">MoRedio-Everyting is in air!</string>
+    <string name="app_tag">MoRedio-Everything is in air!</string>
     <string name="json_url">https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/assets/stations.json</string>
 
     <!-- TODO: Remove or change this placeholder text -->
