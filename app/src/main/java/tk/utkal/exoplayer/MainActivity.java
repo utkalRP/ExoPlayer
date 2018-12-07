@@ -217,7 +217,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
             mProgressDialog.dismiss();
 
         new AlertDialog.Builder(this)
-                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setIcon(R.drawable.ic_dialog_alert)
                 .setTitle("Exit")
                 .setMessage("Do you want to switch off your radio?")
                 .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
