@@ -61,6 +61,12 @@ public class ControlFragment extends Fragment {
             }
         });
 
+        UpdateView();
+
+        return view;
+    }
+
+    private void UpdateView() {
         Picasso.get().load(url)
                 .placeholder(R.drawable.radio)
                 .into(ivCurrentStation);
@@ -72,7 +78,12 @@ public class ControlFragment extends Fragment {
         } else {
             ibPlayPause.setImageResource(R.drawable.ic_play);
         }
+    }
 
-        return view;
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        UpdateView();
     }
 }

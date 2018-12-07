@@ -94,7 +94,7 @@ public class MusicPlayerService extends Service {
         Intent notificationIntent = new Intent(this, MainActivity.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent, 0);
         notificationBuilder = new NotificationCompat.Builder(this, CHANNEL_ID);
-        notificationBuilder.setContentTitle("Mo Redio - All You Can Play!");
+        notificationBuilder.setContentTitle(getString(R.string.app_tag));
         notificationBuilder.setSmallIcon(R.drawable.ic_radio);
         notificationBuilder.setOngoing(true);
         notificationBuilder.setContentIntent(pendingIntent);

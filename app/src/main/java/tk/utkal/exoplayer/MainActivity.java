@@ -242,7 +242,17 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         ArrayList<RadioStation> filteredArrayList = new ArrayList<RadioStation>();
 
         for(RadioStation station : radioStations) {
-            if(station.getName().toLowerCase().contains(query))
+            String genre = "";
+            for(String gen : station.getGenres())
+                genre = genre + gen + ",";
+            String lang = "";
+            for(String lan : station.getGenres())
+                lang = lang + lan + ",";
+
+            if(station.getName().toLowerCase().contains(query) ||
+                    station.getTag().toLowerCase().contains(query) ||
+                    genre.toLowerCase().contains(query) ||
+                    lang.toLowerCase().contains(query))
                 filteredArrayList.add(station);
         }
 
