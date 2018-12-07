@@ -332,7 +332,7 @@
     {
       "name": "Gaana - Mirchi Top 20",
       "tag": "",
-      "low": "https://mt20live-lh.akamaihd.net/i/mt20live_1@346531/master.m3u8",
+      "low": "http://51.15.208.163:8081/radio/mt20live_11/icecast.audio",
       "high": "",
       "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/18.jpg",
       "web": "http://www.gaana.com",
@@ -352,7 +352,7 @@
 {
       "name": "Gaana - Meethi Mirchi",
       "tag": "",
-      "low": "https://meethimirchihdl-lh.akamaihd.net/i/MeethiMirchiHDLive_1_1@320572/master.m3u8",
+      "low": "http://51.15.208.163:8081/radio/MeethiMirchiHDLive/icecast.audio",
       "high": "",
       "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/2.jpg",
       "web": "http://www.gaana.com",
