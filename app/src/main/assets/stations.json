@@ -342,7 +342,7 @@
 {
       "name": "Gaana - Campus Radio",
       "tag": "",
-      "low": "https://campusradio-lh.akamaihd.net/i/CampusRadio_1@425040/master.m3u8",
+      "low": "http://51.15.208.163:8081/radio/CampusRadio_1/icecast.audio",
       "high": "",
       "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/19.jpg",
       "web": "http://www.gaana.com",
