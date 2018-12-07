@@ -20,16 +20,6 @@
       "lang": ["Odia"]
     },
     {
-      "name": "Odia Radio",
-      "tag": "Odisha's first internet radio",
-      "low": "http://onair.odiaradio.com:8080/listen",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/odia_radio.png",
-      "web": "http://odiaradio.com",
-      "genre": ["Music"],
-      "lang": ["Odia"]
-    },
-    {
       "name": "Radio Chocolate - Live",
       "tag": "Dhum Mitha",
       "low": "http://192.64.80.222:5555/;stream",
@@ -90,6 +80,16 @@
       "lang": ["Odia"]
     },
     {
+      "name": "Odia Radio",
+      "tag": "Odisha's first internet radio",
+      "low": "http://onair.odiaradio.com:8080/listen",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/odia_radio.png",
+      "web": "http://odiaradio.com",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
       "name": "Radio Bhubaneswar",
       "tag": "24x7 Online Odia FM",
       "low": "http://216.158.228.76:8000/airtime_128",
@@ -125,6 +125,16 @@
       "low": "http://airfmgold-lh.akamaihd.net/i/fmgold_1@507591/master.m3u8",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_fm_gold.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "AIR FM Rainbow",
+      "tag": "",
+      "low": "http://fmrainbow-lh.akamaihd.net/i/fmrainbow_1@507812/master.m3u8",
+      "high": "",
+      "thumb": "https://image.slidesharecdn.com/airfmrainbowrelaunch-100129092700-phpapp01/95/air-fm-rainbow-relaunch-1-728.jpg",
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
@@ -601,12 +611,12 @@
       "lang": ["Hindi"]
     },
     {
-      "name": "SMSK Radio",
+      "name": "Madhur Awaz",
       "tag": "",
-      "low": "http://streamingv2.shoutcast.com/SMSKHindiRadio",
+      "low": "http://janus.shoutca.st:9117/stream?",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_smsk.jpg",
-      "web": "",
+      "thumb": "http://www.madhurawaz.com/imageeeee/logo_update_finalokbass.png",
+      "web": "www.madhurawaz.com",
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
