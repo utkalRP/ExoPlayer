@@ -661,6 +661,116 @@
       "lang": ["Hindi"]
     },
     {
+      "name": "Radio Afsana Hindi",
+      "tag": "",
+      "low": "http://174.36.206.197:7019/stream/1/",
+      "high": "",
+      "thumb": "http://02d522a.netsolhost.com/radioweb/wp-content/uploads/2018/06/radioweb_logo.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+
+{
+      "name": "Bombay Beats Hindi",
+      "tag": "",
+      "low": "http://sc-bb.1.fm:8017/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+
+{
+      "name": "Easy 96 Hindi",
+      "tag": "",
+      "low": "http://ice8.securenetsystems.net/EASY96",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+
+{
+      "name": "City 101.6 FM",
+      "tag": "",
+      "low": "https://19013.live.streamtheworld.com/ARNCITY_SC",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+
+{
+      "name": "Radio SBS 95.5FM",
+      "tag": "",
+      "low": "http://live.radiosbsfm.nl/radiosbsfm",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+
+{
+      "name": "Radio JSR Hindi",
+      "tag": "",
+      "low": "http://198.7.59.28:8078/stream/1/",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+
+{
+      "name": "City FM 92",
+      "tag": "",
+      "low": "http://188.165.192.5:8359/stream",
+      "high": "",
+      "thumb": "http://www.cityfm92.com/Monogram.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+
+{
+      "name": "Ishq FM",
+      "tag": "",
+      "low": "http://144.217.195.24:8601/;stream.mp3",
+      "high": "",
+      "thumb": "https://www.ishq.com/wp-content/uploads/2017/07/cropped-ishqFM-1.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+
+{
+      "name": "Radio Anardana",
+      "tag": "",
+      "low": "http://85.25.185.202:8055/;stream.mp3",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+
+{
+      "name": "Radio 90 5 FM",
+      "tag": "",
+      "low": "http://ice42.securenetsystems.net/CR90?type=.mp3",
+      "high": "",
+      "thumb": "https://static.wixstatic.com/media/23dfd0_3afaa0e5fc0a4d65bf2039f6736cbc40~mv2.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+
+    {
       "name": "BBC World Service",
       "tag": "",
       "low": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-einws",
