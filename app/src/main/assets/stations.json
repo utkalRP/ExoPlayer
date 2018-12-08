@@ -229,6 +229,26 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
+     {
+      "name": "Bolly Hits",
+      "tag": "Where melody never dies",
+      "low": "http://176.31.107.8:8172/stream?icy=http",
+      "high": "",
+      "thumb": "http://bollyhitsradio.com/images/BHR-Logo-e1535540674317.png",
+      "web": "http://bollyhitsradio.com/",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "1.FM Bombay Beats",
+      "tag": "",
+      "low": "http://185.33.21.112/bombaybeats_128?icy=http",
+      "high": "",
+      "thumb": "https://cdn-radiotime-logos.tunein.com/s47713d.png",
+      "web": "www.1.fm",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
     {
       "name": "Radio City - Kishor Kumar",
       "tag": "",
