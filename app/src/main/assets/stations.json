@@ -569,16 +569,7 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-    {
-      "name": "BIG FM",
-      "tag": "BIG FM",
-      "low": "http://sc-bb.1.fm:8017",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/big_fm.png",
-      "web": "",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
+    
     {
       "name": "Radio Mirchi",
       "tag": "98.3 Radio Mirchi, It' Hot!",
