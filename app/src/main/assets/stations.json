@@ -769,6 +769,17 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
 },
+    
+    {
+      "name": "Radio Caravan",
+      "tag": "",
+      "low": "https://stream.radio.co/s0e4cf6d8e/listen",
+      "high": "",
+      "thumb": "https://www.radiocaravan.com/wp-content/uploads/2018/11/radiocaravan.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
 
     {
       "name": "BBC World Service",
