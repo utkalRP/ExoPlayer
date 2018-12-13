@@ -32,7 +32,7 @@
     {
       "name": "Radio Chocolate - Bhakti",
       "tag": "",
-      "low": "http://192.64.80.219:7598/IYW$mKmn#$q1",
+      "low": "http://104.243.44.53:7598/IYW$mKmn#$q1",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_bhakti.jpg",
       "web": "http://radiochoklateonline.com",
@@ -42,7 +42,7 @@
     {
       "name": "Radio Chocolate - Story Station",
       "tag": "",
-      "low": "http://216.158.233.133:2379/*UL*Ns3AYN6n",
+      "low": "http://172.93.108.139:2379/*UL*Ns3AYN6n",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_story_station.jpg",
       "web": "http://radiochoklateonline.com",
@@ -52,7 +52,7 @@
     {
       "name": "Radio Chocolate - Nataka",
       "tag": "",
-      "low": "http://192.64.80.221:5839/Po8^w7*VMWYx",
+      "low": "http://172.93.108.138:5839/Po8%5Ew7*VMWYx",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_natak.jpg",
       "web": "http://radiochoklateonline.com",
@@ -62,7 +62,7 @@
     {
       "name": "Radio Chocolate - Maja Katha",
       "tag": "",
-      "low": "http://192.64.80.220:8673/2N$^hTW7Krkg",
+      "low": "http://104.243.44.54:8673/2N$%5EhTW7Krkg",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_maja_katha.jpg",
       "web": "http://radiochoklateonline.com",
@@ -72,7 +72,7 @@
     {
       "name": "Radio Chocolate - Love Station",
       "tag": "",
-      "low": "http://216.158.233.134:8592/329ojEcwo$t@",
+      "low": "http://172.93.108.140:8592/329ojEcwo$t@",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_love_station.jpg",
       "web": "http://radiochoklateonline.com",
