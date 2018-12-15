@@ -14,6 +14,11 @@ import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.Volley;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.DefaultLoadControl;
 import com.google.android.exoplayer2.DefaultRenderersFactory;
@@ -41,7 +46,12 @@ import com.google.android.gms.cast.MediaQueueItem;
 import com.google.android.gms.cast.framework.CastContext;
 import com.google.android.gms.common.images.WebImage;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 import static android.media.AudioManager.AUDIOFOCUS_LOSS_TRANSIENT;
 import static android.media.AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK;
@@ -230,5 +240,31 @@ public class MusicPlayerService extends Service {
         final MediaQueueItem[] mediaItems = {new MediaQueueItem.Builder(mediaInfo).build()};
         castPlayer.setPlayWhenReady(true);
         castPlayer.loadItems(mediaItems, 0, 0, Player.REPEAT_MODE_OFF);
+    }
+
+    private String getCurrentTrack(String stationId) {
+        final String[] curTrack = {""};
+
+        Map<String, String> params = new HashMap();
+        params.put("stationId", stationId);
+
+        RequestQueue queue = Volley.newRequestQueue(this);
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST,
+                "https://directory.shoutcast.com/Player/GetCurrentTrack",
+                new JSONObject(params),
+                new Response.Listener<JSONObject>() {
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        try {
+                            JSONObject station = (JSONObject) response.get("Station");
+                            curTrack[0] = station.getString("CurrentTrack");
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+
+                    }}, null);
+
+        return curTrack[0];
     }
 }
