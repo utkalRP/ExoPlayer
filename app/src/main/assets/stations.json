@@ -90,16 +90,6 @@
       "lang": ["Odia"]
     },
     {
-      "name": "Radio Bhubaneswar",
-      "tag": "24x7 Online Odia FM",
-      "low": "http://216.158.228.76:8000/airtime_128",
-      "high": "http://216.158.228.76:8000/airtime_128",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_bhubaneswar.jpg",
-      "web": "http://radiobhubaneswar.com",
-      "genre": ["Music"],
-      "lang": ["Odia"]
-    },
-    {
       "name": "AIR Odia",
       "tag": "Akashvani Cuttack",
       "low": "http://airodiya-lh.akamaihd.net/i/airodiya_1@528056/master.m3u8",
@@ -402,7 +392,7 @@
 {
       "name": "Gaana - Mirchi 90's Radio",
       "tag": "",
-      "low": "https://pehlanashahdlive-lh.akamaihd.net/i/PehlaNashaHDLive_1_1@335229/master.m3u8",
+      "low": "https://pehlanashahdlive-lh.akamaihd.net/i/PehlaNashaHDLive_1@335229/master.m3u8",
       "high": "",
       "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/10.jpg",
       "web": "http://www.gaana.com",
@@ -427,6 +417,16 @@
       "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/15.jpg",
       "web": "http://www.gaana.com",
       "genre": ["Devotional"],
+      "lang": ["Hindi"]
+},
+ {
+      "name": "Gaana - Mehfil-E-Ghazal",
+      "tag": "",
+      "low": "https://mirchimahfil-lh.akamaihd.net/i/MirchiMehfl_1@120798/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/17.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
       "lang": ["Hindi"]
 },
 {
