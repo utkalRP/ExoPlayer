@@ -90,6 +90,16 @@
       "lang": ["Odia"]
     },
     {
+      "name": "Radio Bhubaneswar",
+      "tag": "24x7 Online Odia FM",
+      "low": "http://64.237.39.206:8000/airtime_128",
+      "high": "",
+      "thumb": "http://radiobhubaneswar.com/wp-content/themes/radiobb-child/assets/images/radio_logo.png",
+      "web": "http://radiobhubaneswar.com/",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
       "name": "AIR Odia",
       "tag": "Akashvani Cuttack",
       "low": "http://airodiya-lh.akamaihd.net/i/airodiya_1@528056/master.m3u8",
@@ -582,17 +592,17 @@
     },
     {
       "name": "Hits Of Bollywood",
-      "tag": "Hits Of Bollywood",
+      "tag": "",
       "low": "http://stream.zenolive.com/a2gyqzwpwfeuv",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "web": "",
+      "thumb": "http://www.hitsofbollywood.com/images/logo.png",
+      "web": "http://www.hitsofbollywood.com",
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
     {
       "name": "New Hits Of Bollywood",
-      "tag": "New Hits Of Bollywood",
+      "tag": "",
       "low": "http://stream.zenolive.com/kr08sxc2tfeuv",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
@@ -602,7 +612,7 @@
     },
     {
       "name": "Bollywood Evergreen Hits",
-      "tag": "Bollywood Evergreen Hits",
+      "tag": "",
       "low": "http://192.240.102.133:11454/stream",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
@@ -613,7 +623,7 @@
     
     {
       "name": "Sunrise FM",
-      "tag": "Sunrise FM",
+      "tag": "",
       "low": "http://185.66.249.48:9600/stream",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
