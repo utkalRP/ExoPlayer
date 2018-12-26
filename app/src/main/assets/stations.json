@@ -843,12 +843,32 @@
       "lang": ["Hindi"]
     },
     {
+      "name": "NDTV Profit",
+      "tag": "",
+      "low": "http://stream1.ndtv.com:8080/on-ndtvprofit",
+      "high": "",
+      "thumb": "https://cdn.ndtv.com/static/images/profit/profit_logo2017.png",
+      "web": "www.ndtv.com",
+      "genre": ["News"],
+      "lang": ["English"]
+    },
+    {
       "name": "Times Now Radio",
       "tag": "",
       "low": "https://timesnow-lh.akamaihd.net/i/TNA_1@129288/master.m3u8",
       "high": "",
       "thumb": "https://img.timesnownews.com/1539697709-TimesNow.jpg",
       "web": "http://www.timesnownews.com",
+      "genre": ["News"],
+      "lang": ["English"]
+    },
+    {
+      "name": "ET Now Radio",
+      "tag": "",
+      "low": "https://etnowweblive-lh.akamaihd.net/i/ETA_1@348070/master.m3u8",
+      "high": "",
+      "thumb": "https://cloudfront.timesnownews.com/site/static/web_t3/images/icons/et_logo.png",
+      "web": "https://economictimes.indiatimes.com",
       "genre": ["News"],
       "lang": ["English"]
     },
