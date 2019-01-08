@@ -10,11 +10,11 @@
       "lang": ["Odia"]
     },
     {
-      "name": "98.3 Radio Odisha",
+      "name": "98.3 Tarang FM",
       "tag": "Music..Oo..la..la!",
       "low": "http://radiodisha.out.airtime.pro:8000/radiodisha_a",
       "high": "http://radiodisha.out.airtime.pro:8000/radiodisha_b",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_odisha.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/tarangfm.png",
       "web": "http://radiodisha.com",
       "genre": ["Music"],
       "lang": ["Odia"]
