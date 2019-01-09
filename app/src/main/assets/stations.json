@@ -209,16 +209,6 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
     },
-     {
-      "name": "Radio Namkeen",
-      "tag": "Ek Dumm Zabardast!",
-      "low": "http://ample-zeno-03.radiojar.com/sgkeutfbaw5tv?t=153876442&rj-token=AAABZkWL4-SZ9eQblmVD7oFO1TByKHkPrV4Xye8z2tL4DH9582hfkA&rj-ttl=5",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_namkin.png",
-      "web": "",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
     {
       "name": "Non Stop Hindi",
       "tag": "",
@@ -273,6 +263,16 @@
       "name": "Radio JSR Hindi",
       "tag": "",
       "low": "http://198.7.59.28:8078/stream/1/",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Radio SBS 95.5FM",
+      "tag": "",
+      "low": "http://live.radiosbsfm.nl/radiosbsfm",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
       "web": "",
@@ -641,6 +641,16 @@
       "lang": ["Hindi"]
     },
     {
+      "name": "Radio Namkeen",
+      "tag": "Ek Dumm Zabardast!",
+      "low": "http://ample-zeno-03.radiojar.com/sgkeutfbaw5tv?t=153876442&rj-token=AAABZkWL4-SZ9eQblmVD7oFO1TByKHkPrV4Xye8z2tL4DH9582hfkA&rj-ttl=5",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_namkin.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
       "name": "Hits Of Bollywood",
       "tag": "",
       "low": "http://stream.zenolive.com/a2gyqzwpwfeuv",
@@ -721,7 +731,6 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
 },
-
 {
       "name": "Bombay Beats Hindi",
       "tag": "",
@@ -743,54 +752,12 @@
       "genre": ["Music"],
       "lang": ["Hindi"]
 },
-
 {
       "name": "City 101.6 FM",
       "tag": "",
       "low": "https://19013.live.streamtheworld.com/ARNCITY_SC",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "web": "",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-},
-
-{
-      "name": "Radio SBS 95.5FM",
-      "tag": "",
-      "low": "http://live.radiosbsfm.nl/radiosbsfm",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "web": "",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-},
-{
-      "name": "Radio JSR Hindi",
-      "tag": "",
-      "low": "http://198.7.59.28:8078/stream/1/",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "web": "",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-},
-{
-      "name": "City FM 92",
-      "tag": "",
-      "low": "http://188.165.192.5:8359/stream",
-      "high": "",
-      "thumb": "http://www.cityfm92.com/Monogram.png",
-      "web": "",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-},
-{
-      "name": "Ishq FM",
-      "tag": "",
-      "low": "http://144.217.195.24:8601/;stream.mp3",
-      "high": "",
-      "thumb": "https://www.ishq.com/wp-content/uploads/2017/07/cropped-ishqFM-1.png",
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
