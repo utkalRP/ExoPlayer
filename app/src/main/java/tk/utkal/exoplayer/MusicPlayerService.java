@@ -25,6 +25,7 @@ import com.google.android.exoplayer2.DefaultRenderersFactory;
 import com.google.android.exoplayer2.ExoPlayerFactory;
 import com.google.android.exoplayer2.Player;
 import com.google.android.exoplayer2.SimpleExoPlayer;
+import com.google.android.exoplayer2.audio.AudioAttributes;
 import com.google.android.exoplayer2.ext.cast.CastPlayer;
 import com.google.android.exoplayer2.source.ExtractorMediaSource;
 import com.google.android.exoplayer2.source.MediaSource;
@@ -60,21 +61,13 @@ import static tk.utkal.exoplayer.App.CHANNEL_ID;
 
 public class MusicPlayerService extends Service {
 
-    private static final DefaultBandwidthMeter BANDWIDTH_METER = new DefaultBandwidthMeter();
-    AudioManager audioManager;
-    AudioManager.OnAudioFocusChangeListener afChangeListener;
     private SimpleExoPlayer player;
     private CastContext castContext;
     private CastPlayer castPlayer;
     PowerManager.WakeLock wakeLock;
 
     String stationName, stationTag, stationUrl, stationLogo, stationGenreLang;
-
     NotificationCompat.Builder notificationBuilder;
-
-    public MusicPlayerService() {
-
-    }
 
     @Override
     public void onCreate() {
@@ -114,38 +107,13 @@ public class MusicPlayerService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
 
         if (player == null) {
-            TrackSelection.Factory adaptiveTrackSelectionFactory = new AdaptiveTrackSelection.Factory(BANDWIDTH_METER);
+            player = ExoPlayerFactory.newSimpleInstance(this);
 
-            player = ExoPlayerFactory.newSimpleInstance(new DefaultRenderersFactory(this), new DefaultTrackSelector(adaptiveTrackSelectionFactory), new DefaultLoadControl());
-
-            audioManager = (AudioManager) this.getSystemService(Context.AUDIO_SERVICE);
-            afChangeListener = new AudioManager.OnAudioFocusChangeListener() {
-                public void onAudioFocusChange(int focusChange) {
-                    if(player == null)
-                        return;
-                    if (focusChange == AudioManager.AUDIOFOCUS_LOSS) {
-                        // Permanent loss of audio focus
-                        player.stop();
-                    } else if (focusChange == AUDIOFOCUS_LOSS_TRANSIENT) {
-                        // Pause playback
-                        player.setPlayWhenReady(false);
-                    } else // Lower the volume, keep playing
-                        if (focusChange == AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK) {
-                            player.setVolume((float) 0.5);
-                        } else if (focusChange == audioManager.AUDIOFOCUS_GAIN) {
-                            // Your app has been granted audio focus again
-                            // Raise volume to normal, restart playback if necessary
-                            player.setPlayWhenReady(true);
-                        }
-                }
-            };
-
-            int res = audioManager.requestAudioFocus(afChangeListener, AudioManager.STREAM_MUSIC, // Music streaming
-                    AudioManager.AUDIOFOCUS_GAIN); // Permanent focus
-            if (res == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
-                // Play the audio
-                player.setPlayWhenReady(true);
-            }
+            AudioAttributes audioAttributes = new AudioAttributes.Builder()
+                    .setUsage(C.USAGE_MEDIA)
+                    .setContentType(C.CONTENT_TYPE_MUSIC)
+                    .build();
+            player.setAudioAttributes(audioAttributes, true);
         }
 
         stationName = intent.getStringExtra("name");
@@ -164,7 +132,7 @@ public class MusicPlayerService extends Service {
             preparePlayer();
         }
 
-        return START_STICKY; //super.onStartCommand(intent, flags, startId);
+        return START_STICKY;
     }
 
     @Override
@@ -196,8 +164,7 @@ public class MusicPlayerService extends Service {
 
     private MediaSource buildMediaSource(Uri uri) {
 
-        DataSource.Factory dataSourceFactory = new DefaultHttpDataSourceFactory("ua", BANDWIDTH_METER);
-
+        DataSource.Factory dataSourceFactory = new DefaultHttpDataSourceFactory("ua");
         int type = Util.inferContentType(uri);
 
         switch (type) {
