@@ -10,6 +10,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -38,8 +41,8 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements SearchView.OnQueryTextListener{
 
-    ListView listView;
-    ListViewAdaptor listViewAdaptor;
+    RecyclerView listView;
+    MyRvAdapter listViewAdaptor;
     ProgressDialog mProgressDialog;
     int nCurrentStationId;
     private ArrayList<RadioStation> radioStations = new ArrayList<RadioStation>();
@@ -97,6 +100,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
                     filteredStations.addAll(radioStations);
 
                     //Set the listview adaptor
+                    listViewAdaptor = new MyRvAdapter(getApplicationContext(), radioStations);
                     listView.setAdapter(listViewAdaptor);
 
                     //Dismiss the progress dialog
@@ -119,18 +123,20 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         queue.add(jsonArrayRequest);
 
         //Prepare the listview
-        listView = (ListView) findViewById(R.id.listView);
-        listViewAdaptor = new ListViewAdaptor();
-
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                view.setSelected(true);
-                nCurrentStationId = i;
-                StartService();
-                LoadControlFragment();
-            }
-        });
+        listView = findViewById(R.id.listView);
+        listView.setHasFixedSize(true);
+        listView.setLayoutManager(new LinearLayoutManager(this));
+        listView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
+        listView.addOnItemTouchListener(new RecyclerViewItemClickListener(getApplicationContext(), new RecyclerViewItemClickListener.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(View view, int position) {
+                        view.setSelected(true);
+                        nCurrentStationId = position;
+                        StartService();
+                        LoadControlFragment();
+                    }
+                })
+        );
     }
 
     @Override
@@ -258,7 +264,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
 
         filteredStations.clear();
         filteredStations.addAll(filteredArrayList);
-        listViewAdaptor.notifyDataSetChanged();
+        listViewAdaptor.updateAdaptor(filteredArrayList);
 
         return true;
     }
@@ -273,61 +279,5 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.controlFrame, controlFragment);
         fragmentTransaction.commit();
-    }
-
-    class ListViewAdaptor extends BaseAdapter {
-
-        @Override
-        public int getCount() {
-            return filteredStations.size();
-        }
-
-        @Override
-        public Object getItem(int i) {
-            return null;
-        }
-
-        @Override
-        public long getItemId(int i) {
-            return i;
-        }
-
-        @Override
-        public View getView(int i, View view, ViewGroup viewGroup) {
-            Context c = viewGroup.getContext();
-
-            view = getLayoutInflater().inflate(R.layout.activity_list_item, null);
-            ImageView imageView = (ImageView) view.findViewById(R.id.ivChanneLogo);
-            TextView textViewTop = (TextView) view.findViewById(R.id.tvChannelTitle);
-            TextView textViewBottom = (TextView) view.findViewById(R.id.tvChannelSubtitle);
-
-            String thumbUrl = filteredStations.get(i).getLogoUrl();
-            Picasso.get().load(thumbUrl)
-                    .placeholder(R.drawable.radio)
-                    .into(imageView);
-
-            textViewTop.setText(filteredStations.get(i).getName());
-
-            String line2 = filteredStations.get(i).getTag();
-            for (int j = 0; j < filteredStations.get(i).getLanguages().size(); j++) {
-                String temp = filteredStations.get(i).getLanguages().get(j);
-                if (line2.isEmpty())
-                    line2 += temp;
-                else
-                    line2 += " | " + temp;
-            }
-
-            for (int j = 0; j < filteredStations.get(i).getGenres().size(); j++) {
-                String temp = filteredStations.get(i).getGenres().get(j);
-                if (line2.isEmpty())
-                    line2 += temp;
-                else
-                    line2 += " | " + temp;
-            }
-
-            textViewBottom.setText(line2);
-
-            return view;
-        }
     }
 }
