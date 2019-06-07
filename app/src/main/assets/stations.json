@@ -300,66 +300,6 @@
       "lang": ["Hindi"]
 },
     {
-      "name": "Radio City - Kishor Kumar",
-      "tag": "",
-      "low": "http://prclive1.listenon.in:8834",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_kishore.jpg",
-      "web": "https://www.radiocity.in",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
-    {
-      "name": "Radio City - Asha Bhosle",
-      "tag": "",
-      "low": "http://prclive1.listenon.in:8812/;",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_asha.jpg",
-      "web": "https://www.radiocity.in",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
-    {
-      "name": "Radio City - RD Burman",
-      "tag": "",
-      "low": "http://prclive1.listenon.in:8828/;",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_rdburman.jpg",
-      "web": "https://www.radiocity.in",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
-    {
-      "name": "Radio City - Lata Mangeshkar",
-      "tag": "",
-      "low": "http://prclive1.listenon.in:8832/;",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_lata.jpg",
-      "web": "https://www.radiocity.in",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
-    {
-      "name": "Radio City - Mohammad Rafi",
-      "tag": "",
-      "low": "http://prclive1.listenon.in:8814/;",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_rafi.jpg",
-      "web": "https://www.radiocity.in",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
-    {
-      "name": "Radio City - Fun Ka Anteena",
-      "tag": "",
-      "low": "http://prclive1.listenon.in:9998/;",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_funka_antena.jpg",
-      "web": "https://www.radiocity.in",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
-    {
       "name": "Radio City - Ghazals",
       "tag": "",
       "low": "http://prclive1.listenon.in:8860/;",
@@ -370,17 +310,7 @@
       "lang": ["Hindi"]
     },
     {
-      "name": "Radio City - Classics",
-      "tag": "",
-      "low": "http://63.143.36.2:8888/HindiClassics?icy=http",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_classics.jpg",
-      "web": "https://www.radiocity.in",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
-    {
-      "name": "Radio City - Mumbai",
+      "name": "Radio City - Hindi",
       "tag": "91.1 Radio City, FM Bole toh",
       "low": "http://prclive1.listenon.in:9960/;",
       "high": "",
