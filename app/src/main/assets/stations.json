@@ -92,7 +92,7 @@
     {
       "name": "Radio Bhubaneswar",
       "tag": "24x7 Online Odia FM",
-      "low": "http://64.237.39.206:8000/airtime_128",
+      "low": "http://104.243.42.94:8574/rabh8989uba",
       "high": "",
       "thumb": "http://radiobhubaneswar.com/wp-content/themes/radiobb-child/assets/images/radio_logo.png",
       "web": "http://radiobhubaneswar.com/",
@@ -242,7 +242,7 @@
     {
       "name": "Abee Radio",
       "tag": "Abee kinda music",
-      "low": "http://50.7.99.163:16182/;",
+      "low": "https://abee.radioca.st/stream",
       "high": "",
       "thumb": "http://nebula.wsimg.com/f89412b47eef62e1cd780b4cf75a2de5?AccessKeyId=811428081F562FFE0C7D&disposition=0&alloworigin=1",
       "web": "http://www.abeeradio.com/",
@@ -340,14 +340,34 @@
       "lang": ["Hindi"]
 },
 {
-      "name": "Gaana - Campus Radio",
-      "tag": "",
-      "low": "http://51.15.208.163:8081/radio/CampusRadio_1/icecast.audio",
+      "name": "Gaana - Radio Mirchi",
+      "tag": "98.3 Radio Mirchi, It' Hot!",
+      "low": "https://mirchidelhi-lh.akamaihd.net/i/Mirchi_Delhi@693087/index_1_a-b.m3u8",
       "high": "",
-      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/19.jpg",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/25.jpg",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Mirchi Drive Radio",
+      "tag": "",
+      "low": "https://driveradio-lh.akamaihd.net/i/DriveRadio_1@793591/index_1_a-p.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio/31/31/crop_175x175_31.jpg",
       "web": "http://www.gaana.com",
       "genre": ["Music"],
       "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Yo Punjabi Radio",
+      "tag": "",
+      "low": "https://yopunjabihdlive-lh.akamaihd.net/i/YoPunjabiHDLive_1_1@345454/index_1_a-p.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/13.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Punjabi"]
 },
 {
       "name": "Gaana - Meethi Mirchi",
@@ -555,17 +575,6 @@
       "low": "http://playerservices.streamtheworld.com/api/livestream-redirect/CKYRFM_SC",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/red_fm.png",
-      "web": "",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
-    
-    {
-      "name": "Radio Mirchi",
-      "tag": "98.3 Radio Mirchi, It' Hot!",
-      "low": "http://peridot.streamguys.com:7150/Mirchi",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_mirchi.png",
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
