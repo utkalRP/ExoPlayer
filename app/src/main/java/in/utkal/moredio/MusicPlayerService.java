@@ -1,4 +1,4 @@
-package tk.utkal.exoplayer;
+package in.utkal.moredio;
 
 import android.app.PendingIntent;
 import android.app.Service;
@@ -45,7 +45,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static com.google.android.gms.cast.framework.CastState.CONNECTED;
-import static tk.utkal.exoplayer.App.CHANNEL_ID;
+import static in.utkal.moredio.App.CHANNEL_ID;
 
 public class MusicPlayerService extends Service {
 

@@ -1,4 +1,4 @@
-package tk.utkal.exoplayer;
+package in.utkal.moredio;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
