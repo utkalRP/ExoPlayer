@@ -693,16 +693,6 @@
       "lang": ["Hindi"]
 },
 {
-      "name": "City 101.6 FM",
-      "tag": "",
-      "low": "https://19013.live.streamtheworld.com/ARNCITY_SC",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "web": "",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-},
-{
       "name": "Radio Anardana",
       "tag": "",
       "low": "http://85.25.185.202:8055/;stream.mp3",
