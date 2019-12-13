@@ -871,5 +871,497 @@
       "web": "http://www.2bradioindia.com",
       "genre": ["Spiritual"],
       "lang": ["Hindi"]
+    },
+    
+    
+    {
+        "name": "ABP News",
+        "low": "https://abp-i.akamaihd.net/hls/live/765529/abphindi/masterhls_1564.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "B4U Movies",
+        "low": "http://103.199.161.254/Content/b4umovies/Live/Channel(B4UMovies)/index.m3u8",
+        "genre": [
+            "Movies"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Movie House",
+        "low": "http://103.199.160.85/Content/moviehouse/Live/Channel(MovieHouse)/index.m3u8",
+        "genre": [
+            "Movies"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "B4U Music",
+        "low": "http://103.199.161.254/Content/B4Umusic/Live/Channel(B4Umusic)/index.m3u8",
+        "genre": [
+            "Music"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "B4U Plus",
+        "low": "http://livecdnh3.tvanywhere.ae/hls/b4uplus/04.m3u8",
+        "genre": [
+            "Music"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "BBC World News",
+        "low": "http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Bollywood Classics",
+        "low": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
+        "genre": [
+            "Music"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Cinema TV",
+        "low": "https://acv.asianetmobiletvplus.com/channels/cinematv_ptiwautekttzxckrgphaarueatccfiaz/playlist.m3u8",
+        "genre": [
+            "Movies"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "CNBC Awaz",
+        "low": "https://cnbcawaaz-lh.akamaihd.net/i/cnbcawaaz_1@174872/index_5_av-p.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "CNBC TV18",
+        "low": "https://cnbctv18-lh.akamaihd.net/i/cnbctv18_1@174868/index_5_av-p.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "DD National",
+        "low": "http://103.199.161.254/Content/ddnational/Live/Channel(DDNational)/index.m3u8",
+        "genre": [
+            "Misc"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Dhamaal",
+        "low": "http://linear06hun-lh.akamaihd.net/i/dhamaal_1@665243/index_2128_av-p.m3u8",
+        "genre": [
+            "Movies"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Dil Se",
+        "low": "http://linear07hun-lh.akamaihd.net/i/dilse_1@673921/master.m3u8",
+        "genre": [
+            "Music"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Kadak Hits",
+        "low": "http://linear01hun-lh.akamaihd.net/i/faaduhits_1@660838/master.m3u8",
+        "genre": [
+            "Music"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "DSport",
+        "low": "http://jiocgehub.jio.ril.com/Dsports_HD/Dsports_HD_800.m3u8",
+        "genre": [
+            "Sports"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "ET Now",
+        "low": "http://etnowweblive-lh.akamaihd.net/i/ETN_1@348070/index_576_av-b.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Fashion TV",
+        "low": "http://fash1043.cloudycdn.services/slive/_definst_/ftv_pg16_adaptive.smil/playlist.m3u8",
+        "genre": [
+            "Misc"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Hathway Cine Channel",
+        "low": "https://acv.asianetmobiletvplus.com/channels/hathwayccc_mxqlfydxrrnvteglmkeacyuuhyfjrqec/playlist.m3u8",
+        "genre": [
+            "Movies"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "India Today",
+        "low": "https://feeds.intoday.in/hltapps/api/master.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Kanak News",
+        "low": "http://139.59.13.228/live/stream/chunks.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "Odia"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Masti",
+        "low": "http://103.199.160.85/Content/masthi/Live/Channel(Masthi)/index.m3u8",
+        "genre": [
+            "Music"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Mirror Now",
+        "low": "http://mbnowweb-lh.akamaihd.net/i/MRN_1@346545/index_576_av-p.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Movies Now",
+        "low": "https://timesnow.airtel.tv/live/MN_pull/master.m3u8",
+        "genre": [
+            "Movies"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "NDTV 24x7",
+        "low": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "NDTV India",
+        "low": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/masterp_480p@3.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Romedy Now",
+        "low": "https://timesnow.airtel.tv/live/RN_pull/master.m3u8",
+        "genre": [
+            "Movies"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Star Movies",
+        "low": "http://livecdnh1.tvanywhere.ae/hls/star_movies/04.m3u8",
+        "genre": [
+            "Movies"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Star World",
+        "low": "http://livecdnh1.tvanywhere.ae/hls/star_world/04.m3u8",
+        "genre": [
+            "Misc"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Prameya News7",
+        "low": "http://news7.mycast.in/encode/news7/chunks.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "Odia"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Kalinga TV",
+        "low": "https://kalingatv.mycast.in/live/stream/chunks.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "Odia"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "News18 Odia",
+        "low": "https://etv-oriya.akamaized.net/i/n18odia_1@179753/index_4_av-p.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "Odia"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Sony HD",
+        "low": "http://95.154.194.84:8000/live/zJM09iNedV/m9uWurszXN/6460.m3u8",
+        "genre": [
+            "Misc"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Sony SAB HD",
+        "low": "http://95.154.194.84:8000/live/zJM09iNedV/m9uWurszXN/6466.m3u8",
+        "genre": [
+            "Misc"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Star Plus HD",
+        "low": "http://95.154.194.84:8000/live/zJM09iNedV/m9uWurszXN/8179.m3u8",
+        "genre": [
+            "Misc"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Zee TV HD",
+        "low": "http://95.154.194.84:8000/live/zJM09iNedV/m9uWurszXN/6489.m3u8",
+        "genre": [
+            "Misc"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
     }
     ]
