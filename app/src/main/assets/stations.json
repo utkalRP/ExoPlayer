@@ -1307,5 +1307,48 @@
         "high": "",
         "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "web": ""
+    },
+    {
+        "name": "Sony HD",
+        "low": "http://jb.worldip.nl:1339/live/eTy6hZZRpX/x5D3IvDe4s/7940.m3u8",
+        "genre": [
+            "Misc"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+
+    {
+        "name": "Star Plus HD",
+        "low": "http://jb.worldip.nl:1339/live/eTy6hZZRpX/x5D3IvDe4s/7946.m3u8",
+        "genre": [
+            "Misc"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Colors",
+        "low": "http://jb.worldip.nl:1339/live/eTy6hZZRpX/x5D3IvDe4s/7963.m3u8",
+        "genre": [
+            "Misc"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
     }
     ]
