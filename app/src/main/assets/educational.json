@@ -1,0 +1,1354 @@
+[
+    {
+      "name": "91.9 Sarthak FM",
+      "tag": "Ethara Jamila",
+      "low": "http://sarthakfm.out.airtime.pro:8000/sarthakfm_a",
+      "high": "http://sarthakfm.out.airtime.pro:8000/sarthakfm_b",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sarthak_fm.png",
+      "web": "http://sarthakfm.com",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "98.3 Tarang FM",
+      "tag": "Music..Oo..la..la!",
+      "low": "http://radiodisha.out.airtime.pro:8000/radiodisha_a",
+      "high": "http://radiodisha.out.airtime.pro:8000/radiodisha_b",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/tarangfm.png",
+      "web": "http://radiodisha.com",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Radio Chocolate - Live",
+      "tag": "Dhum Mitha",
+      "low": "http://104.243.44.50:8958/;stream",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_live.jpg",
+      "web": "http://radiochoklateonline.com",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Radio Chocolate - Love Station",
+      "tag": "",
+      "low": "http://172.93.108.140:8592/329ojEcwo$t@",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_love_station.jpg",
+      "web": "http://radiochoklateonline.com",
+      "genre": ["Talk"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Radio Chocolate - Bhakti",
+      "tag": "",
+      "low": "http://104.243.44.53:7598/IYW$mKmn#$q1",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_bhakti.jpg",
+      "web": "http://radiochoklateonline.com",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Radio Chocolate - Story Station",
+      "tag": "",
+      "low": "http://172.93.108.139:2379/*UL*Ns3AYN6n",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_story_station.jpg",
+      "web": "http://radiochoklateonline.com",
+      "genre": ["Talk"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Radio Chocolate - Nataka",
+      "tag": "",
+      "low": "http://172.93.108.138:5839/Po8%5Ew7*VMWYx",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_natak.jpg",
+      "web": "http://radiochoklateonline.com",
+      "genre": ["Talk"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Radio Chocolate - Maja Katha",
+      "tag": "",
+      "low": "http://104.243.44.54:8673/2N$%5EhTW7Krkg",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_maja_katha.jpg",
+      "web": "http://radiochoklateonline.com",
+      "genre": ["Talk"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Odia Radio",
+      "tag": "Odisha's first internet radio",
+      "low": "http://onair.odiaradio.com:8080/listen",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/odia_radio.png",
+      "web": "http://odiaradio.com",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Radio Bhubaneswar",
+      "tag": "24x7 Online Odia FM",
+      "low": "http://104.243.42.94:8574/rabh8989uba",
+      "high": "",
+      "thumb": "http://radiobhubaneswar.com/wp-content/themes/radiobb-child/assets/images/radio_logo.png",
+      "web": "http://radiobhubaneswar.com/",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "AIR Odia",
+      "tag": "Akashvani Cuttack",
+      "low": "http://airodiya-lh.akamaihd.net/i/airodiya_1@528056/master.m3u8",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_logo.png",
+      "web": "http://allindiaradio.gov.in/Station/CUTTACK/Pages/default.aspx",
+      "genre": ["Talk", "News", "Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "AIR Vividh Bharti",
+      "tag": "",
+      "low": "http://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/master.m3u8",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_vividh_bharti.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "AIR FM Gold",
+      "tag": "",
+      "low": "http://airfmgold-lh.akamaihd.net/i/fmgold_1@507591/master.m3u8",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_fm_gold.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "AIR FM Rainbow",
+      "tag": "",
+      "low": "http://fmrainbow-lh.akamaihd.net/i/fmrainbow_1@507812/master.m3u8",
+      "high": "",
+      "thumb": "https://image.slidesharecdn.com/airfmrainbowrelaunch-100129092700-phpapp01/95/air-fm-rainbow-relaunch-1-728.jpg",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "AMA Radio",
+      "tag": "Ask me anything",
+      "low": "http://192.240.102.3:8922/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/ama_radio.png",
+      "web": "http://gizmobrain.wixsite.com/amaradio",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio HSL",
+      "tag": "Radio HSL",
+      "low": "http://50.7.68.251:7064/stream",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_hsl.jpg",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio Noida 107.4 FM",
+      "tag": "",
+      "low": "http://180.151.226.202:8000/;?icy=http",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_noida.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+    "name": "Retro Bollywood",
+    "tag": "",
+    "low": "http://64.71.79.181:5124/stream",
+    "high": "",
+    "thumb": "http://retrobollywood.com/wp-content/uploads/2017/10/Final-RB-Logo.png",
+    "web": "http://retrobollywood.com",
+    "genre": ["Music"],
+    "lang": ["Hindi"]
+  },
+    {
+      "name": "Radio Bolly FM",
+      "tag": "Radio Bolly FM",
+      "low": "http://64.71.79.181:8201/stream",
+      "high": "http://64.71.79.181:8201/hd",
+      "thumb": "http://www.radiobollyfm.in/templates/web/img/logo.png",
+      "web": "http://www.radiobollyfm.in",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Nuke Radio Hindi",
+      "tag": "Let's Nuke It",
+      "low": "http://live.nukeradio.com:8004/stream3;",
+      "high": "",
+      "thumb": "https://nukeradio.com/wp-content/uploads/2018/03/Nuke-Hindi.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "1.FM Bombay Beats",
+      "tag": "",
+      "low": "http://185.33.21.112/bombaybeats_128?icy=http",
+      "high": "",
+      "thumb": "https://cdn-radiotime-logos.tunein.com/s47713d.png",
+      "web": "www.1.fm",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Gaana - Mirchi Top 20",
+      "tag": "",
+      "low": "http://51.15.208.163:8081/radio/mt20live_11/icecast.audio",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/18.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Radio Mirchi",
+      "tag": "98.3 Radio Mirchi, It' Hot!",
+      "low": "https://mirchidelhi-lh.akamaihd.net/i/Mirchi_Delhi@693087/index_1_a-b.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/25.jpg",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Mirchi Drive Radio",
+      "tag": "",
+      "low": "https://driveradio-lh.akamaihd.net/i/DriveRadio_1@793591/index_1_a-p.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio/31/31/crop_175x175_31.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Yo Punjabi Radio",
+      "tag": "",
+      "low": "https://yopunjabihdlive-lh.akamaihd.net/i/YoPunjabiHDLive_1_1@345454/index_1_a-p.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/13.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Punjabi"]
+},
+{
+      "name": "Gaana - Meethi Mirchi",
+      "tag": "",
+      "low": "https://meethimirchihdl-lh.akamaihd.net/i/MeethiMirchiHDLive_1_1@320572/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/2.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Hindi Retro",
+      "tag": "",
+      "low": "https://puranijeanshdliv-lh.akamaihd.net/i/PuraniJeansHDLive_1_1@334555/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/3.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Filmy Mirchi",
+      "tag": "",
+      "low": "https://filmymirchihdliv-lh.akamaihd.net/i/FilmyMirchiHDLive_1_1@336266/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/9.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Mirchi 90's Radio",
+      "tag": "",
+      "low": "https://pehlanashahdlive-lh.akamaihd.net/i/PehlaNashaHDLive_1@335229/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/10.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Club Mirchi",
+      "tag": "",
+      "low": "https://clubmirchihdlive-lh.akamaihd.net/i/ClubMirchiHDLive_1_1@336269/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/5.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - Pehla Nasha",
+      "tag": "",
+      "low": "https://wmirchi-lh.akamaihd.net/i/WMIRCHI_1@75780/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/15.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Devotional"],
+      "lang": ["Hindi"]
+},
+ {
+      "name": "Gaana - Mehfil-E-Ghazal",
+      "tag": "",
+      "low": "https://mirchimahfil-lh.akamaihd.net/i/MirchiMehfl_1@120798/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/17.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Gaana - International Hits",
+      "tag": "",
+      "low": "https://hitzhls-lh.akamaihd.net/i/Hitz_HLS_1@177017/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/21.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["English"]
+},
+{
+      "name": "Gaana - English Love Radio",
+      "tag": "",
+      "low": "https://radioromancehdli-lh.akamaihd.net/i/RadioRomanceHDLive_1_1@334956/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/1.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["English"]
+},
+{
+      "name": "Gaana - Devraag Radio",
+      "tag": "",
+      "low": "https://devraaghdlive-lh.akamaihd.net/i/DevraagHDLive_1_1@336268/master.m3u8",
+      "high": "",
+      "thumb": "https://a10.gaanacdn.com/images/radio_rect_mirchi/8.jpg",
+      "web": "http://www.gaana.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+    {
+      "name": "Hungama - Hot Now Bollywood",
+      "tag": "",
+      "low": "http://103.16.47.70:7222/;stream.nsv",
+      "high": "",
+      "thumb": "https://stat1.hungama.ind.in/featured_content/0e67acb78c2726953df0c6e9e18138ef_200x200.jpg",
+      "web": "http://www.hungama.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - Bollywood Dil Se",
+      "tag": "",
+      "low": "http://103.16.47.70:7333/;stream.nsv",
+      "high": "",
+      "thumb": "https://stat1.hungama.ind.in/featured_content/d2ad097fed65f3a54faf518e4272e1fb_200x200.jpg",
+      "web": "http://www.hungama.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - B&W Classics",
+      "tag": "",
+      "low": "http://103.16.47.70:7888/;stream.nsv",
+      "high": "",
+      "thumb": "https://d368qv66y0shpj.cloudfront.net/featured_content/7baf075351a92d07be5dd1e135d147d3_200x200.jpg",
+      "web": "http://www.hungama.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - Evergreen Bollywood",
+      "tag": "",
+      "low": "http://103.16.47.70:7555/;stream.nsv",
+      "high": "",
+      "thumb": "https://stat1.hungama.ind.in/featured_content/969fb112dcbef69a46e995a8267cd507_200x200.jpg",
+      "web": "http://www.hungama.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - 60's Forever",
+      "tag": "",
+      "low": "http://103.16.47.70:6222/;stream.nsv",
+      "high": "",
+      "thumb": "https://d368qv66y0shpj.cloudfront.net/featured_content/3fd0f1d10ffffadd4e7e1c8ec761f22f_200x200.jpg",
+      "web": "http://www.hungama.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - 90's Once Again",
+      "tag": "",
+      "low": "http://103.16.47.70:7444/;stream.nsv",
+      "high": "",
+      "thumb": "https://stat1.hungama.ind.in/featured_content/5bda39f27f89f78795874b68dc32b0f2_200x200.jpg",
+      "web": "http://www.hungama.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - Dance Masti Bollywood",
+      "tag": "",
+      "low": "http://103.16.47.70:9222/;stream.nsv",
+      "high": "",
+      "thumb": "https://stat1.hungama.ind.in/featured_content/74e6aef9fb5bba9cd01cc0dba12ac63d_200x200.jpg",
+      "web": "http://www.hungama.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - Bollywood Instrumentals",
+      "tag": "",
+      "low": "http://103.16.47.70:8333/;stream.nsv",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/hungama_bollywood_instrumentals.jpg",
+      "web": "http://www.hungama.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - Bhakti Sagar",
+      "tag": "",
+      "low": "http://103.16.47.70:7777/;stream.nsv",
+      "high": "",
+      "thumb": "https://d368qv66y0shpj.cloudfront.net/featured_content/eaa02847fc63e217fd8202d0e122ceaa_200x200.jpg",
+      "web": "http://www.hungama.com",
+      "genre": ["Spiritual"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hungama - Best Of Spiritual",
+      "tag": "",
+      "low": "http://103.16.47.70:7000/;stream.nsv",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/hungama_best_of_spiritual.jpg",
+      "web": "http://www.hungama.com",
+      "genre": ["Spiritual"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Nuke Hindi Old Hits",
+      "tag": "Let's Nuke It",
+      "low": "http://5.135.188.92:8016/stream3;",
+      "high": "",
+      "thumb": "https://nukeradio.com/wp-content/uploads/2018/03/Hindi-OldHits.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Non Stop Hindi",
+      "tag": "",
+      "low": "http://s5.voscast.com:8216/;?icy=http",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+     {
+      "name": "Bolly Hits",
+      "tag": "Where melody never dies",
+      "low": "http://176.31.107.8:8172/stream?icy=http",
+      "high": "",
+      "thumb": "http://bollyhitsradio.com/images/BHR-Logo-e1535540674317.png",
+      "web": "http://bollyhitsradio.com/",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Abee Radio",
+      "tag": "Abee kinda music",
+      "low": "https://abee.radioca.st/stream",
+      "high": "",
+      "thumb": "http://nebula.wsimg.com/f89412b47eef62e1cd780b4cf75a2de5?AccessKeyId=811428081F562FFE0C7D&disposition=0&alloworigin=1",
+      "web": "http://www.abeeradio.com/",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+{
+      "name": "City FM 92",
+      "tag": "",
+      "low": "http://188.165.192.5:8359/stream",
+      "high": "",
+      "thumb": "http://www.cityfm92.com/Monogram.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Ishq FM",
+      "tag": "",
+      "low": "http://144.217.195.24:8601/;stream.mp3",
+      "high": "",
+      "thumb": "https://www.ishq.com/wp-content/uploads/2017/07/cropped-ishqFM-1.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},    
+    {
+      "name": "Radio City - Hindi",
+      "tag": "91.1 Radio City, FM Bole toh",
+      "low": "http://prclive1.listenon.in:9960/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity.png",
+      "web": "https://www.radiocity.in",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio City - Love Guru",
+      "tag": "",
+      "low": "http://prclive1.listenon.in:8808/",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_love_guru.jpg",
+      "web": "https://www.radiocity.in",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    
+    {
+      "name": "Radio City - Ghazals",
+      "tag": "",
+      "low": "http://prclive1.listenon.in:8860/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_ghazals.jpg",
+      "web": "https://www.radiocity.in",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Indifun Radio",
+      "tag": "",
+      "low": "http://198.23.135.225:7000/;",
+      "high": "",
+      "thumb": "http://indifun.net/wp-content/uploads/2018/03/logo_indifun_transparent_play-up_IFblack.png",
+      "web": "http://indifun.net",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio JSR Hindi",
+      "tag": "",
+      "low": "http://198.7.59.28:8078/stream/1/",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Radio SBS 95.5FM",
+      "tag": "",
+      "low": "http://live.radiosbsfm.nl/radiosbsfm",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+    {
+      "name": "Red FM",
+      "tag": "93.5 Red FM",
+      "low": "http://playerservices.streamtheworld.com/api/livestream-redirect/CKYRFM_SC",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/red_fm.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio Namkeen",
+      "tag": "Ek Dumm Zabardast!",
+      "low": "http://ample-zeno-03.radiojar.com/sgkeutfbaw5tv?t=153876442&rj-token=AAABZkWL4-SZ9eQblmVD7oFO1TByKHkPrV4Xye8z2tL4DH9582hfkA&rj-ttl=5",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_namkin.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Hits Of Bollywood",
+      "tag": "",
+      "low": "http://stream.zenolive.com/a2gyqzwpwfeuv",
+      "high": "",
+      "thumb": "http://www.hitsofbollywood.com/images/logo.png",
+      "web": "http://www.hitsofbollywood.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "New Hits Of Bollywood",
+      "tag": "",
+      "low": "http://stream.zenolive.com/kr08sxc2tfeuv",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Bollywood Evergreen Hits",
+      "tag": "",
+      "low": "http://192.240.102.133:11454/stream",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    
+    {
+      "name": "Sunrise FM",
+      "tag": "",
+      "low": "http://185.66.249.48:9600/stream",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Madhur Awaz",
+      "tag": "",
+      "low": "http://janus.shoutca.st:9117/stream?",
+      "high": "",
+      "thumb": "http://www.madhurawaz.com/imageeeee/logo_update_finalokbass.png",
+      "web": "www.madhurawaz.com",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+     {
+      "name": "AkashVani Radio",
+      "tag": "",
+      "low": "http://51.255.235.165:5484/stream",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Mehefil Radio",
+      "tag": "",
+      "low": "http://mehefil.no-ip.com/mehefil",
+      "high": "",
+      "thumb": "http://www.mehfilmedia.ca/images/mehfil.png",
+      "web": "http://www.mehfilmedia.ca",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Radio Afsana Hindi",
+      "tag": "",
+      "low": "http://174.36.206.197:7019/stream/1/",
+      "high": "",
+      "thumb": "http://02d522a.netsolhost.com/radioweb/wp-content/uploads/2018/06/radioweb_logo.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Bombay Beats Hindi",
+      "tag": "",
+      "low": "http://sc-bb.1.fm:8017/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+
+{
+      "name": "Easy 96 Hindi",
+      "tag": "",
+      "low": "http://ice8.securenetsystems.net/EASY96",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Radio Anardana",
+      "tag": "",
+      "low": "http://85.25.185.202:8055/;stream.mp3",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+{
+      "name": "Radio 90 5 FM",
+      "tag": "",
+      "low": "http://ice42.securenetsystems.net/CR90?type=.mp3",
+      "high": "",
+      "thumb": "https://static.wixstatic.com/media/23dfd0_3afaa0e5fc0a4d65bf2039f6736cbc40~mv2.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},   
+    {
+      "name": "Radio Caravan",
+      "tag": "",
+      "low": "https://stream.radio.co/s0e4cf6d8e/listen",
+      "high": "",
+      "thumb": "https://www.radiocaravan.com/wp-content/uploads/2018/11/radiocaravan.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+},
+    {
+      "name": "BBC World Service",
+      "tag": "",
+      "low": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-einws",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/bbc_world_service.png",
+      "web": "www.bbc.com",
+      "genre": ["News"],
+      "lang": ["English"]
+    },
+    {
+      "name": "BBC Hindi",
+      "tag": "",
+      "low": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-hinda_backup?type=.mp3",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/bbc_hindi.png",
+      "web": "www.bbc.com",
+      "genre": ["News"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "Aaj Tak",
+      "tag": "",
+      "low": "https://lmil.pc.cdn.bitgravity.com/lmil/live/aajtak_150k/chunklist_ao.m3u8",
+      "high": "",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/28/Aaj_tak_logo.png",
+      "web": "https://aajtak.intoday.in",
+      "genre": ["News"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "NDTV 24x7 Radio",
+      "tag": "",
+      "low": "http://stream1.ndtv.com:8080/on-ndtv24x7",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/ndtv_24x7.png",
+      "web": "www.ndtv.com",
+      "genre": ["News"],
+      "lang": ["English"]
+    },
+    {
+      "name": "NDTV India Radio",
+      "tag": "",
+      "low": "http://stream1.ndtv.com:8080/on-ndtvindia",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/ndtv_india.png",
+      "web": "www.ndtv.com",
+      "genre": ["News"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "NDTV Profit",
+      "tag": "",
+      "low": "http://stream1.ndtv.com:8080/on-ndtvprofit",
+      "high": "",
+      "thumb": "https://cdn.ndtv.com/static/images/profit/profit_logo2017.png",
+      "web": "www.ndtv.com",
+      "genre": ["News"],
+      "lang": ["English"]
+    },
+    {
+      "name": "Times Now Radio",
+      "tag": "",
+      "low": "https://timesnow-lh.akamaihd.net/i/TNA_1@129288/master.m3u8",
+      "high": "",
+      "thumb": "https://img.timesnownews.com/1539697709-TimesNow.jpg",
+      "web": "http://www.timesnownews.com",
+      "genre": ["News"],
+      "lang": ["English"]
+    },
+    {
+      "name": "ET Now Radio",
+      "tag": "",
+      "low": "https://etnowweblive-lh.akamaihd.net/i/ETA_1@348070/master.m3u8",
+      "high": "",
+      "thumb": "https://cloudfront.timesnownews.com/site/static/web_t3/images/icons/et_logo.png",
+      "web": "https://economictimes.indiatimes.com",
+      "genre": ["News"],
+      "lang": ["English"]
+    },
+    {
+      "name": "Bhakti Radio",
+      "tag": "Bhakti Radio",
+      "low": "http://67.212.165.106:8191/;",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Spiritual"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "2B! Radio Sangam - Ganesha",
+      "tag": "",
+      "low": "http://radio2bindia.out.airtime.pro:8000/radio2bindia_a",
+      "high": "http://radio2bindia.out.airtime.pro:8000/radio2bindia_b",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_ganesha.png",
+      "web": "http://www.2bradioindia.com",
+      "genre": ["Spiritual"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "2B! Radio Sangam - Devi Maa",
+      "tag": "",
+      "low": "http://ibadat.out.airtime.pro:8000/ibadat_a",
+      "high": "http://ibadat.out.airtime.pro:8000/ibadat_b",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_devi_maa.png",
+      "web": "http://www.2bradioindia.com",
+      "genre": ["Spiritual"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "2B! Radio Sangam - Shiva",
+      "tag": "",
+      "low": "http://hot.out.airtime.pro:8000/hot_a",
+      "high": "http://hot.out.airtime.pro:8000/hot_b",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_shiva.png",
+      "web": "http://www.2bradioindia.com",
+      "genre": ["Spiritual"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "2B! Radio Sangam - Krishna",
+      "tag": "",
+      "low": "http://millenniumhits.out.airtime.pro:8000/millenniumhits_a",
+      "high": "http://millenniumhits.out.airtime.pro:8000/millenniumhits_b",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_krishna.png",
+      "web": "http://www.2bradioindia.com",
+      "genre": ["Spiritual"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "2B! Radio Sangam - Sri Ram",
+      "tag": "",
+      "low": "http://dard.out.airtime.pro:8000/dard_a",
+      "high": "http://dard.out.airtime.pro:8000/dard_b",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_ram.png",
+      "web": "http://www.2bradioindia.com",
+      "genre": ["Spiritual"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "2B! Radio Sangam - Meditation",
+      "tag": "",
+      "low": "http://djbeat.out.airtime.pro:8000/djbeat_a",
+      "high": "http://djbeat.out.airtime.pro:8000/djbeat_b",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_meditation.png",
+      "web": "http://www.2bradioindia.com",
+      "genre": ["Spiritual"],
+      "lang": ["Hindi"]
+    },
+    
+    
+    {
+        "name": "ABP News",
+        "low": "https://abp-i.akamaihd.net/hls/live/765529/abphindi/masterhls_1564.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "B4U Movies",
+        "low": "http://103.199.161.254/Content/b4umovies/Live/Channel(B4UMovies)/index.m3u8",
+        "genre": [
+            "Movies"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Movie House",
+        "low": "http://103.199.160.85/Content/moviehouse/Live/Channel(MovieHouse)/index.m3u8",
+        "genre": [
+            "Movies"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "B4U Music",
+        "low": "http://103.199.161.254/Content/B4Umusic/Live/Channel(B4Umusic)/index.m3u8",
+        "genre": [
+            "Music"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "B4U Plus",
+        "low": "http://livecdnh3.tvanywhere.ae/hls/b4uplus/04.m3u8",
+        "genre": [
+            "Music"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "BBC World News",
+        "low": "http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Bollywood Classics",
+        "low": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
+        "genre": [
+            "Music"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Cinema TV",
+        "low": "https://acv.asianetmobiletvplus.com/channels/cinematv_ptiwautekttzxckrgphaarueatccfiaz/playlist.m3u8",
+        "genre": [
+            "Movies"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "CNBC Awaz",
+        "low": "https://cnbcawaaz-lh.akamaihd.net/i/cnbcawaaz_1@174872/index_5_av-p.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "CNBC TV18",
+        "low": "https://cnbctv18-lh.akamaihd.net/i/cnbctv18_1@174868/index_5_av-p.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "DD National",
+        "low": "http://103.199.161.254/Content/ddnational/Live/Channel(DDNational)/index.m3u8",
+        "genre": [
+            "Misc"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Dhamaal",
+        "low": "http://linear06hun-lh.akamaihd.net/i/dhamaal_1@665243/index_2128_av-p.m3u8",
+        "genre": [
+            "Movies"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Dil Se",
+        "low": "http://linear07hun-lh.akamaihd.net/i/dilse_1@673921/master.m3u8",
+        "genre": [
+            "Music"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Kadak Hits",
+        "low": "http://linear01hun-lh.akamaihd.net/i/faaduhits_1@660838/master.m3u8",
+        "genre": [
+            "Music"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "DSport",
+        "low": "http://jiocgehub.jio.ril.com/Dsports_HD/Dsports_HD_800.m3u8",
+        "genre": [
+            "Sports"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "ET Now",
+        "low": "http://etnowweblive-lh.akamaihd.net/i/ETN_1@348070/index_576_av-b.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Fashion TV",
+        "low": "http://fash1043.cloudycdn.services/slive/_definst_/ftv_pg16_adaptive.smil/playlist.m3u8",
+        "genre": [
+            "Misc"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Hathway Cine Channel",
+        "low": "https://acv.asianetmobiletvplus.com/channels/hathwayccc_mxqlfydxrrnvteglmkeacyuuhyfjrqec/playlist.m3u8",
+        "genre": [
+            "Movies"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "India Today",
+        "low": "https://feeds.intoday.in/hltapps/api/master.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Kanak News",
+        "low": "http://139.59.13.228/live/stream/chunks.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "Odia"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Masti",
+        "low": "http://103.199.160.85/Content/masthi/Live/Channel(Masthi)/index.m3u8",
+        "genre": [
+            "Music"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Mirror Now",
+        "low": "http://mbnowweb-lh.akamaihd.net/i/MRN_1@346545/index_576_av-p.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Movies Now",
+        "low": "https://timesnow.airtel.tv/live/MN_pull/master.m3u8",
+        "genre": [
+            "Movies"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "NDTV 24x7",
+        "low": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "NDTV India",
+        "low": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/masterp_480p@3.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Romedy Now",
+        "low": "https://timesnow.airtel.tv/live/RN_pull/master.m3u8",
+        "genre": [
+            "Movies"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Star Movies",
+        "low": "http://livecdnh1.tvanywhere.ae/hls/star_movies/04.m3u8",
+        "genre": [
+            "Movies"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Star World",
+        "low": "http://livecdnh1.tvanywhere.ae/hls/star_world/04.m3u8",
+        "genre": [
+            "Misc"
+        ],
+        "lang": [
+            "English"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Prameya News7",
+        "low": "http://news7.mycast.in/encode/news7/chunks.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "Odia"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Kalinga TV",
+        "low": "https://kalingatv.mycast.in/live/stream/chunks.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "Odia"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "News18 Odia",
+        "low": "https://etv-oriya.akamaized.net/i/n18odia_1@179753/index_4_av-p.m3u8",
+        "genre": [
+            "News"
+        ],
+        "lang": [
+            "Odia"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Sony HD",
+        "low": "http://jb.worldip.nl:1339/live/eTy6hZZRpX/x5D3IvDe4s/7940.m3u8",
+        "genre": [
+            "Misc"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+
+    {
+        "name": "Star Plus HD",
+        "low": "http://jb.worldip.nl:1339/live/eTy6hZZRpX/x5D3IvDe4s/7946.m3u8",
+        "genre": [
+            "Misc"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    },
+    {
+        "name": "Colors",
+        "low": "http://jb.worldip.nl:1339/live/eTy6hZZRpX/x5D3IvDe4s/7963.m3u8",
+        "genre": [
+            "Misc"
+        ],
+        "lang": [
+            "Hindi"
+        ],
+        "tag": "",
+        "high": "",
+        "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+        "web": ""
+    }
+    ]
