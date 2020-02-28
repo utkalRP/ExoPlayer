@@ -709,7 +709,7 @@
         "artist": "",
         "genre": "Music",
         "source": "http://198.23.135.225:7000/;",
-        "image": "http://indifun.net/wp-content/uploads/2018/03/logo_indifun_transparent_play-up_IFblack.png",
+        "image": "https://github.com/utkalRP/ExoPlayer/raw/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 55,
         "totalTrackCount": 118,
         "duration": 0,
