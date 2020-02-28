@@ -852,7 +852,7 @@
         "artist": "",
         "genre": "Music",
         "source": "http://mehefil.no-ip.com/mehefil",
-        "image": "https://www.mehfilmedia.ca/images/mehfil.png",
+        "image": "https://github.com/utkalRP/ExoPlayer/raw/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 66,
         "totalTrackCount": 118,
         "duration": 0,
