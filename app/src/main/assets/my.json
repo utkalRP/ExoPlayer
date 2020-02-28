@@ -826,7 +826,7 @@
         "artist": "",
         "genre": "Music",
         "source": "http://janus.shoutca.st:9117/stream?",
-        "image": "http://www.madhurawaz.com/imageeeee/logo_update_finalokbass.png",
+        "image": "https://github.com/utkalRP/ExoPlayer/raw/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 64,
         "totalTrackCount": 118,
         "duration": 0,
