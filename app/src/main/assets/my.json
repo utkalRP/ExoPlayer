@@ -124,7 +124,7 @@
         "artist": "24x7 Online Odia FM",
         "genre": "Music",
         "source": "http://104.243.42.94:8574/rabh8989uba",
-        "image": "http://radiobhubaneswar.com/wp-content/themes/radiobb-child/assets/images/radio_logo.png",
+        "image": "https://github.com/utkalRP/ExoPlayer/raw/master/app/src/main/res/drawable/radio_bhubaneswar.jpg",
         "trackNumber": 10,
         "totalTrackCount": 118,
         "duration": 0,
