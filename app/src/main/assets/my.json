@@ -1,4 +1,5 @@
-[
+{
+  "music": [
     {
         "id": "Station-1",
         "title": "91.9 Sarthak FM",
@@ -1534,3 +1535,4 @@
         "site": ""
     }
 ]
+}
