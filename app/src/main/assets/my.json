@@ -10,7 +10,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sarthak_fm.png",
         "trackNumber": 1,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://sarthakfm.com"
     },
     {
@@ -23,7 +23,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/tarangfm.png",
         "trackNumber": 2,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://radiodisha.com"
     },
     {
@@ -36,7 +36,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_live.jpg",
         "trackNumber": 3,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://radiochoklateonline.com"
     },
     {
@@ -49,7 +49,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_love_station.jpg",
         "trackNumber": 4,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://radiochoklateonline.com"
     },
     {
@@ -62,7 +62,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_bhakti.jpg",
         "trackNumber": 5,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://radiochoklateonline.com"
     },
     {
@@ -75,7 +75,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_story_station.jpg",
         "trackNumber": 6,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://radiochoklateonline.com"
     },
     {
@@ -88,7 +88,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_natak.jpg",
         "trackNumber": 7,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://radiochoklateonline.com"
     },
     {
@@ -101,7 +101,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_maja_katha.jpg",
         "trackNumber": 8,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://radiochoklateonline.com"
     },
     {
@@ -114,7 +114,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/odia_radio.png",
         "trackNumber": 9,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://odiaradio.com"
     },
     {
@@ -127,7 +127,7 @@
         "image": "https://github.com/utkalRP/ExoPlayer/raw/master/app/src/main/res/drawable/radio_bhubaneswar.jpg",
         "trackNumber": 10,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://radiobhubaneswar.com/"
     },
     {
@@ -140,7 +140,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_logo.png",
         "trackNumber": 11,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://allindiaradio.gov.in/Station/CUTTACK/Pages/default.aspx"
     },
     {
@@ -153,7 +153,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_vividh_bharti.png",
         "trackNumber": 12,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -166,7 +166,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_fm_gold.png",
         "trackNumber": 13,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -179,7 +179,7 @@
         "image": "https://image.slidesharecdn.com/airfmrainbowrelaunch-100129092700-phpapp01/95/air-fm-rainbow-relaunch-1-728.jpg",
         "trackNumber": 14,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -192,7 +192,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/ama_radio.png",
         "trackNumber": 15,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://gizmobrain.wixsite.com/amaradio"
     },
     {
@@ -205,7 +205,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_hsl.jpg",
         "trackNumber": 16,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -218,7 +218,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_noida.png",
         "trackNumber": 17,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -231,7 +231,7 @@
         "image": "https://github.com/utkalRP/ExoPlayer/raw/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 18,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://retrobollywood.com"
     },
     {
@@ -244,7 +244,7 @@
         "image": "https://www.radiobollyfm.in/templates/web/img/logo.png",
         "trackNumber": 19,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.radiobollyfm.in"
     },
     {
@@ -257,7 +257,7 @@
         "image": "https://nukeradio.com/wp-content/uploads/2018/03/Nuke-Hindi.png",
         "trackNumber": 20,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -270,7 +270,7 @@
         "image": "https://cdn-radiotime-logos.tunein.com/s47713d.png",
         "trackNumber": 21,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "www.1.fm"
     },
     {
@@ -283,7 +283,7 @@
         "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/18.jpg",
         "trackNumber": 22,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.gaana.com"
     },
     {
@@ -296,7 +296,7 @@
         "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/25.jpg",
         "trackNumber": 23,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -309,7 +309,7 @@
         "image": "https://a10.gaanacdn.com/images/radio/31/31/crop_175x175_31.jpg",
         "trackNumber": 24,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.gaana.com"
     },
     {
@@ -322,7 +322,7 @@
         "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/13.jpg",
         "trackNumber": 25,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.gaana.com"
     },
     {
@@ -335,7 +335,7 @@
         "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/2.jpg",
         "trackNumber": 26,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.gaana.com"
     },
     {
@@ -348,7 +348,7 @@
         "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/3.jpg",
         "trackNumber": 27,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.gaana.com"
     },
     {
@@ -361,7 +361,7 @@
         "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/9.jpg",
         "trackNumber": 28,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.gaana.com"
     },
     {
@@ -374,7 +374,7 @@
         "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/10.jpg",
         "trackNumber": 29,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.gaana.com"
     },
     {
@@ -387,7 +387,7 @@
         "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/5.jpg",
         "trackNumber": 30,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.gaana.com"
     },
     {
@@ -400,7 +400,7 @@
         "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/15.jpg",
         "trackNumber": 31,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.gaana.com"
     },
     {
@@ -413,7 +413,7 @@
         "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/17.jpg",
         "trackNumber": 32,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.gaana.com"
     },
     {
@@ -426,7 +426,7 @@
         "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/21.jpg",
         "trackNumber": 33,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.gaana.com"
     },
     {
@@ -439,7 +439,7 @@
         "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/1.jpg",
         "trackNumber": 34,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.gaana.com"
     },
     {
@@ -452,7 +452,7 @@
         "image": "https://a10.gaanacdn.com/images/radio_rect_mirchi/8.jpg",
         "trackNumber": 35,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.gaana.com"
     },
     {
@@ -465,7 +465,7 @@
         "image": "https://stat1.hungama.ind.in/featured_content/0e67acb78c2726953df0c6e9e18138ef_200x200.jpg",
         "trackNumber": 36,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.hungama.com"
     },
     {
@@ -478,7 +478,7 @@
         "image": "https://stat1.hungama.ind.in/featured_content/d2ad097fed65f3a54faf518e4272e1fb_200x200.jpg",
         "trackNumber": 37,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.hungama.com"
     },
     {
@@ -491,7 +491,7 @@
         "image": "https://d368qv66y0shpj.cloudfront.net/featured_content/7baf075351a92d07be5dd1e135d147d3_200x200.jpg",
         "trackNumber": 38,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.hungama.com"
     },
     {
@@ -504,7 +504,7 @@
         "image": "https://stat1.hungama.ind.in/featured_content/969fb112dcbef69a46e995a8267cd507_200x200.jpg",
         "trackNumber": 39,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.hungama.com"
     },
     {
@@ -517,7 +517,7 @@
         "image": "https://d368qv66y0shpj.cloudfront.net/featured_content/3fd0f1d10ffffadd4e7e1c8ec761f22f_200x200.jpg",
         "trackNumber": 40,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.hungama.com"
     },
     {
@@ -530,7 +530,7 @@
         "image": "https://stat1.hungama.ind.in/featured_content/5bda39f27f89f78795874b68dc32b0f2_200x200.jpg",
         "trackNumber": 41,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.hungama.com"
     },
     {
@@ -543,7 +543,7 @@
         "image": "https://stat1.hungama.ind.in/featured_content/74e6aef9fb5bba9cd01cc0dba12ac63d_200x200.jpg",
         "trackNumber": 42,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.hungama.com"
     },
     {
@@ -556,7 +556,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/hungama_bollywood_instrumentals.jpg",
         "trackNumber": 43,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.hungama.com"
     },
     {
@@ -569,7 +569,7 @@
         "image": "https://d368qv66y0shpj.cloudfront.net/featured_content/eaa02847fc63e217fd8202d0e122ceaa_200x200.jpg",
         "trackNumber": 44,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.hungama.com"
     },
     {
@@ -582,7 +582,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/hungama_best_of_spiritual.jpg",
         "trackNumber": 45,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.hungama.com"
     },
     {
@@ -595,7 +595,7 @@
         "image": "https://nukeradio.com/wp-content/uploads/2018/03/Hindi-OldHits.png",
         "trackNumber": 46,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -608,7 +608,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 47,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -621,7 +621,7 @@
         "image": "https://bollyhitsradio.com/images/BHR-Logo-e1535540674317.png",
         "trackNumber": 48,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://bollyhitsradio.com/"
     },
     {
@@ -634,7 +634,7 @@
         "image": "https://nebula.wsimg.com/f89412b47eef62e1cd780b4cf75a2de5?AccessKeyId=811428081F562FFE0C7D&disposition=0&alloworigin=1",
         "trackNumber": 49,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.abeeradio.com/"
     },
     {
@@ -647,7 +647,7 @@
         "image": "https://github.com/utkalRP/ExoPlayer/raw/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 50,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -660,7 +660,7 @@
         "image": "https://www.ishq.com/wp-content/uploads/2017/07/cropped-ishqFM-1.png",
         "trackNumber": 51,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -673,7 +673,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity.png",
         "trackNumber": 52,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "https://www.radiocity.in"
     },
     {
@@ -686,7 +686,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_love_guru.jpg",
         "trackNumber": 53,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "https://www.radiocity.in"
     },
     {
@@ -699,7 +699,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_ghazals.jpg",
         "trackNumber": 54,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "https://www.radiocity.in"
     },
     {
@@ -712,7 +712,7 @@
         "image": "https://github.com/utkalRP/ExoPlayer/raw/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 55,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://indifun.net"
     },
     {
@@ -725,7 +725,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 56,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -738,7 +738,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 57,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -751,7 +751,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/red_fm.png",
         "trackNumber": 58,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -764,7 +764,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_namkin.png",
         "trackNumber": 59,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -777,7 +777,7 @@
         "image": "https://www.hitsofbollywood.com/images/logo.png",
         "trackNumber": 60,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.hitsofbollywood.com"
     },
     {
@@ -790,7 +790,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 61,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -803,7 +803,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 62,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -816,7 +816,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 63,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -829,7 +829,7 @@
         "image": "https://github.com/utkalRP/ExoPlayer/raw/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 64,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "www.madhurawaz.com"
     },
     {
@@ -842,7 +842,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 65,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -855,7 +855,7 @@
         "image": "https://github.com/utkalRP/ExoPlayer/raw/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 66,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.mehfilmedia.ca"
     },
     {
@@ -868,7 +868,7 @@
         "image": "https://02d522a.netsolhost.com/radioweb/wp-content/uploads/2018/06/radioweb_logo.png",
         "trackNumber": 67,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -881,7 +881,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 68,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -894,7 +894,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 69,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -907,7 +907,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 70,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -920,7 +920,7 @@
         "image": "https://static.wixstatic.com/media/23dfd0_3afaa0e5fc0a4d65bf2039f6736cbc40~mv2.png",
         "trackNumber": 71,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -933,7 +933,7 @@
         "image": "https://www.radiocaravan.com/wp-content/uploads/2018/11/radiocaravan.png",
         "trackNumber": 72,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -946,7 +946,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/bbc_world_service.png",
         "trackNumber": 73,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "www.bbc.com"
     },
     {
@@ -959,7 +959,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/bbc_hindi.png",
         "trackNumber": 74,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "www.bbc.com"
     },
     {
@@ -972,7 +972,7 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Aaj_tak_logo.png",
         "trackNumber": 75,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "https://aajtak.intoday.in"
     },
     {
@@ -985,7 +985,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/ndtv_24x7.png",
         "trackNumber": 76,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "www.ndtv.com"
     },
     {
@@ -998,7 +998,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/ndtv_india.png",
         "trackNumber": 77,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "www.ndtv.com"
     },
     {
@@ -1011,7 +1011,7 @@
         "image": "https://cdn.ndtv.com/static/images/profit/profit_logo2017.png",
         "trackNumber": 78,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "www.ndtv.com"
     },
     {
@@ -1024,7 +1024,7 @@
         "image": "https://img.timesnownews.com/1539697709-TimesNow.jpg",
         "trackNumber": 79,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.timesnownews.com"
     },
     {
@@ -1037,7 +1037,7 @@
         "image": "https://cloudfront.timesnownews.com/site/static/web_t3/images/icons/et_logo.png",
         "trackNumber": 80,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "https://economictimes.indiatimes.com"
     },
     {
@@ -1050,7 +1050,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 81,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1063,7 +1063,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_ganesha.png",
         "trackNumber": 82,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.2bradioindia.com"
     },
     {
@@ -1076,7 +1076,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_devi_maa.png",
         "trackNumber": 83,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.2bradioindia.com"
     },
     {
@@ -1089,7 +1089,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_shiva.png",
         "trackNumber": 84,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.2bradioindia.com"
     },
     {
@@ -1102,7 +1102,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_krishna.png",
         "trackNumber": 85,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.2bradioindia.com"
     },
     {
@@ -1115,7 +1115,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_ram.png",
         "trackNumber": 86,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.2bradioindia.com"
     },
     {
@@ -1128,7 +1128,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_meditation.png",
         "trackNumber": 87,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": "http://www.2bradioindia.com"
     },
     {
@@ -1141,7 +1141,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 88,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1154,7 +1154,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 89,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1167,7 +1167,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 90,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1180,7 +1180,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 91,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1193,7 +1193,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 92,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1206,7 +1206,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 93,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1219,7 +1219,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 94,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1232,7 +1232,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 95,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1245,7 +1245,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 96,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1258,7 +1258,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 97,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1271,7 +1271,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 98,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1284,7 +1284,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 99,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1297,7 +1297,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 100,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1310,7 +1310,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 101,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1323,7 +1323,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 102,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1336,7 +1336,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 103,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1349,7 +1349,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 104,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1362,7 +1362,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 105,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1375,7 +1375,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 106,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1388,7 +1388,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 107,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1401,7 +1401,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 108,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1414,7 +1414,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 109,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1427,7 +1427,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 110,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1440,7 +1440,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 111,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1453,7 +1453,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 112,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1466,7 +1466,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 113,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1479,7 +1479,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 114,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1492,7 +1492,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 115,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1505,7 +1505,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 116,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1518,7 +1518,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 117,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     },
     {
@@ -1531,7 +1531,7 @@
         "image": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 118,
         "totalTrackCount": 118,
-        "duration": 0,
+        "duration": 10,
         "site": ""
     }
 ]
