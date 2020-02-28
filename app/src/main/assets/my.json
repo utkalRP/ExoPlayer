@@ -644,7 +644,7 @@
         "artist": "",
         "genre": "Music",
         "source": "http://188.165.192.5:8359/stream",
-        "image": "http://www.cityfm92.com/Monogram.png",
+        "image": "https://github.com/utkalRP/ExoPlayer/raw/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 50,
         "totalTrackCount": 118,
         "duration": 0,
