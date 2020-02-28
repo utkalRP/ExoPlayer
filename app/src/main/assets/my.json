@@ -228,7 +228,7 @@
         "artist": "",
         "genre": "Music",
         "source": "http://64.71.79.181:5124/stream",
-        "image": "http://retrobollywood.com/wp-content/uploads/2017/10/Final-RB-Logo.png",
+        "image": "https://github.com/utkalRP/ExoPlayer/raw/master/app/src/main/res/drawable/radio.png",
         "trackNumber": 18,
         "totalTrackCount": 118,
         "duration": 0,
