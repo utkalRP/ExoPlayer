@@ -23,7 +23,7 @@
       "name": "Radio Chocolate - Live",
       "tag": "Dhum Mitha",
       "low": "http://104.243.44.50:8958/;stream",
-      "high": "",
+      "high": "http://stream.zeno.fm/cuxmkpgdceruv",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_live.jpg",
       "web": "http://radiochoklateonline.com",
       "genre": ["Music"],
