@@ -1,0 +1,229 @@
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sarthak_fm.png" group-title="Radio",91.9 Sarthak FM
+http://sarthakfm.out.airtime.pro:8000/sarthakfm_a
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/tarangfm.png" group-title="Radio",98.3 Tarang FM
+http://radiodisha.out.airtime.pro:8000/radiodisha_a
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_live.jpg" group-title="Radio",Radio Chocolate - Live
+https://node-34.zeno.fm/9qt2b4ndceruv?rj-ttl=5&rj-tok=AAABdDStc-4AciWIM_BEuTGNmg
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_love_station.jpg" group-title="Radio",Radio Chocolate - Love Station
+http://172.93.108.140:8592/329ojEcwo$t@
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_bhakti.jpg" group-title="Radio",Radio Chocolate - Bhakti
+http://104.243.44.53:7598/IYW$mKmn#$q1
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_story_station.jpg" group-title="Radio",Radio Chocolate - Story Station
+http://172.93.108.139:2379/*UL*Ns3AYN6n
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_natak.jpg" group-title="Radio",Radio Chocolate - Nataka
+http://172.93.108.138:5839/Po8%5Ew7*VMWYx
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_maja_katha.jpg" group-title="Radio",Radio Chocolate - Maja Katha
+http://104.243.44.54:8673/2N$%5EhTW7Krkg
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/odia_radio.png" group-title="Radio",Odia Radio
+http://onair.odiaradio.com:8080/listen
+#EXTINF:-1 tvg-language="Odia" tvg-logo="http://radiobhubaneswar.com/wp-content/themes/radiobb-child/assets/images/radio_logo.png" group-title="Radio",Radio Bhubaneswar
+http://104.243.42.94:8574/rabh8989uba
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_logo.png" group-title="Radio",AIR Odia
+http://airodiya-lh.akamaihd.net/i/airodiya_1@528056/master.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_vividh_bharti.png" group-title="Radio",AIR Vividh Bharti
+http://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/master.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_fm_gold.png" group-title="Radio",AIR FM Gold
+http://airfmgold-lh.akamaihd.net/i/fmgold_1@507591/master.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://image.slidesharecdn.com/airfmrainbowrelaunch-100129092700-phpapp01/95/air-fm-rainbow-relaunch-1-728.jpg" group-title="Radio",AIR FM Rainbow
+http://fmrainbow-lh.akamaihd.net/i/fmrainbow_1@507812/master.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/ama_radio.png" group-title="Radio",AMA Radio
+http://192.240.102.3:8922/;
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_hsl.jpg" group-title="Radio",Radio HSL
+http://50.7.68.251:7064/stream
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_noida.png" group-title="Radio",Radio Noida 107.4 FM
+http://180.151.226.202:8000/;?icy=http
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="http://retrobollywood.com/wp-content/uploads/2017/10/Final-RB-Logo.png" group-title="Radio",Retro Bollywood
+http://64.71.79.181:5124/stream
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="http://www.radiobollyfm.in/templates/web/img/logo.png" group-title="Radio",Radio Bolly FM
+http://64.71.79.181:8201/stream
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://nukeradio.com/wp-content/uploads/2018/03/Nuke-Hindi.png" group-title="Radio",Nuke Radio Hindi
+http://live.nukeradio.com:8004/stream3;
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://cdn-radiotime-logos.tunein.com/s47713d.png" group-title="Radio",1.FM Bombay Beats
+http://185.33.21.112/bombaybeats_128?icy=http
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://a10.gaanacdn.com/images/radio_rect_mirchi/18.jpg" group-title="Radio",Gaana - Mirchi Top 20
+http://51.15.208.163:8081/radio/mt20live_11/icecast.audio
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://a10.gaanacdn.com/images/radio_rect_mirchi/25.jpg" group-title="Radio",Gaana - Radio Mirchi
+https://mirchidelhi-lh.akamaihd.net/i/Mirchi_Delhi@693087/index_1_a-b.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://a10.gaanacdn.com/images/radio/31/31/crop_175x175_31.jpg" group-title="Radio",Gaana - Mirchi Drive Radio
+https://driveradio-lh.akamaihd.net/i/DriveRadio_1@793591/index_1_a-p.m3u8
+#EXTINF:-1 tvg-language="Punjabi" tvg-logo="https://a10.gaanacdn.com/images/radio_rect_mirchi/13.jpg" group-title="Radio",Gaana - Yo Punjabi Radio
+https://yopunjabihdlive-lh.akamaihd.net/i/YoPunjabiHDLive_1_1@345454/index_1_a-p.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://a10.gaanacdn.com/images/radio_rect_mirchi/2.jpg" group-title="Radio",Gaana - Meethi Mirchi
+https://meethimirchihdl-lh.akamaihd.net/i/MeethiMirchiHDLive_1_1@320572/master.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://a10.gaanacdn.com/images/radio_rect_mirchi/3.jpg" group-title="Radio",Gaana - Hindi Retro
+https://puranijeanshdliv-lh.akamaihd.net/i/PuraniJeansHDLive_1_1@334555/master.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://a10.gaanacdn.com/images/radio_rect_mirchi/9.jpg" group-title="Radio",Gaana - Filmy Mirchi
+https://filmymirchihdliv-lh.akamaihd.net/i/FilmyMirchiHDLive_1_1@336266/master.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://a10.gaanacdn.com/images/radio_rect_mirchi/10.jpg" group-title="Radio",Gaana - Mirchi 90's Radio
+https://pehlanashahdlive-lh.akamaihd.net/i/PehlaNashaHDLive_1@335229/master.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://a10.gaanacdn.com/images/radio_rect_mirchi/5.jpg" group-title="Radio",Gaana - Club Mirchi
+https://clubmirchihdlive-lh.akamaihd.net/i/ClubMirchiHDLive_1_1@336269/master.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://a10.gaanacdn.com/images/radio_rect_mirchi/15.jpg" group-title="Radio",Gaana - Pehla Nasha
+https://wmirchi-lh.akamaihd.net/i/WMIRCHI_1@75780/master.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://a10.gaanacdn.com/images/radio_rect_mirchi/17.jpg" group-title="Radio",Gaana - Mehfil-E-Ghazal
+https://mirchimahfil-lh.akamaihd.net/i/MirchiMehfl_1@120798/master.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://a10.gaanacdn.com/images/radio_rect_mirchi/21.jpg" group-title="Radio",Gaana - International Hits
+https://hitzhls-lh.akamaihd.net/i/Hitz_HLS_1@177017/master.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://a10.gaanacdn.com/images/radio_rect_mirchi/1.jpg" group-title="Radio",Gaana - English Love Radio
+https://radioromancehdli-lh.akamaihd.net/i/RadioRomanceHDLive_1_1@334956/master.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://a10.gaanacdn.com/images/radio_rect_mirchi/8.jpg" group-title="Radio",Gaana - Devraag Radio
+https://devraaghdlive-lh.akamaihd.net/i/DevraagHDLive_1_1@336268/master.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://stat1.hungama.ind.in/featured_content/0e67acb78c2726953df0c6e9e18138ef_200x200.jpg" group-title="Radio",Hungama - Hot Now Bollywood
+http://103.16.47.70:7222/;stream.nsv
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://stat1.hungama.ind.in/featured_content/d2ad097fed65f3a54faf518e4272e1fb_200x200.jpg" group-title="Radio",Hungama - Bollywood Dil Se
+http://103.16.47.70:7333/;stream.nsv
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://d368qv66y0shpj.cloudfront.net/featured_content/7baf075351a92d07be5dd1e135d147d3_200x200.jpg" group-title="Radio",Hungama - B&W Classics
+http://103.16.47.70:7888/;stream.nsv
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://stat1.hungama.ind.in/featured_content/969fb112dcbef69a46e995a8267cd507_200x200.jpg" group-title="Radio",Hungama - Evergreen Bollywood
+http://103.16.47.70:7555/;stream.nsv
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://d368qv66y0shpj.cloudfront.net/featured_content/3fd0f1d10ffffadd4e7e1c8ec761f22f_200x200.jpg" group-title="Radio",Hungama - 60's Forever
+http://103.16.47.70:6222/;stream.nsv
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://stat1.hungama.ind.in/featured_content/5bda39f27f89f78795874b68dc32b0f2_200x200.jpg" group-title="Radio",Hungama - 90's Once Again
+http://103.16.47.70:7444/;stream.nsv
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://stat1.hungama.ind.in/featured_content/74e6aef9fb5bba9cd01cc0dba12ac63d_200x200.jpg" group-title="Radio",Hungama - Dance Masti Bollywood
+http://103.16.47.70:9222/;stream.nsv
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/hungama_bollywood_instrumentals.jpg" group-title="Radio",Hungama - Bollywood Instrumentals
+http://103.16.47.70:8333/;stream.nsv
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://d368qv66y0shpj.cloudfront.net/featured_content/eaa02847fc63e217fd8202d0e122ceaa_200x200.jpg" group-title="Radio",Hungama - Bhakti Sagar
+http://103.16.47.70:7777/;stream.nsv
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/hungama_best_of_spiritual.jpg" group-title="Radio",Hungama - Best Of Spiritual
+http://103.16.47.70:7000/;stream.nsv
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://nukeradio.com/wp-content/uploads/2018/03/Hindi-OldHits.png" group-title="Radio",Nuke Hindi Old Hits
+http://5.135.188.92:8016/stream3;
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Non Stop Hindi
+http://s5.voscast.com:8216/;?icy=http
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="http://bollyhitsradio.com/images/BHR-Logo-e1535540674317.png" group-title="Radio",Bolly Hits
+http://176.31.107.8:8172/stream?icy=http
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="http://nebula.wsimg.com/f89412b47eef62e1cd780b4cf75a2de5?AccessKeyId=811428081F562FFE0C7D&disposition=0&alloworigin=1" group-title="Radio",Abee Radio
+https://abee.radioca.st/stream
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="http://www.cityfm92.com/Monogram.png" group-title="Radio",City FM 92
+http://188.165.192.5:8359/stream
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://www.ishq.com/wp-content/uploads/2017/07/cropped-ishqFM-1.png" group-title="Radio",Ishq FM
+http://144.217.195.24:8601/;stream.mp3
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity.png" group-title="Radio",Radio City - Hindi
+http://prclive1.listenon.in:9960/;
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_love_guru.jpg" group-title="Radio",Radio City - Love Guru
+http://prclive1.listenon.in:8808/
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radiocity_ghazals.jpg" group-title="Radio",Radio City - Ghazals
+http://prclive1.listenon.in:8860/;
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="http://indifun.net/wp-content/uploads/2018/03/logo_indifun_transparent_play-up_IFblack.png" group-title="Radio",Indifun Radio
+http://198.23.135.225:7000/;
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Radio JSR Hindi
+http://198.7.59.28:8078/stream/1/
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Radio SBS 95.5FM
+http://live.radiosbsfm.nl/radiosbsfm
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/red_fm.png" group-title="Radio",Red FM
+http://playerservices.streamtheworld.com/api/livestream-redirect/CKYRFM_SC
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_namkin.png" group-title="Radio",Radio Namkeen
+http://ample-zeno-03.radiojar.com/sgkeutfbaw5tv?t=153876442&rj-token=AAABZkWL4-SZ9eQblmVD7oFO1TByKHkPrV4Xye8z2tL4DH9582hfkA&rj-ttl=5
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="http://www.hitsofbollywood.com/images/logo.png" group-title="Radio",Hits Of Bollywood
+http://stream.zenolive.com/a2gyqzwpwfeuv
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",New Hits Of Bollywood
+http://stream.zenolive.com/kr08sxc2tfeuv
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Bollywood Evergreen Hits
+http://192.240.102.133:11454/stream
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Sunrise FM
+http://185.66.249.48:9600/stream
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="http://www.madhurawaz.com/imageeeee/logo_update_finalokbass.png" group-title="Radio",Madhur Awaz
+http://janus.shoutca.st:9117/stream?
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",AkashVani Radio
+http://51.255.235.165:5484/stream
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="http://www.mehfilmedia.ca/images/mehfil.png" group-title="Radio",Mehefil Radio
+http://mehefil.no-ip.com/mehefil
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="http://02d522a.netsolhost.com/radioweb/wp-content/uploads/2018/06/radioweb_logo.png" group-title="Radio",Radio Afsana Hindi
+http://174.36.206.197:7019/stream/1/
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Bombay Beats Hindi
+http://sc-bb.1.fm:8017/;
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Easy 96 Hindi
+http://ice8.securenetsystems.net/EASY96
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Radio Anardana
+http://85.25.185.202:8055/;stream.mp3
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://static.wixstatic.com/media/23dfd0_3afaa0e5fc0a4d65bf2039f6736cbc40~mv2.png" group-title="Radio",Radio 90 5 FM
+http://ice42.securenetsystems.net/CR90?type=.mp3
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://www.radiocaravan.com/wp-content/uploads/2018/11/radiocaravan.png" group-title="Radio",Radio Caravan
+https://stream.radio.co/s0e4cf6d8e/listen
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/bbc_world_service.png" group-title="Radio",BBC World Service
+http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-einws
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/bbc_hindi.png" group-title="Radio",BBC Hindi
+http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-hinda_backup?type=.mp3
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Bhakti Radio
+http://67.212.165.106:8191/;
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_ganesha.png" group-title="Radio",2B! Radio Sangam - Ganesha
+http://radio2bindia.out.airtime.pro:8000/radio2bindia_a
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_devi_maa.png" group-title="Radio",2B! Radio Sangam - Devi Maa
+http://ibadat.out.airtime.pro:8000/ibadat_a
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_shiva.png" group-title="Radio",2B! Radio Sangam - Shiva
+http://hot.out.airtime.pro:8000/hot_a
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_krishna.png" group-title="Radio",2B! Radio Sangam - Krishna
+http://millenniumhits.out.airtime.pro:8000/millenniumhits_a
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_ram.png" group-title="Radio",2B! Radio Sangam - Sri Ram
+http://dard.out.airtime.pro:8000/dard_a
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sangam_meditation.png" group-title="Radio",2B! Radio Sangam - Meditation
+http://djbeat.out.airtime.pro:8000/djbeat_a
+
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",ABP News
+https://abp-i.akamaihd.net/hls/live/765529/abphindi/master_720.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",AAJTAK HD
+https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",AlJajira HD
+https://live-hls-web-aje.getaj.net/AJE/01.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",B4U Movies
+http://103.199.161.254/Content/b4umovies/Live/Channel(B4UMovies)/index.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Movie House
+http://103.199.160.85/Content/moviehouse/Live/Channel(MovieHouse)/index.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",B4U Music
+http://103.199.161.254/Content/B4Umusic/Live/Channel(B4Umusic)/index.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",B4U Plus
+http://livecdnh3.tvanywhere.ae/hls/b4uplus/04.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",BBC World News
+http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Bollywood Classics
+https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Cinema TV
+https://acv.asianetmobiletvplus.com/channels/cinematv_ptiwautekttzxckrgphaarueatccfiaz/playlist.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",CNBC Awaz
+https://cnbcawaaz-lh.akamaihd.net/i/cnbcawaaz_1@174872/index_5_av-p.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",CNBC TV18
+https://cnbctv18-lh.akamaihd.net/i/cnbctv18_1@174868/index_5_av-p.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",DD National
+http://103.199.161.254/Content/ddnational/Live/Channel(DDNational)/index.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Dhamaal
+http://linear06hun-lh.akamaihd.net/i/dhamaal_1@665243/index_2128_av-p.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Dil Se
+http://linear07hun-lh.akamaihd.net/i/dilse_1@673921/master.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Kadak Hits
+http://linear01hun-lh.akamaihd.net/i/faaduhits_1@660838/master.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",DSport
+http://jiocgehub.jio.ril.com/Dsports_HD/Dsports_HD_800.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",ET Now
+http://etnowweblive-lh.akamaihd.net/i/ETN_1@348070/index_576_av-b.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Fashion TV
+http://fash1043.cloudycdn.services/slive/_definst_/ftv_pg16_adaptive.smil/playlist.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Hathway Cine Channel
+https://acv.asianetmobiletvplus.com/channels/hathwayccc_mxqlfydxrrnvteglmkeacyuuhyfjrqec/playlist.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",India Today
+https://feeds.intoday.in/hltapps/api/master.m3u8
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Kanak News
+http://139.59.13.228/live/stream/chunks.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Masti
+http://103.199.160.85/Content/masthi/Live/Channel(Masthi)/index.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Mirror Now
+http://mbnowweb-lh.akamaihd.net/i/MRN_1@346545/index_576_av-p.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Movies Now
+https://timesnow.airtel.tv/live/MN_pull/master.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",NDTV 24x7
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",NDTV India
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/masterp_480p@3.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Romedy Now
+https://timesnow.airtel.tv/live/RN_pull/master.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Star Movies
+http://livecdnh1.tvanywhere.ae/hls/star_movies/04.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Star World
+http://livecdnh1.tvanywhere.ae/hls/star_world/04.m3u8
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Prameya News7
+http://news7.mycast.in/encode/news7/chunks.m3u8
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Kalinga TV
+https://kalingatv.mycast.in/live/stream/chunks.m3u8
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",News18 Odia
+https://etv-oriya.akamaized.net/i/n18odia_1@179753/index_4_av-p.m3u8
