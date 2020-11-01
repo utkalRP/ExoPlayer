@@ -112,7 +112,7 @@
     {
       "name": "AIR Vividh Bharti",
       "tag": "",
-      "low": "http://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/master.m3u8",
+      "low": "http://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_vividh_bharti.png",
       "web": "",
@@ -122,7 +122,7 @@
     {
       "name": "AIR FM Gold",
       "tag": "",
-      "low": "http://airfmgold-lh.akamaihd.net/i/fmgold_1@507591/master.m3u8",
+      "low": "http://air.pc.cdn.bitgravity.com/air/live/pbaudio005/playlist.m3u8",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_fm_gold.png",
       "web": "",
@@ -132,7 +132,7 @@
     {
       "name": "AIR FM Rainbow",
       "tag": "",
-      "low": "http://fmrainbow-lh.akamaihd.net/i/fmrainbow_1@507812/master.m3u8",
+      "low": "http://air.pc.cdn.bitgravity.com/air/live/pbaudio004/playlist.m3u8",
       "high": "",
       "thumb": "https://image.slidesharecdn.com/airfmrainbowrelaunch-100129092700-phpapp01/95/air-fm-rainbow-relaunch-1-728.jpg",
       "web": "",
