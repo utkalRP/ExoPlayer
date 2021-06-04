@@ -22,7 +22,7 @@
     {
       "name": "Radio Chocolate - Live",
       "tag": "Dhum Mitha",
-      "low": "https://node-09.zeno.fm/9qt2b4ndceruv?rj-ttl=5&rj-tok=AAABd2M7EPoAv1YB2O5pIWyoGA",
+      "low": "https://node-11.zeno.fm/1t5ceyhcxbruv?rj-ttl=5&rj-tok=AAABedeG88QAA1qRvN5NOX5Kbg",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_live.jpg",
       "web": "http://radiochoklateonline.com",
@@ -725,7 +725,7 @@
     {
       "name": "BBC World Service",
       "tag": "",
-      "low": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-einws",
+      "low": "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/bbc_world_service.png",
       "web": "www.bbc.com",
@@ -735,7 +735,7 @@
     {
       "name": "BBC Hindi",
       "tag": "",
-      "low": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-hinda_backup?type=.mp3",
+      "low": "https://stream.live.vc.bbcmedia.co.uk/bbc_hindi_radio",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/bbc_hindi.png",
       "web": "www.bbc.com",
