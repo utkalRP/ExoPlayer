@@ -162,7 +162,7 @@
     {
       "name": "Radio Noida 107.4 FM",
       "tag": "",
-      "low": "http://180.151.226.202:8000/;?icy=http",
+      "low": "http://node-26.zeno.fm/n1b55arwqg0uv?rj-ttl=5&rj-tok=AAABfAD4D8oAmt4C_cTDXdKCuA",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_noida.png",
       "web": "",
