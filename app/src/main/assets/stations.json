@@ -100,9 +100,19 @@
       "lang": ["Odia"]
     },
     {
-      "name": "AIR Odia",
+      "name": "AIR Odia (Cuttack)",
       "tag": "Akashvani Cuttack",
       "low": "http://air.pc.cdn.bitgravity.com/air/live/pbaudio137/playlist.m3u8",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_logo.png",
+      "web": "http://allindiaradio.gov.in/Station/CUTTACK/Pages/default.aspx",
+      "genre": ["Talk", "News", "Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "AIR Odia (Sambalpur)",
+      "tag": "Akashvani Sambalpur",
+      "low": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio181/playlist.m3u8",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_logo.png",
       "web": "http://allindiaradio.gov.in/Station/CUTTACK/Pages/default.aspx",
