@@ -179,16 +179,19 @@ https://feeds.intoday.in/hltapps/api/master.m3u8
 #EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",ArgusTV
 https://live.argusnews.in/hls/argustv.m3u8
 #EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",OTV
-https://cdn.smartstream.video/smartstream-us/otvnewmbr/otvnewmbr.smil/playlist.m3u8
+https://otvvid-live.pc.cdn.bitgravity.com/otv-origin/live/playlist.m3u8
 #EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Nandighosh TV
 https://www.nandighoshatvlive.com/hls/live_src.m3u8
-#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Kalinga TV
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Kalinga TV
 https://live.mycast.in/kalingatv/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
-#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",Kanak News
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Kanak News
 https://live.kanaknews.com:4443/live/stream/playlist.m3u8
-#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",News18 Odia
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",MBC TV
+https://932y483pdjv8-hls-live.5centscdn.com/live/d5567decdd080f526160b446e5f9b03a.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",News18 Odia
 https://etv-oriya.akamaized.net/i/n18odia_1@179753/index_4_av-p.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="Radio",BBC World News
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",BBC World News
 http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",CNN
 http://203.162.235.41:16918
