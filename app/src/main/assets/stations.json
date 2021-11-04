@@ -12,8 +12,8 @@
     {
       "name": "98.3 Tarang FM",
       "tag": "Music..Oo..la..la!",
-      "low": "http://radiodisha.out.airtime.pro:8000/radiodisha_a",
-      "high": "http://radiodisha.out.airtime.pro:8000/radiodisha_b",
+      "low": "https://radiodisha.out.airtime.pro/radiodisha_a",
+      "high": "https://radiodisha.out.airtime.pro/radiodisha_b",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/tarangfm.png",
       "web": "http://radiodisha.com",
       "genre": ["Music"],
@@ -22,8 +22,8 @@
     {
       "name": "Radio Chocolate - Live",
       "tag": "Dhum Mitha",
-      "low": "https://node-11.zeno.fm/1t5ceyhcxbruv?rj-ttl=5&rj-tok=AAABedeG88QAA1qRvN5NOX5Kbg",
-      "high": "",
+      "low": "https://node-22.zeno.fm/1t5ceyhcxbruv?rj-ttl=5&rj-tok=AAABfOsApEoAFq3lD3k_J1nWkg",
+      "high": "https://node-22.zeno.fm/1t5ceyhcxbruv?rj-ttl=5&rj-tok=AAABfOsApEoAFq3lD3k_J1nWkg",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_live.jpg",
       "web": "http://radiochoklateonline.com",
       "genre": ["Music"],
@@ -82,8 +82,8 @@
     {
       "name": "Odia Radio",
       "tag": "Odisha's first internet radio",
-      "low": "http://onair.odiaradio.com:8080/listen",
-      "high": "",
+      "low": "https://radio.mycast.in/radio/8000/radio.mp3",
+      "high": "https://radio.mycast.in/radio/8000/radio.mp3",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/odia_radio.png",
       "web": "http://odiaradio.com",
       "genre": ["Music"],
@@ -99,6 +99,16 @@
       "genre": ["Music"],
       "lang": ["Odia"]
     },
+    {
+      "name": "Radio Diwana",
+      "tag": "",
+      "low": "https://node-10.zeno.fm/x1q3r3qdxy8uv?rj-ttl=5&rj-tok=AAABfOsFfckALMMfipK3ffON-g",
+      "high": "",
+      "thumb": "https://onlineradiofm.in/assets/image/radio/180/devaalradio.jpg",
+      "web": "/",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },    
     {
       "name": "AIR Odia (Cuttack)",
       "tag": "Akashvani Cuttack",
@@ -150,29 +160,9 @@
       "lang": ["Hindi"]
     },
     {
-      "name": "AMA Radio",
-      "tag": "Ask me anything",
-      "low": "http://192.240.102.3:8922/;",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/ama_radio.png",
-      "web": "http://gizmobrain.wixsite.com/amaradio",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
-    {
-      "name": "Radio HSL",
-      "tag": "Radio HSL",
-      "low": "http://50.7.68.251:7064/stream",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_hsl.jpg",
-      "web": "",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
-    {
       "name": "Radio Noida 107.4 FM",
       "tag": "",
-      "low": "http://node-26.zeno.fm/n1b55arwqg0uv?rj-ttl=5&rj-tok=AAABfAD4D8oAmt4C_cTDXdKCuA",
+      "low": "https://node-35.zeno.fm/n1b55arwqg0uv?rj-ttl=5&rj-tok=AAABfOsJpA8AqZCVvq2gB6N2IA",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_noida.png",
       "web": "",
