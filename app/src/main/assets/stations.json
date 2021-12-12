@@ -22,8 +22,8 @@
     {
       "name": "Radio Chocolate - Live",
       "tag": "Dhum Mitha",
-      "low": "https://node-22.zeno.fm/1t5ceyhcxbruv?rj-ttl=5&rj-tok=AAABfOsApEoAFq3lD3k_J1nWkg",
-      "high": "https://node-22.zeno.fm/1t5ceyhcxbruv?rj-ttl=5&rj-tok=AAABfOsApEoAFq3lD3k_J1nWkg",
+      "low": "https://node-20.zeno.fm/1t5ceyhcxbruv?rj-ttl=5&rj-tok=AAABfa8HL1UA-1MunrFExWAcIg",
+      "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_live.jpg",
       "web": "http://radiochoklateonline.com",
       "genre": ["Music"],
@@ -102,7 +102,7 @@
     {
       "name": "Radio Diwana",
       "tag": "",
-      "low": "https://node-10.zeno.fm/x1q3r3qdxy8uv?rj-ttl=5&rj-tok=AAABfOsFfckALMMfipK3ffON-g",
+      "low": "https://node-30.zeno.fm/x1q3r3qdxy8uv?rj-ttl=5&rj-tok=AAABfa8IoMYAGe9kSeqjfdxUBQ",
       "high": "",
       "thumb": "https://onlineradiofm.in/assets/image/radio/180/devaalradio.jpg",
       "web": "/",
