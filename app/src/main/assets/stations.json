@@ -30,16 +30,6 @@
       "lang": ["Odia"]
     },
     {
-      "name": "Radio Dunia",
-      "tag": "",
-      "low": "https://stream.justneed.in:2087/listen/radio_dunia/radio.mp3",
-      "high": "",
-      "thumb": "https://liveradios.in/wp-content/uploads/radio-dunia.jpg",
-      "web": "",
-      "genre": ["Music"],
-      "lang": ["Odia"]
-    },
-    {
       "name": "Radio Chocolate - Love Station",
       "tag": "",
       "low": "http://172.93.108.140:8592/329ojEcwo$t@",
@@ -90,10 +80,20 @@
       "lang": ["Odia"]
     },
     {
+      "name": "Radio Dunia",
+      "tag": "",
+      "low": "https://stream.justneed.in:2087/listen/radio_dunia/radio.mp3",
+      "high": "",
+      "thumb": "https://liveradios.in/wp-content/uploads/radio-dunia.jpg",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
       "name": "Odia Radio",
       "tag": "Odisha's first internet radio",
-      "low": "https://radio.mycast.in/radio/8000/radio.mp3",
-      "high": "https://radio.mycast.in/radio/8000/radio.mp3",
+      "low": "https://stream-58.zeno.fm/06k46a9mk98uv?zs=hAc__gcHQNGteJ5d0hRUXg",
+      "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/odia_radio.png",
       "web": "http://odiaradio.com",
       "genre": ["Music"],
@@ -112,13 +112,33 @@
     {
       "name": "Radio Diwana",
       "tag": "",
-      "low": "https://node-30.zeno.fm/x1q3r3qdxy8uv?rj-ttl=5&rj-tok=AAABfa8IoMYAGe9kSeqjfdxUBQ",
+      "low": "https://stream-43.zeno.fm/x1q3r3qdxy8uv?zs=x7Wy88ioS_KelaKGWmyVrg",
       "high": "",
       "thumb": "https://onlineradiofm.in/assets/image/radio/180/devaalradio.jpg",
       "web": "/",
       "genre": ["Music"],
       "lang": ["Odia"]
-    },    
+    },
+    {
+      "name": "Estar Odia FM",
+      "tag": "",
+      "low": "https://stream-42.zeno.fm/vx5rgf16q98uv?zs=7qBqWS0yQ-2xI53kv4_F2Q",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Sparsh Radio",
+      "tag": "",
+      "low": "https://stream-54.zeno.fm/9meu87xc508uv?zs=lvG96uQdS_mRxuSun0v9gg",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },  
     {
       "name": "AIR Odia (Cuttack)",
       "tag": "Akashvani Cuttack",
