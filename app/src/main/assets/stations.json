@@ -30,6 +30,16 @@
       "lang": ["Odia"]
     },
     {
+      "name": "Radio Dunia",
+      "tag": "",
+      "low": "https://stream.justneed.in:2087/listen/radio_dunia/radio.mp3",
+      "high": "",
+      "thumb": "https://liveradios.in/wp-content/uploads/radio-dunia.jpg",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
       "name": "Radio Chocolate - Love Station",
       "tag": "",
       "low": "http://172.93.108.140:8592/329ojEcwo$t@",
