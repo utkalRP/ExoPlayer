@@ -1,28 +1,8 @@
 [
     {
-      "name": "91.9 Sarthak FM",
-      "tag": "Ethara Jamila",
-      "low": "http://sarthakfm.out.airtime.pro:8000/sarthakfm_a",
-      "high": "http://sarthakfm.out.airtime.pro:8000/sarthakfm_b",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/sarthak_fm.png",
-      "web": "http://sarthakfm.com",
-      "genre": ["Music"],
-      "lang": ["Odia"]
-    },
-    {
-      "name": "98.3 Tarang FM",
-      "tag": "Music..Oo..la..la!",
-      "low": "https://radiodisha.out.airtime.pro/radiodisha_a",
-      "high": "https://radiodisha.out.airtime.pro/radiodisha_b",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/tarangfm.png",
-      "web": "http://radiodisha.com",
-      "genre": ["Music"],
-      "lang": ["Odia"]
-    },
-    {
       "name": "Radio Chocolate - Live",
       "tag": "Dhum Mitha",
-      "low": "https://stream-21.zeno.fm/1t5ceyhcxbruv?zs=QnY_aJuLRtScB6TeMLrLrA",
+      "low": "https://stream-30.zeno.fm/zen0myhcxbruv?zs=qxWMkkueQ4WZfc1WGUnYvg",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/chocolate_live.jpg",
       "web": "http://radiochoklateonline.com",
@@ -116,6 +96,36 @@
       "high": "",
       "thumb": "https://onlineradiofm.in/assets/image/radio/180/devaalradio.jpg",
       "web": "/",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Just Odia Radio",
+      "tag": "",
+      "low": "https://cast3.my-control-panel.com/proxy/justodis/stream",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Naibedya",
+      "tag": "",
+      "low": "https://streams.radiojajabara.com/hdradio_naibedya.mp3",
+      "high": "",
+      "thumb": "",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Radio Jajabara",
+      "tag": "",
+      "low": "https://streams.radiojajabara.com/hdradio_jajabara.mp3",
+      "high": "",
+      "thumb": "",
+      "web": "",
       "genre": ["Music"],
       "lang": ["Odia"]
     },
