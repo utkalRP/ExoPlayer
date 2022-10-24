@@ -104,7 +104,7 @@
       "tag": "",
       "low": "https://cast3.my-control-panel.com/proxy/justodis/stream",
       "high": "",
-      "thumb": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
       "web": "",
       "genre": ["Music"],
       "lang": ["Odia"]
@@ -114,7 +114,7 @@
       "tag": "",
       "low": "https://streams.radiojajabara.com/hdradio_naibedya.mp3",
       "high": "",
-      "thumb": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
       "web": "",
       "genre": ["Music"],
       "lang": ["Odia"]
@@ -124,7 +124,7 @@
       "tag": "",
       "low": "https://streams.radiojajabara.com/hdradio_jajabara.mp3",
       "high": "",
-      "thumb": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
       "web": "",
       "genre": ["Music"],
       "lang": ["Odia"]
