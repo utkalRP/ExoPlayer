@@ -74,8 +74,28 @@
       "tag": "Odisha's first internet radio",
       "low": "https://stream-58.zeno.fm/06k46a9mk98uv?zs=hAc__gcHQNGteJ5d0hRUXg",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/odia_radio.png",
+      "thumb": "https://liveradios.in/wp-content/uploads/odia-radio.jpg",
       "web": "http://odiaradio.com",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Odisha Radio",
+      "tag": "Odisha Radio",
+      "low": "https://stream-35.zeno.fm/x23ttc8e0chvv?zs=c66AB_aaSmqqPBxaUDnmng",
+      "high": "",
+      "thumb": "https://liveradios.in/wp-content/uploads/odisharadio.jpg",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "Just Odia Radio",
+      "tag": "",
+      "low": "https://cast3.my-control-panel.com/proxy/justodis/stream",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "web": "",
       "genre": ["Music"],
       "lang": ["Odia"]
     },
@@ -84,7 +104,7 @@
       "tag": "24x7 Online Odia FM",
       "low": "http://104.243.42.94:8574/rabh8989uba",
       "high": "",
-      "thumb": "http://radiobhubaneswar.com/wp-content/themes/radiobb-child/assets/images/radio_logo.png",
+      "thumb": "https://liveradios.in/wp-content/uploads/bhuba-1.jpg",
       "web": "http://radiobhubaneswar.com/",
       "genre": ["Music"],
       "lang": ["Odia"]
@@ -96,16 +116,6 @@
       "high": "",
       "thumb": "https://onlineradiofm.in/assets/image/radio/180/devaalradio.jpg",
       "web": "/",
-      "genre": ["Music"],
-      "lang": ["Odia"]
-    },
-    {
-      "name": "Just Odia Radio",
-      "tag": "",
-      "low": "https://cast3.my-control-panel.com/proxy/justodis/stream",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "web": "",
       "genre": ["Music"],
       "lang": ["Odia"]
     },
@@ -124,31 +134,11 @@
       "tag": "",
       "low": "https://streams.radiojajabara.com/hdradio_jajabara.mp3",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
+      "thumb": "https://liveradios.in/wp-content/uploads/radio-jajabara.jpg",
       "web": "",
       "genre": ["Music"],
       "lang": ["Odia"]
-    },
-    {
-      "name": "Estar Odia FM",
-      "tag": "",
-      "low": "https://stream-42.zeno.fm/vx5rgf16q98uv?zs=7qBqWS0yQ-2xI53kv4_F2Q",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "web": "",
-      "genre": ["Music"],
-      "lang": ["Odia"]
-    },
-    {
-      "name": "Sparsh Radio",
-      "tag": "",
-      "low": "https://stream-54.zeno.fm/9meu87xc508uv?zs=lvG96uQdS_mRxuSun0v9gg",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png",
-      "web": "",
-      "genre": ["Music"],
-      "lang": ["Odia"]
-    },  
+    }, 
     {
       "name": "AIR Odia (Cuttack)",
       "tag": "Akashvani Cuttack",
@@ -170,11 +160,101 @@
       "lang": ["Odia"]
     },
     {
-      "name": "AIR Vividh Bharti",
-      "tag": "",
-      "low": "http://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8",
+      "name": "AIR Berhampur",
+      "tag": "AIR Berhampur",
+      "low": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio180/chunklist.m3u8",
       "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_vividh_bharti.png",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_logo.png",
+      "web": "http://allindiaradio.gov.in/Station/CUTTACK/Pages/default.aspx",
+      "genre": ["Talk", "News", "Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "AIR Jeypore",
+      "tag": "AIR Jeypore",
+      "low": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio112/chunklist.m3u8",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_logo.png",
+      "web": "http://allindiaradio.gov.in/Station/CUTTACK/Pages/default.aspx",
+      "genre": ["Talk", "News", "Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "AIR Balangir",
+      "tag": "AIR Balangir",
+      "low": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio187/chunklist.m3u8",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_logo.png",
+      "web": "http://allindiaradio.gov.in/Station/CUTTACK/Pages/default.aspx",
+      "genre": ["Talk", "News", "Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "AIR Puri",
+      "tag": "AIR Puri",
+      "low": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio100/chunklist.m3u8",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_logo.png",
+      "web": "http://allindiaradio.gov.in/Station/CUTTACK/Pages/default.aspx",
+      "genre": ["Talk", "News", "Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "AIR Bhawanipatna",
+      "tag": "AIR Bhawanipatna",
+      "low": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio120/chunklist.m3u8",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_logo.png",
+      "web": "http://allindiaradio.gov.in/Station/CUTTACK/Pages/default.aspx",
+      "genre": ["Talk", "News", "Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "AIR Rourkela",
+      "tag": "AIR Rourkela",
+      "low": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio215/chunklist.m3u8",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_logo.png",
+      "web": "http://allindiaradio.gov.in/Station/CUTTACK/Pages/default.aspx",
+      "genre": ["Talk", "News", "Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "AIR Mahanadi",
+      "tag": "AIR Mahanadi",
+      "low": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio182/chunklist.m3u8",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_logo.png",
+      "web": "http://allindiaradio.gov.in/Station/CUTTACK/Pages/default.aspx",
+      "genre": ["Talk", "News", "Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "AIR Keonjhar",
+      "tag": "AIR Keonjhar",
+      "low": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio166/chunklist.m3u8",
+      "high": "",
+      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_logo.png",
+      "web": "http://allindiaradio.gov.in/Station/CUTTACK/Pages/default.aspx",
+      "genre": ["Talk", "News", "Music"],
+      "lang": ["Odia"]
+    },
+    {
+      "name": "AIR FM Rainbow Cuttack",
+      "tag": "",
+      "low": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio102/chunklist.m3u8",
+      "high": "",
+      "thumb": "https://liveradios.in/wp-content/uploads/fm-rainbow-curttack.jpg",
+      "web": "",
+      "genre": ["Music"],
+      "lang": ["Hindi"]
+    },
+    {
+      "name": "AIR Vividh Bharti Cuttack",
+      "tag": "",
+      "low": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio103/chunklist.m3u8",
+      "high": "",
+      "thumb": "https://liveradios.in/wp-content/uploads/vividhbharathi.jpg",
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
@@ -182,29 +262,9 @@
     {
       "name": "AIR FM Gold",
       "tag": "",
-      "low": "http://air.pc.cdn.bitgravity.com/air/live/pbaudio005/playlist.m3u8",
+      "low": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio00564kbps.m3u8",
       "high": "",
       "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/air_fm_gold.png",
-      "web": "",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
-    {
-      "name": "AIR FM Rainbow",
-      "tag": "",
-      "low": "http://air.pc.cdn.bitgravity.com/air/live/pbaudio004/playlist.m3u8",
-      "high": "",
-      "thumb": "https://image.slidesharecdn.com/airfmrainbowrelaunch-100129092700-phpapp01/95/air-fm-rainbow-relaunch-1-728.jpg",
-      "web": "",
-      "genre": ["Music"],
-      "lang": ["Hindi"]
-    },
-    {
-      "name": "Radio Noida 107.4 FM",
-      "tag": "",
-      "low": "https://node-35.zeno.fm/n1b55arwqg0uv?rj-ttl=5&rj-tok=AAABfOsJpA8AqZCVvq2gB6N2IA",
-      "high": "",
-      "thumb": "https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio_noida.png",
       "web": "",
       "genre": ["Music"],
       "lang": ["Hindi"]
