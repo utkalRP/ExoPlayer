@@ -1,6 +1,26 @@
 #EXTM3U
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",OTV
+https://otvvid-live.pc.cdn.bitgravity.com/otv-origin/live/playlist.m3u8
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",ArgusTV
+https://live.argusnews.in/hls/argustv.m3u8
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Nandighosh TV
+https://www.nandighoshatvlive.com/hls/live_src.m3u8
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Kalinga TV
+https://live.mycast.in/kalingatv/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Kanak News
+https://live.kanaknews.com:4443/live/stream/playlist.m3u8
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Prameya News
+https://live.mycast.in/encode/ee0c5a36ff5a7083ee044991974ad3ba.sdp/playlist.m3u8
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",News 18 Odia
+https://nw18live.cdn.jio.com/bpk-tv/News18_Odia_NW18_MOB/output01/News18_Odia_NW18_MOB-audio_98835_odi=98800-video=1680400.m3u8
+#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Naxtra News
+https://wearelive.livebox.co.in/naxatratvhls/live.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Ekamra News
+https://ekamra.livebox.co.in/raftarodiahls/raftarodia.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",NDTV 24x7
 https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",India Today
+https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/live_720p/chunks.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",NDTV India
 https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/masterp_480p@3.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",ABP News
@@ -9,36 +29,31 @@ https://abplivetv.akamaized.net/hls/live/2043010/hindi/master.m3u8
 https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",News 24
 https://vidcdn.vidgyor.com/news24-origin/liveabr/news24-origin/live_720p/chunks.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",AlJajira HD
-https://live-hls-web-aje.getaj.net/AJE/01.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",India Today
-https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/live_720p/chunks.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",DD News
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCKwucPzHZ7zCUIf7If-Wo1g/live
-#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",ArgusTV
-https://live.argusnews.in/hls/argustv.m3u8
-#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",OTV
-https://otvvid-live.pc.cdn.bitgravity.com/otv-origin/live/playlist.m3u8
-#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Nandighosh TV
-https://www.nandighoshatvlive.com/hls/live_src.m3u8
-#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Kalinga TV
-https://live.mycast.in/kalingatv/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
-#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Kanak News
-https://live.kanaknews.com:4443/live/stream/playlist.m3u8
-#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",News 18 Odia
-https://nw18live.cdn.jio.com/bpk-tv/News18_Odia_NW18_MOB/output01/News18_Odia_NW18_MOB-audio_98835_odi=98800-video=1680400.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",News 18
 https://nw18live.cdn.jio.com/bpk-tv/News18_India_NW18_MOB/output01/News18_India_NW18_MOB-audio_98835_eng=98800-video=560800.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",DW HD
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Russia Today
-https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",CNBC Awaz
 https://nw18live.cdn.jio.com/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/index.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",CNBC TV18
 https://nw18live.cdn.jio.com/bpk-tv/CNBC_TV18_NW18_MOB/output01/CNBC_TV18_NW18_MOB-audio_98835_eng=98800-video=2600000.m3u8
-
-#EXTINF:-1 tvg-language="Odia" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Naxtra News
-https://wearelive.livebox.co.in/naxatratvhls/live.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Ekamra News
-https://ekamra.livebox.co.in/raftarodiahls/raftarodia.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",AlJajira HD
+https://live-hls-web-aje.getaj.net/AJE/01.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",DW HD
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Russia Today
+https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",9xM
+https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/index.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Anjan
+https://f3.vstream.online:7443/bstb/ngrp:anjan_hdall/playlist.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Artist Aloud
+https://live.hungama.com/linear/artist-aloud/playlist.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Dhamaal
+https://live.hungama.com/linear/dhamaal/playlist.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Dil Se
+https://live.hungama.com/linear/dil-se/playlist.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Kadak Hits
+https://live.hungama.com/linear/kadak-hits/playlist.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",Pop Patakha
+https://live.hungama.com/linear/pop-pataka/playlist.m3u8
