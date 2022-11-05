@@ -34,7 +34,7 @@ https://idvd.multitvsolution.com/idvo/bharatsamachar_540p.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",ZEE News
 https://d233nwklwv8p4.cloudfront.net/out/v1/860cb318d23a4c64b58c9d625281170c/index_6.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",DD News
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCKwucPzHZ7zCUIf7If-Wo1g/live
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/watch?v=lt9h5CH9JNY
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",News 18
 https://nw18live.cdn.jio.com/bpk-tv/News18_India_NW18_MOB/output01/News18_India_NW18_MOB-audio_98835_eng=98800-video=560800.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/utkalRP/ExoPlayer/master/app/src/main/res/drawable/radio.png" group-title="TV",CNBC Awaz
